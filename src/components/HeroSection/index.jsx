@@ -12,7 +12,7 @@ const HeroSection = () => {
           computer science and network engineering students. Together, we shape
           the future of technology.
         </p>
-        <button className="bg-custom text-white px-6 py-3 rounded-full mt-8 text-lg">
+        <button className="bg-[#1D1163] text-white px-6 py-3 rounded-full mt-8 text-lg">
           Join Now
         </button>
       </div>
@@ -39,7 +39,7 @@ const HeroSection = () => {
           />
         </div>
         <div
-          className="bg-beige absolute right-0 mb-4 mr-8"
+          className="bg-[#FFF5DB] absolute right-0 mb-4 mr-8"
           style={{
             width: "80px",
             height: "50px",
