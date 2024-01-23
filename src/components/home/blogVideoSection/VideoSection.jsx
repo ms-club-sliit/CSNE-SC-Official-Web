@@ -30,7 +30,7 @@ const VideoSection = () => {
         <div className="text-[40px] font-bold text-center pl-[30px]">
           Our Videos
         </div>
-        <div className="flex flex-col sm:flex-row gap-4 sm:gap-10 ">
+        <div className="flex flex-col bg-[#F4F9FF]  sm:flex-row gap-4 sm:gap-10 ">
           {data.map((item) => (
             <div key={item.title}>
               <BlogVideoCard

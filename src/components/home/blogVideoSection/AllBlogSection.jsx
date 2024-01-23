@@ -31,7 +31,7 @@ const AllBlogSection = () => {
         <div className="text-[40px] font-bold bg-[#FFF5DB] pl-[30px] pt-[50px] pr-[20px] pb-[20px] rounded-tl-[100px]">
           Blogs
         </div>
-        <div className="flex flex-col sm:flex-row gap-4 sm:gap-10">
+        <div className="flex flex-col bg-[#F4F9FF] sm:flex-row gap-4 sm:gap-10">
           {data.map((item) => (
             <div key={item.title}>
               <BlogVideoCard
