@@ -1,3 +1,4 @@
+import BlogVideoSection from "@/components/home/blogVideoSection/BlogVideoSection";
 import React from "react";
 import HeroSection from "@/components/HeroSection";
 import WhoAreWe from "@/components/WhoAreWeSection";
@@ -10,6 +11,12 @@ const Home = () => {
         <HeroSection />
         <WhoAreWe />
         <SubscribeSection />
+      {/* <div className="flex items-center justify-center">
+        <div className="container h-[100vh] bg-white flex items-center justify-center">
+          <p className="text-4xl font-bold">Home Page</p>
+        </div>
+  </div> */}
+        <BlogVideoSection />
       </div>
     </div>
   );
