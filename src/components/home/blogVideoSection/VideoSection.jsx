@@ -25,7 +25,7 @@ const data = [
 
 const VideoSection = () => {
   return (
-    <div className="max-w-2xl mt-10 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div className="max-w-2xl mt-4 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
       <div className="flex flex-col sm:flex-row gap-8 items-center">
         <div className="text-[40px] font-bold text-center pl-[30px]">
           Our Videos
