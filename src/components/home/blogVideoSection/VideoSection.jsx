@@ -47,11 +47,9 @@ const data = [
 
 const VideoSection = () => {
   return (
-    <div className="max-w-2xl mt-4 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div className=" mt-4 px-4 sm:px-6  lg:px-8">
       <div className="flex flex-col sm:flex-row gap-8 items-center">
-        <div className="text-[40px] font-bold text-center pl-[30px]">
-          Our Videos
-        </div>
+        <div className="text-[38px] font-bold text-center">Our Videos</div>
         <div className="flex flex-col bg-[#F4F9FF] p-4 overflow-auto  sm:flex-row gap-4 sm: sm:gap-6 ">
           {data.map((item) => (
             <div key={item.title}>
