@@ -1,4 +1,5 @@
 "use client";
+import SubscribeSection from "@/components/SubscribeSection";
 import React from "react";
 
 const Home = () => {
@@ -6,7 +7,7 @@ const Home = () => {
     <>
       <div className="flex items-center justify-center">
         <div className="container h-[100vh] bg-white flex items-center justify-center">
-          <p className="text-4xl font-bold">Home Page</p>
+          <SubscribeSection/>
         </div>
       </div>
     </>
