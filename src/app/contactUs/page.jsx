@@ -13,8 +13,8 @@ const ContactUs = () => {
         <h1 className="text-black text-4xl sm:text-5xl lg:text-7xl font-bold ml-4 sm:ml-20px mt-4 sm:mt-20 ">
           Contact Us
         </h1>
-        <div className="flex flex-row flex-wrap m-8 h-auto">
-          <div className="flex flex-col m-4 p-4 w-530px h-57vh bg-white rounded-xl">
+        <div className="flex flex-row flex-wrap m-8 h-auto justify-center">
+          <div className="flex flex-col m-4 p-4 w-530px h-57vh bg-white rounded-xl ">
             <p className="text-gray text-2xl sm:text-3xl">
               Explore all the events organized by our students.{" "}
             </p>
