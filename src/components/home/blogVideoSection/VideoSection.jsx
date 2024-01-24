@@ -1,45 +1,45 @@
 import React from "react";
 import BlogVideoCard from "./BlogVideoCard";
-import { RiBox3Line } from "react-icons/ri";
-import { IoWalletOutline } from "react-icons/io5";
+import { LuVideo } from "react-icons/lu";
+import { VscGraph } from "react-icons/vsc";
 const data = [
   {
-    icon: <RiBox3Line className="text-5xl text-blue-600" />,
+    icon: <LuVideo className="text-5xl bg-[#FFF2F8]  text-pink-400" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: <IoWalletOutline className="text-5xl text-orange-300" />,
+    icon: <VscGraph className="text-5xl bg-[#DEFFEE] text-[#00DA71]" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: <RiBox3Line className="text-5xl text-blue-600" />,
+    icon: <LuVideo className="text-5xl  bg-[#FFF2F8]  text-pink-400" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: <IoWalletOutline className="text-5xl text-orange-300" />,
+    icon: <VscGraph className="text-5xl bg-[#DEFFEE] text-[#00DA71]" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: <RiBox3Line className="text-5xl text-blue-600" />,
+    icon: <LuVideo className="text-5xl  bg-[#FFF2F8]  text-pink-400" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: <IoWalletOutline className="text-5xl text-orange-300" />,
+    icon: <VscGraph className="text-5xl bg-[#DEFFEE] text-[#00DA71]" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: <RiBox3Line className="text-5xl text-blue-600" />,
+    icon: <LuVideo className="text-5xl  bg-[#FFF2F8]  text-pink-400" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: <IoWalletOutline className="text-5xl text-orange-300" />,
+    icon: <VscGraph className="text-5xl bg-[#DEFFEE] text-[#00DA71]" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
