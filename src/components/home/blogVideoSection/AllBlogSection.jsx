@@ -1,26 +1,48 @@
 import React from "react";
 import BlogVideoCard from "./BlogVideoCard";
+import { RiBox3Line } from "react-icons/ri";
+import { IoWalletOutline } from "react-icons/io5";
 
 const data = [
   {
-    icon: "../../assets/home/blogVideo/test.jpg",
+    icon: <RiBox3Line className="text-5xl text-blue-600" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: "../../assets/home/blogVideo/box.png",
-    title: "What is Github?",
-    description: "Protocols apart from aengage models, pricing billing",
-  },
-  {
-    icon: "../../assets/home/blogVideo/box.png",
+    icon: <IoWalletOutline className="text-5xl text-orange-300" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: "../../assets/home/blogVideo/box.png",
+    icon: <RiBox3Line className="text-5xl text-blue-600" />,
     title: "What is Github?",
-    description: "Protocols apart from aengage models, pricing billing",
+    description: "We present you a proposal and discuss niffty-gritty like",
+  },
+  {
+    icon: <IoWalletOutline className="text-5xl text-orange-300" />,
+    title: "What is Github?",
+    description: "We present you a proposal and discuss niffty-gritty like",
+  },
+  {
+    icon: <RiBox3Line className="text-5xl text-blue-600" />,
+    title: "What is Github?",
+    description: "We present you a proposal and discuss niffty-gritty like",
+  },
+  {
+    icon: <IoWalletOutline className="text-5xl text-orange-300" />,
+    title: "What is Github?",
+    description: "We present you a proposal and discuss niffty-gritty like",
+  },
+  {
+    icon: <RiBox3Line className="text-5xl text-blue-600" />,
+    title: "What is Github?",
+    description: "We present you a proposal and discuss niffty-gritty like",
+  },
+  {
+    icon: <IoWalletOutline className="text-5xl text-orange-300" />,
+    title: "What is Github?",
+    description: "We present you a proposal and discuss niffty-gritty like",
   },
 ];
 
@@ -31,7 +53,7 @@ const AllBlogSection = () => {
         <div className="text-[40px] font-bold bg-[#FFF5DB] pl-[30px] pt-[50px] pr-[20px] pb-[20px] rounded-tl-[100px]">
           Blogs
         </div>
-        <div className="flex flex-col bg-[#F4F9FF] sm:flex-row gap-4 sm:gap-10">
+        <div className="flex flex-col bg-[#F4F9FF] p-4 overflow-auto sm:flex-row gap-2 sm:gap-6">
           {data.map((item) => (
             <div key={item.title}>
               <BlogVideoCard
