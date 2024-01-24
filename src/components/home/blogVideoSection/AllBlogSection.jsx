@@ -5,42 +5,42 @@ import { IoWalletOutline } from "react-icons/io5";
 
 const data = [
   {
-    icon: <RiBox3Line className="text-5xl text-blue-600" />,
+    icon: <RiBox3Line className="text-5xl bg-[#F1F7FF]  text-blue-600" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: <IoWalletOutline className="text-5xl text-orange-300" />,
+    icon: <IoWalletOutline className="text-5xl bg-[#FFF5DB] text-orange-300" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: <RiBox3Line className="text-5xl text-blue-600" />,
+    icon: <RiBox3Line className="text-5xl bg-[#F1F7FF] text-blue-600" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: <IoWalletOutline className="text-5xl text-orange-300" />,
+    icon: <IoWalletOutline className="text-5xl bg-[#FFF5DB] text-orange-300" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: <RiBox3Line className="text-5xl text-blue-600" />,
+    icon: <RiBox3Line className="text-5xl bg-[#F1F7FF] text-blue-600" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: <IoWalletOutline className="text-5xl text-orange-300" />,
+    icon: <IoWalletOutline className="text-5xl bg-[#FFF5DB] text-orange-300" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: <RiBox3Line className="text-5xl text-blue-600" />,
+    icon: <RiBox3Line className="text-5xl  text-blue-600" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
   {
-    icon: <IoWalletOutline className="text-5xl text-orange-300" />,
+    icon: <IoWalletOutline className="text-5xl bg-[#FFF5DB] text-orange-300" />,
     title: "What is Github?",
     description: "We present you a proposal and discuss niffty-gritty like",
   },
