@@ -48,7 +48,7 @@ const data = [
 
 const AllBlogSection = () => {
   return (
-    <div className="max-w-2xl mt-24 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div className="mt-24 px-4 sm:px-6  lg:px-8">
       <div className="flex flex-col sm:flex-row gap-8 items-center">
         <div className="text-[40px] font-bold bg-[#FFF5DB] pl-[30px] pt-[50px] pr-[20px] pb-[20px] rounded-tl-[100px]">
           Blogs
