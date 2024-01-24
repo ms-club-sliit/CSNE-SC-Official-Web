@@ -3,7 +3,7 @@ import React from "react";
 
 export default function index() {
   return (
-    <body class=" h-1/3 font-['arial']">
+    <div class=" h-1/3 font-['arial']">
 
 <div class="flex flex-col md:flex-row md:space-x-5 pl-8 pt-8 pb-8 text-gray-400">
     {/*  20% Section  */}
@@ -67,6 +67,6 @@ export default function index() {
 </div>
 <div class="p text-gray-400 text-center text-sm">Copyright @ 2023 MS-CLUB</div>
 
-</body>
+</div>
   );
 }
