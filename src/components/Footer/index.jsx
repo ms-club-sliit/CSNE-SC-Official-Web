@@ -26,7 +26,7 @@ export default function index() {
     
     {/*  80% Section  */}
    
-    <div class="md:w-4/5 mr-8 ml-5  p-12  bg-blue-50 text-gray-800 rounded-s-lg"> 
+    <div class="md:w-4/5 mr-8 ml-5  p-12  bg-blue-50 text-gray-800 rounded-s-[40px]"> 
         <h3 class="text-lg font-semibold mb-4 ">Usefull links</h3>
         {/*  Columns */}
         <div class="flex flex-col md:flex-row md:space-x-5" >
