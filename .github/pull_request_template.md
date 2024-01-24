@@ -1,4 +1,4 @@
-### 🎯 Feature Name - _Write the feature name here_
+### 🎯 Feature Name - Contact Us page
 
 ### 📝 Summary
 
@@ -14,4 +14,4 @@ _Write your summary of the feature in here_
 
 ### 🧑🏻‍💻 Contributors
 
-_Mention who contributed to this feature_
+Nowen 
