@@ -12,40 +12,28 @@ const HeroSection = () => {
           computer science and network engineering students. Together, we shape
           the future of technology.
         </p>
-        <button className="bg-[#1D1163] text-white px-6 py-3 rounded-full mt-8 text-lg">
+        <button className="bg-hero-section-button text-white px-6 py-3 rounded-full mt-8 text-lg">
           Join Now
         </button>
       </div>
 
       <div className="lg:flex-1 lg:ml-0 mx-auto relative z-10">
-        <div
-          className="bg-blue-200 rounded-full h-10 w-16 z-20"
-          style={{
-            borderBottomLeftRadius: "2rem",
-            borderBottomRightRadius: "2rem",
-          }}
-        />
+        <div className="bg-blue-200 rounded-full rounded-bl-2xl rounded-br-2xl h-10 w-16 z-20" />
 
         <div className="ml-auto">
           <img
             src="/static/CSNE-hero-section.png"
             alt="CSNE Hero Section"
-            className="mx-0"
-            style={{
-              height: "auto",
-              maxWidth: "100%",
-              borderRadius: "0px 0px 0px 200px",
-            }}
+            className="mx-0 h-auto max-w-full overflow-hidden rounded-tl-0 rounded-tr-0 rounded-br-0 rounded-bl-hero-section-image"
           />
         </div>
-        <div
-          className="bg-[#FFF5DB] absolute right-0 mb-4 mr-8"
-          style={{
-            width: "80px",
-            height: "50px",
-            borderRadius: "0% 0% 50% 0%",
-          }}
-        ></div>
+        <div className="absolute right-0 mb-4 mr-8">
+          <img
+            className="w-20"
+            src="/static/hero-scetion-rectangle.png"
+            alt="CSNE Hero Section rectangle"
+          />
+        </div>
       </div>
     </div>
   );
