@@ -1,14 +1,13 @@
 "use client";
 import React from "react";
+import Image from 'next/image';
 
 const ContactUs = () => {
-  const background = "/public/images/contact-us-backgroud.png";
-
   return (
     <div className="bg-whitegray">
       <div
         className="bg-cover bg-center h-full bg-whitegray "
-        style={{ backgroundImage: 'url("/contact-backgroud.png")' }}
+        style={{ backgroundImage: 'url("/images/contact-backgroud.png")' }}
       >
         <h1 className="text-black text-4xl sm:text-5xl lg:text-7xl font-bold ml-4 sm:ml-20px mt-4 sm:mt-20 ">
           Contact Us
@@ -19,8 +18,11 @@ const ContactUs = () => {
               Explore all the events organized by our students.{" "}
             </p>
             <div className="flex flex-row mt-4 sm:mt-6">
-              <img
-                src="/facebook.png"
+              <Image
+                src="/images/facebook.png"
+                alt="facebook"
+                width={40} 
+                height={40}
                 className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4 "
               />
               <p className="text-black text-lg sm:text-2xl mt-1">
@@ -28,8 +30,11 @@ const ContactUs = () => {
               </p>
             </div>
             <div className="flex flex-row mt-4 sm:mt-6">
-              <img
-                src="/instagram.jpg"
+              <Image
+                src="/images/instagram.jpg"
+                alt="instagram"
+                width={40} 
+                height={40}
                 className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4"
               />
               <p className="text-black text-lg sm:text-2xl mt-1">
@@ -37,8 +42,11 @@ const ContactUs = () => {
               </p>
             </div>
             <div className="flex flex-row mt-4 sm:mt-6">
-              <img
-                src="/linkdln.jpg"
+              <Image
+                src="/images/linkdln.jpg"
+                alt="linkedin"
+                width={40} 
+                height={40}
                 className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4"
               />
               <p className="text-black text-lg sm:text-2xl mt-1">
@@ -46,8 +54,11 @@ const ContactUs = () => {
               </p>
             </div>
             <div className="flex flex-row mt-4 sm:mt-6">
-              <img
-                src="/github.png"
+              <Image
+                src="/images/github.png"
+                alt="github"
+                width={40} 
+                height={40}
                 className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4"
               />
               <p className="text-black text-lg sm:text-2xl mt-1">
@@ -55,8 +66,11 @@ const ContactUs = () => {
               </p>
             </div>
             <div className="flex flex-row mt-4 sm:mt-6">
-              <img
-                src="/youtube.png"
+              <Image
+                src="/images/youtube.png"
+                alt="youtube"
+                width={40}
+                height={40}
                 className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4"
               />
               <p className="text-black text-lg sm:text-2xl mt-1">
