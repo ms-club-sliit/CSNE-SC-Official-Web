@@ -13,7 +13,7 @@ const SubscribeSection = () => {
       />
       <div className="absolute inset-x-0 max-w-[1140px] mx-auto top-[13%] w-full">
         <div className="absolute flex bg-orange-50 bottom-[13%] h-[50%] left-[-3.5%] rotate-[90deg] rounded-br-[100px] w-[13%] transition-all duration-300" />
-        <div className="absolute md:flex md:justify-between bg-gray-50 md:items-start h-max max-w-[1140px] mx-auto md:top-[13%] w-full rounded-[75px]">
+        <div className="absolute md:flex md:justify-between bg-test md:items-start h-max max-w-[1140px] mx-auto md:top-[13%] w-full rounded-[75px]">
           <div className="md:w-[50%] pl-10">
             <div className="sm:text-4xl font-arial md:text-[38px] mt-10 text-[40px] text-black-900 font-bold">
               Subscribe
@@ -37,7 +37,7 @@ const SubscribeSection = () => {
                   className="ml-[22px] text-base text-gray-500 border-none font-avertademopecutteddemo focus:outline-none"
                   placeholder="Enter your email address.."
                 />
-                <button className="cursor-pointer font-arial bg-indigo-900 font-bold rounded-[25px] h-[51px] leading-[normal] mr-[25px] text-base text-center text-white tracking-[1.04px] w-[148px] hover:bg-indigo-700 transition-all">
+                <button className="cursor-pointer font-arial bg-indigo_blue font-bold rounded-[25px] h-[51px] leading-[normal] mr-[25px] text-base text-center text-white tracking-[1.04px] w-[148px] hover:bg-indigo-900 transition-all">
                   Subscribe
                 </button>
               </div>
