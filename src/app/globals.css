@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@media (max-width: 768px) {
+  .responsive-background {
+    background-size: 100% auto; /* Adjust this value as needed for smaller screens */
+  }
+}
