@@ -24,9 +24,6 @@ module.exports = {
         "hero-section-margin-left": "89.87px",
         "hero-section-margin-top": "70px",
       },
-      width: {
-        "hero-section-text-width": "300px",
-      },
       height: {
         "hero-section-text-height": "441.41px",
         "hero-section-image-height": "378px",
