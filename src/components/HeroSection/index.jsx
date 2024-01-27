@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="container relative flex flex-col lg:flex-row">
+    <div className="flex flex-col lg:flex-row">
       <div className="lg:w-1/3 lg:text-left text-center mx-auto lg:mr-8 w-full">
         <div className="lg:ml-hero-section-margin-left lg:mt-hero-section-margin-top">
           <h1 className="text-4xl lg:text-5xl font-bold leading-tight">

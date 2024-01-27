@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <div className="flex items-center justify-center">
-        <div className="conatiner h-[100vh] text-black bg-white flex w-full">
+        <div className="h-[100vh] text-black bg-white flex w-full">
           <HeroSection />
         </div>
       </div>
