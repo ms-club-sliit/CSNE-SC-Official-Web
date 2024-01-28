@@ -11,7 +11,7 @@ const Stories = () => {
   const responsiveBackgroundImage = {
     backgroundImage: `url(${backgroundImageUrl})`,
     backgroundSize: "cover",
-    backgroundPosition: "right -10% bottom 10vh",
+    backgroundPosition: "right bottom 10vh",
     backgroundRepeat: "no-repeat",
     height: "100%",
     width: "100%",
@@ -19,46 +19,48 @@ const Stories = () => {
   };
 
   return (
-    <div className="flex w-full items-center justify-center">
-      <div className=" container h-full w-full bg-white  items-center justify-center p-2 sm:p-0 lg:w-full md:justify-center md:items-center lg:justify-center lg:items-center xl:w-full 2xl:w-full">
-        <div className="flex flex-col items-center justify-center  w-full sm:w-full lg:w-full  xl:w-full 2xl:w-full ">
-          <div className="flex w-full flex-col items-center space-y-4 sm: md:w-full lg:w-full   xl:w-full 2xl:w-full">
+    <div className=" flex w-full items-center justify-center">
+      <div
+        className=" container h-full w-full bg-white  items-center justify-center p-2 sm:p-0 lg:w-full md:justify-center md:items-center lg:justify-center lg:items-center xl:w-full 2xl:w-full"
+        style={responsiveBackgroundImage}
+      >
+        <div className=" flex flex-col items-center justify-center  w-full sm:w-full lg:w-full  xl:w-full 2xl:w-full ">
+          <div className=" flex w-full flex-col items-center space-y-4 sm: md:w-full lg:w-full   xl:w-full 2xl:w-full">
             {/* First section */}
-            <div className="h-[80vh] flex flex-col-reverse  items-center justify-center w-full  sm:flex-col-reverse sm:justify-center  sm:items-center sm:mb-12 sm:mt-10 lg:flex-row lg:justify-around lg:w-[140vh] lg:h-[80vh]  xl:h-[75vh] xl:w-[135vh] 2xl:w-[85vh] 2xl:h-[40vh] 2xl:mt-[8vh] ">
-              <div className="w-full sm:w-3/3 lg:w-full p-4  sm:text-center sm:flex lg:flex  xl:w-3/4 lg:mb-[5vh] xl:mb-[5vh]">
-                <div className="text-wrap ... sm:flex sm:items-center sm:justify-center lg:flex ">
-                  {/* paragraph section div */}
-                  <div className="lg:w-3/4 ">
-                    <h1 className="text-4xl sm:text-4xl m-4 sm:m-8 lg:text-4xl text-black font-bold text-center sm:mr-4 xl:6xl ">
-                      Our way of success
-                    </h1>
-                    <p className="text-base sm:text-xl text-black leading-relaxed text-justify sm:ml-4 md:text-center lg:text-center lg:text-lg xl:5xl 2xl:mb-[12vh]">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Ipsum rerum sapiente quaerat esse repellat quos
-                      exercitationem laboriosam nostrum eum. Suscipit maiores
-                      voluptatem deleniti, quod beatae consequuntur aliquid
-                      dolore magnam explicabo.
-                    </p>
+            <div className="w-full flex items-center justify-center sm:w-full xl:w-full 2xl:w-full  bg-white">
+              <div className="h-[80vh] flex flex-col-reverse  items-center justify-center w-full  sm:flex-col-reverse sm:justify-center  sm:items-center sm:mb-12 sm:mt-10 lg:flex-row lg:justify-around lg:w-[140vh] lg:h-[80vh]  xl:h-[75vh] xl:w-[145vh] 2xl:w-full 2xl:h-[50vh] 2xl:mt-[8vh]  ">
+                <div className="w-full sm:w-3/3 lg:w-full p-4  sm:text-center sm:flex lg:flex  xl:w-3/4 lg:mb-[5vh] xl:mb-[5vh]">
+                  <div className="text-wrap ... sm:flex sm:items-center sm:justify-center lg:flex ">
+                    {/* paragraph section div */}
+                    <div className="lg:w-3/4 ">
+                      <h1 className="text-4xl sm:text-4xl m-4 sm:m-8 lg:text-4xl text-black font-bold text-center sm:mr-4 xl:6xl ">
+                        Our way of success
+                      </h1>
+                      <p className="text-base sm:text-xl text-black leading-relaxed text-justify sm:ml-4 md:text-center lg:text-center lg:text-lg xl:5xl 2xl:mb-[12vh]">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Ipsum rerum sapiente quaerat esse repellat quos
+                        exercitationem laboriosam nostrum eum. Suscipit maiores
+                        voluptatem deleniti, quod beatae consequuntur aliquid
+                        dolore magnam explicabo.
+                      </p>
+                    </div>
                   </div>
                 </div>
+                {/* Image of the first section */}
+                <Image
+                  src={sampleImage}
+                  width={600}
+                  height={600}
+                  alt="success stories"
+                  className="w-3/4 border-2 rounded-2xl border-gray-300 shadow-lg  sm:mx-8 sm:mt-12 sm:ml-15  sm:w-3/5 lg:w-4/5 lg:mb-[20vh]  xl:h-[50vh] xl:w-4/5  2xl:h-[40vh] 2xl:w-[80vh] 2xl:mr-[5vh] 2xl:mt-[10vh]"
+                />
               </div>
-              {/* Image of the first section */}
-              <Image
-                src={sampleImage}
-                width={600}
-                height={600}
-                alt="success stories"
-                className="w-3/4 border-2 rounded-2xl border-gray-300 shadow-lg  sm:mx-8 sm:mt-12 sm:ml-15  sm:w-3/5 lg:w-4/5 lg:mb-[20vh]  xl:w-4/5  2xl:h-[25vh]"
-              />
             </div>
 
             {/* Second section */}
-            <div
-              className="flex flex-col md:w-full justify-center items-center responsive-background"
-              style={responsiveBackgroundImage}
-            >
+            <div className="flex flex-col md:w-full  lg:w-full xl:w-full 2xl:w-full justify-center items-center ">
               {/* item 1 */}
-              <div className="flex flex-col md:w-full  lg:w-[140vh]  xl:w-[126vh] 2xl:w-[85vh] ">
+              <div className="flex flex-col md:w-full  lg:w-[115vh]  xl:w-[145vh] 2xl:w-full ">
                 <div className="flex flex-col justify-center items-center sm:flex  space-y-4 sm:space-x-3 sm:mt-8 lg:flex-row ">
                   <Image
                     src={sampleImage2}
