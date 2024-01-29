@@ -2,9 +2,9 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row">
-      <div className="lg:w-1/3 lg:text-left text-center mx-auto lg:mr-8 w-full">
-        <div className="lg:ml-hero-section-margin-left lg:mt-hero-section-margin-top">
+    <div className="flex flex-col lg:flex-row lg:w-full">
+      <div className="container w-full mx-auto lg:w-1/3 lg:text-left text-center lg:mr-8 absolute left-0 z-10">
+        <div className="lg:mt-hero-section-margin-top lg:ml-12">
           <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
             CSNE <br /> Student <br /> Community
           </h1>
@@ -19,7 +19,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="lg:w-2/3 lg:ml-8 lg:mr-0 mt-hero-image-margin-top mx-auto relative">
+      <div className="lg:w-2/3 lg:ml-8 lg:mr-0 mt-hero-image-margin-top mx-auto absolute right-0">
         <div className="bg-hero-section-shape rounded-full lg:ml-20 rounded-bl-2xl rounded-br-2xl h-10 w-16" />
         <div className="relative">
           <img
