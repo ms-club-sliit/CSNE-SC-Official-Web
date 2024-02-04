@@ -9,7 +9,10 @@ const WhoAreWe = () => {
       </div>
       <div className="flex flex-wrap container lg:grid lg:grid-cols-3 mx-auto items-center justify-center">
         <div className="lg:w-full flex items-center justify-center lg:justify-start mt-[50px]">
-          <img
+          <Image
+            width={500}
+            height={500}
+            alt="csnescLogo"
             src="/static/csnesc-logo.png"
             className="w-6/12 lg:w-8/12 h-auto"
           />
@@ -27,49 +30,73 @@ const WhoAreWe = () => {
         </div>
         <div className="w-full relative flex justify-center items-center min-h-[400px]">
           <div className="w-[100px] h-[100px] rounded-full absolute z-50 overflow-hidden">
-            <img
+            <Image
+              width={500}
+              height={500}
+              alt="memberPicture1"
               className="object-cover w-full h-full"
               src="/static/committee/president.png"
             />
           </div>
           <div className="w-[90px] h-[90px] rounded-full absolute animate-north-west overflow-hidden z-40">
-            <img
+            <Image
+              width={500}
+              height={500}
+              alt="memberPicture2"
               className="object-cover w-full h-full"
               src="/static/committee/vice-president.png"
             />
           </div>
           <div className="w-[90px] h-[90px] rounded-full absolute animate-south overflow-hidden z-40">
-            <img
+            <Image
+              width={500}
+              height={500}
+              alt="memberPicture3"
               className="object-cover w-full h-full"
               src="/static/committee/sample-user.png"
             />
           </div>
           <div className="w-[60px] h-[60px] rounded-full absolute animate-north overflow-hidden">
-            <img
+            <Image
+              width={500}
+              height={500}
+              alt="memberPicture4"
               className="object-cover w-full h-full"
               src="/static/committee/sample-user.png"
             />
           </div>
           <div className="w-[60px] h-[60px] rounded-full absolute animate-south-west overflow-hidden">
-            <img
+            <Image
+              width={500}
+              height={500}
+              alt="memberPicture5"
               className="object-cover w-full h-full"
               src="/static/committee/sample-user.png"
             />
           </div>
           <div className="w-[60px] h-[60px] rounded-full absolute animate-north-east overflow-hidden">
-            <img
+            <Image
+              width={500}
+              height={500}
+              alt="memberPicture6"
               className="object-cover w-full h-full"
               src="/static/committee/sample-user.png"
             />
           </div>
           <div className="w-[50px] h-[50px] rounded-full absolute animate-east overflow-hidden">
-            <img
+            <Image
+              width={500}
+              height={500}
+              alt="memberPicture7"
               className="object-cover w-full h-full"
               src="/static/committee/sample-user.png"
             />
           </div>
           <div className="w-[50px] h-[50px] rounded-full absolute animate-south-east overflow-hidden">
-            <img
+            <Image
+              width={500}
+              height={500}
+              alt="memberPicture8"
               className="object-cover w-full h-full"
               src="/static/committee/sample-user.png"
             />
