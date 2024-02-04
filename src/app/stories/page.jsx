@@ -6,30 +6,20 @@ const Stories = () => {
     "https://png.pngtree.com/png-vector/20220518/ourmid/pngtree-hand-holding-megaphone-with-success-stories-png-image_4667189.png";
   const sampleImage2 =
     "https://tacso.eu/wp-content/uploads/2020/12/success-stories-1.png";
-  const backgroundImageUrl = "/images/backgroundimg.png";
-
-  const responsiveBackgroundImage = {
-    backgroundImage: `url(${backgroundImageUrl})`,
-    backgroundSize: "cover",
-    backgroundPosition: "right bottom 10vh",
-    backgroundRepeat: "no-repeat",
-    height: "100%",
-    width: "100%",
-    position: "relative",
-  };
+ 
 
   return (
     <div className=" flex w-full items-center justify-center">
       <div
-        className=" container h-full w-full bg-white  items-center justify-center p-2 sm:p-0 lg:w-full md:justify-center md:items-center lg:justify-center lg:items-center xl:w-full 2xl:w-full"
-        style={responsiveBackgroundImage}
+        className=" bg-[url(/images/backgroundimg.png)] bg-no-repeat sm:bg-contain md:bg-cover lg:bg-cover 2xl:bg-right-bottom 10vh  h-full w-full bg-white  items-center justify-center   md:justify-center md:items-center lg:w-full lg:justify-center lg:items-center xl:w-full 2xl:w-full"
+       
       >
         <div className=" flex flex-col items-center justify-center  w-full sm:w-full lg:w-full  xl:w-full 2xl:w-full ">
-          <div className=" flex w-full flex-col items-center space-y-4 sm: md:w-full lg:w-full   xl:w-full 2xl:w-full">
+         <div className=" flex w-full flex-col items-center space-y-4 sm: md:w-full lg:w-full   xl:w-full 2xl:w-full">
             {/* First section */}
             <div className="w-full flex items-center justify-center sm:w-full xl:w-full 2xl:w-full  bg-white">
-              <div className="h-[80vh] flex flex-col-reverse  items-center justify-center w-full  sm:flex-col-reverse sm:justify-center  sm:items-center sm:mb-12 sm:mt-10 lg:flex-row lg:justify-around lg:w-[140vh] lg:h-[80vh]  xl:h-[75vh] xl:w-[145vh] 2xl:w-full 2xl:h-[50vh] 2xl:mt-[8vh]  ">
-                <div className="w-full sm:w-3/3 lg:w-full p-4  sm:text-center sm:flex lg:flex  xl:w-3/4 lg:mb-[5vh] xl:mb-[5vh]">
+              <div className="h-[80vh] flex flex-col-reverse  items-center justify-center w-full  sm:flex-col-reverse sm:justify-center sm:w-full sm:items-center sm:mb-12 sm:mt-10 lg:flex-row lg:justify-around lg:w-[140vh] lg:h-[80vh]  xl:h-[75vh] xl:w-[145vh] 2xl:w-3/4 2xl:h-[50vh] 2xl:mt-[8vh]  ">
+                <div className="w-full sm:w-full lg:w-full p-4  sm:text-center sm:flex lg:flex  xl:w-3/4 lg:mb-[5vh] xl:mb-[5vh]">
                   <div className="text-wrap ... sm:flex sm:items-center sm:justify-center lg:flex ">
                     {/* paragraph section div */}
                     <div className="lg:w-3/4 ">
@@ -60,14 +50,14 @@ const Stories = () => {
             {/* Second section */}
             <div className="flex flex-col md:w-full  lg:w-full xl:w-full 2xl:w-full justify-center items-center ">
               {/* item 1 */}
-              <div className="flex flex-col md:w-full  lg:w-[115vh]  xl:w-[145vh] 2xl:w-full ">
+              <div className="flex flex-col md:w-full  lg:w-[125vh]  xl:w-[145vh] 2xl:w-3/4 ">
                 <div className="flex flex-col justify-center items-center sm:flex  space-y-4 sm:space-x-3 sm:mt-8 lg:flex-row ">
                   <Image
                     src={sampleImage2}
                     width={500}
                     height={300}
                     alt="Image 2"
-                    className="w-4/5 border-2 rounded-2xl   border-gray-300 shadow-lg sm:mx-8  sm:w-3/5 lg:w-3/5 "
+                    className="w-4/5 border-2 rounded-2xl   border-gray-300 shadow-lg sm:mx-8  sm:w-3/5 lg:w-2/5 "
                   />
 
                   <div className="text-base sm:text-xl">
@@ -95,8 +85,9 @@ const Stories = () => {
                     width={500}
                     height={500}
                     alt="Image 3"
-                    className="w-4/5 border-2 rounded-2xl border-gray-300 shadow-lg  sm:mx-8  sm:w-3/5"
+                    className="w-4/5 border-2 rounded-2xl border-gray-300 shadow-lg  sm:mx-8  sm:w-3/5 lg:w-2/5"
                   />
+
                 </div>
                 {/* item 3 */}
                 <div className="flex flex-col justify-center items-center sm:flex  sm:space-y-4 mt-10 lg:flex-row lg:mt-16">
@@ -105,7 +96,7 @@ const Stories = () => {
                     width={500}
                     height={500}
                     alt="Image 4"
-                    className="w-4/5 border-2 rounded-2xl border-gray-300 shadow-lg  sm:mx-8  sm:w-3/5"
+                    className="w-4/5 border-2 rounded-2xl border-gray-300 shadow-lg  sm:mx-8  sm:w-3/5 lg:w-2/5"
                   />
                   <div className=" text-xl ">
                     <div className="md:justify-center md:items-center">
