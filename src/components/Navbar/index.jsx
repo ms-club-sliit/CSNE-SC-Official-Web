@@ -21,7 +21,7 @@ export default function Navbar() {
             isMobileMenuOpen ? "mx-auto" : ""
           }`}
         ></div>
-        <div className="hidden md:block">
+        <div className="hidden md:block text-lg">
           <ul className="flex space-x-6 pr-20">
             <li>
               <Link href="/">Home</Link>
