@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
-export default function index() {
+export default function Footer() {
   const [currentYear, setCurrentYear] = useState();
 
   useEffect(() => {
