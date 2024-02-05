@@ -1,6 +1,6 @@
-import HeroSection from "../../components/HeroSection";
 import React from "react";
-import WhoAreWe from "../../components/WhoAreWeSection";
+import HeroSection from "@/components/HeroSection";
+import WhoAreWe from "@/components/WhoAreWeSection";
 import SubscribeSection from "@/components/SubscribeSection";
 
 const Home = () => {
