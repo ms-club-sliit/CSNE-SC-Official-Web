@@ -28,6 +28,16 @@ module.exports = {
         "hero-section-text-height": "441.41px",
         "hero-section-image-height": "378px",
       },
+      colors: {
+        gray: { 50: "#f4f9ff", 500: "#959595", 600: "#757575" },
+        orange: { 50: "#fff4da" },
+        blue_gray: { 50: "#f1f1f1" },
+        indigo_blue: "#1d1163", 
+      },
+      fontFamily: {
+        arial: "Arial",
+        avertademopecutteddemo: "Averta Demo PE Cutted Demo",
+      },
     },
   },
   plugins: [],
