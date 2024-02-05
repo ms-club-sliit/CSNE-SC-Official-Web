@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const SubscribeSection = () => {
   return (
-    <div className="relative flex justify-center w-full mb-10 lg:my-10">
+    <div className="relative flex justify-center w-full mb-10 lg:my-10 px-5">
       <Image
         className="absolute h-[154px] object-cover right-[100px] top-[20%]"
         src="/static/dot_group.png"
@@ -11,10 +11,10 @@ const SubscribeSection = () => {
         width="150"
         height="154"
       />
-      <div className="container lg:bg-[#F4F9FF] relative mx-auto w-full mx-5 my-5 rounded-[80px]">
+      <div className="container lg:bg-[#F4F9FF] relative mx-auto w-full my-5 rounded-[80px]">
         <div className="lg:grid grid-cols-2 text-center lg:text-left bg-test w-full rounded-[75px]">
           <div className="hidden lg:block absolute -z-10 flex bg-orange-50 h-[65%] bottom-[-20px] left-[-60px] rotate-[90deg] rounded-br-[100px] w-[13%] transition-all duration-300" />
-          <div className="container lg:px-5 lg:ml-10 lg:pl-10 lg:my-auto">
+          <div className="lg:px-5 lg:ml-10 lg:pl-10 lg:my-auto">
             <div className="text-4xl lg:text-5xl text-[40px] text-black-900 font-bold">
               Subscribe
             </div>
@@ -23,7 +23,7 @@ const SubscribeSection = () => {
               SLIIT right to your inbox!
             </div>
           </div>
-          <div className="container px-5 lg:w-full lg:h-[253px] flex items-center justify-between relative w-full lg:mt-5 md:mt-0">
+          <div className="lg:w-full lg:h-[253px] flex items-center justify-between relative w-full lg:mt-5 md:mt-0">
             <Image
               className="hidden lg:block absolute w-8/12 h-[253px] my-auto right-[0]"
               src="/static/img_rectangle.svg"
