@@ -2,10 +2,8 @@ import React from "react";
 import Image from "next/image";
 
 const Stories = () => {
-  const sampleImage =
-    "https://png.pngtree.com/png-vector/20220518/ourmid/pngtree-hand-holding-megaphone-with-success-stories-png-image_4667189.png";
-  const sampleImage2 =
-    "https://tacso.eu/wp-content/uploads/2020/12/success-stories-1.png";
+  const sampleImage ="/images/back.png.jpeg";
+  const sampleImage2 ="/images/success-stories-1.png"
  
 
   return (
