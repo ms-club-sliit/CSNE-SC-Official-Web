@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
@@ -21,13 +22,17 @@ const HeroSection = () => {
       <div className="lg:w-7/12 lg:ml-8 lg:mr-0 mx-auto right-0">
         <div className="bg-hero-section-shape rounded-full lg:ml-20 rounded-bl-2xl rounded-br-2xl h-10 w-16" />
         <div className="relative">
-          <img
+          <Image
+            width={1000}
+            height={300}
             src="/static/CSNE-hero-section.png"
             alt="CSNE Hero Section"
             className="mx-0 w-full h-auto rounded-tl-0 rounded-tr-0 rounded-br-0 rounded-bl-hero-section-image"
           />
           <div className="absolute right-0 mb-4 mr-8">
-            <img
+            <Image
+              width={1000}
+              height={1000}
               className="w-20"
               src="/static/hero-scetion-rectangle.png"
               alt="CSNE Hero Section rectangle"
