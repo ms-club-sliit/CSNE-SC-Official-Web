@@ -17,8 +17,8 @@ const Stories = () => {
                   <div className="text-wrap sm:flex sm:items-center sm:justify-center lg:flex ">
                     {/* paragraph section div */}
                     <div className="lg:w-3/4 ">
-                      <h1 className="text-5xl sm:text-4xl m-4 sm:m-8 lg:text-8xl text-black font-bold text-center sm:mr-4 xl:6xl ">
-                        Our way of success
+                      <h1 className="text-4xl m-4 sm:m-8 lg:text-6xl text-black font-bold text-center sm:mr-4">
+                        Our Way of Success
                       </h1>
                       <p className="text-base pt-8 sm:text-xl text-black leading-relaxed text-justify sm:ml-4 md:text-center lg:text-center lg:text-lg xl:5xl 2xl:mb-[12vh]">
                         Explore the extraordinary achievements of CSNE Club
