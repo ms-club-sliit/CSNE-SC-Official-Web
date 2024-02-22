@@ -21,42 +21,27 @@ module.exports = {
         "hero-section-button": "#1D1163",
         "hero-section-shape": "#DAE9FF",
       },
-      margin: {
-        "hero-image-margin-top": "30px",
-        "hero-section-margin-left": "89.87px",
-        "hero-section-margin-top": "70px",
-      },
-      height: {
-        "hero-section-text-height": "441.41px",
-        "hero-section-image-height": "378px",
-      },
       colors: {
         gray: { 50: "#f4f9ff", 500: "#959595", 600: "#757575" },
         orange: { 50: "#fff4da" },
         blue_gray: { 50: "#f1f1f1" },
         indigo_blue: "#1d1163",
-        whitegray: "#FBFBFB",
-        white: "#FFFFFF",
-        lightgray: "#9E9E9E",
-        darkblue: "#1D1163",
       },
       fontFamily: {
         arial: "Arial",
         avertademopecutteddemo: "Averta Demo PE Cutted Demo",
       },
-      colors: {
-        whitegray: "#FBFBFB",
-        white: "#FFFFFF",
-        gray: "#565656",
-        lightgray: "#9E9E9E",
-        darkblue: "#1D1163",
-      },
       height: {
         "57vh": "57vh",
         "80vh": "80vh",
+        "hero-section-text-height": "441.41px",
+        "hero-section-image-height": "378px",
       },
       margin: {
         "20px": "70px",
+        "hero-image-margin-top": "30px",
+        "hero-section-margin-left": "89.87px",
+        "hero-section-margin-top": "70px",
       },
       width: {
         "62%": "62%",
