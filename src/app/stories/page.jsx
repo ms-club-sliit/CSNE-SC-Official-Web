@@ -23,11 +23,10 @@ const Stories = () => {
                       <p className="text-base pt-8 sm:text-xl text-black leading-relaxed text-justify sm:ml-4 md:text-center lg:text-center lg:text-lg xl:5xl 2xl:mb-[12vh]">
                         Explore the extraordinary achievements of CSNE Club
                         members and faculty. From alumni success to innovation
-                        and community impact, our "Success Stories" page
-                        showcases the remarkable journeys that have been
-                        launched from our club. Get inspired and witness the
-                        transformative power of computer science and network
-                        engineering.
+                        and community impact, our Success Stories page showcases
+                        the remarkable journeys that have been launched from our
+                        club. Get inspired and witness the transformative power
+                        of computer science and network engineering.
                       </p>
                     </div>
                   </div>
