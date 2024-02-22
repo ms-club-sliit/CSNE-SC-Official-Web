@@ -11,9 +11,9 @@ export default function Footer() {
   }, []);
 
   return (
-    <div class="h-1/3 pb-5">
-      <div class="flex relative pt-5 flex-col md:flex-row md:space-x-5 lg:pl-8 lg:py-8 text-gray-400 bg-[]">
-        <div class="lg:container lg:mx-auto lg:justify-left w-full text-left mb-4 md:mb-0">
+    <div className="h-1/3 pb-5">
+      <div className="flex relative pt-5 flex-col md:flex-row md:space-x-5 lg:pl-8 lg:py-8 text-gray-400 bg-[]">
+        <div className="lg:container lg:mx-auto lg:justify-left w-full text-left mb-4 md:mb-0">
           <Image
             width={500}
             height={500}
@@ -21,14 +21,14 @@ export default function Footer() {
             src="/static/csnesc-logo.png"
             className="w-4/12 lg:w-48 h-auto mb-2 mx-auto lg:mx-0"
           />
-          <div class="para m-5 text-sm text-center lg:text-left">
+          <div className="para m-5 text-sm text-center lg:text-left">
             <p className="lg:max-w-sm md:max-w-sm">
               A volunteer-driven student community aiming to bridge the skill
               gap between an Undergraduate and an Industry Professional
             </p>
           </div>
-          <div class="flex justify-center lg:justify-start mt-4 ml-5 ">
-            <a href="#" target="_blank" class="mr-2">
+          <div className="flex justify-center lg:justify-start mt-4 ml-5 ">
+            <a href="#" target="_blank" className="mr-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 48 48"
@@ -45,7 +45,7 @@ export default function Footer() {
                 />
               </svg>
             </a>
-            <a href="#" target="_blank" class="mr-2">
+            <a href="#" target="_blank" className="mr-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 48 48"
@@ -81,10 +81,10 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div class="md:w-7/12 lg:absolute right-0 py-5 text-center lg:float-right lg:text-start lg:mr-8 lg:ml-5 lg:p-12 lg:bg-blue-50 text-gray-800 lg:rounded-s-[40px]">
-          <h3 class="text-lg font-semibold mb-4 ">Usefull links</h3>
-          <div class="flex flex-col md:flex-row md:space-x-5">
-            <div class="w-full md:w-1/4 mb-4 md:mb-0">
+        <div className="md:w-7/12 lg:absolute right-0 py-5 text-center lg:float-right lg:text-start lg:mr-8 lg:ml-5 lg:p-12 lg:bg-blue-50 text-gray-800 lg:rounded-s-[40px]">
+          <h3 className="text-lg font-semibold mb-4 ">Usefull links</h3>
+          <div className="flex flex-col md:flex-row md:space-x-5">
+            <div className="w-full md:w-1/4 mb-4 md:mb-0">
               <ul>
                 <li>
                   <a href="#">Home</a>
@@ -97,14 +97,14 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="w-full md:w-1/4 mb-4 md:mb-0">
+            <div className="w-full md:w-1/4 mb-4 md:mb-0">
               <ul>
                 <li>
                   <a href="#">About Us</a>
                 </li>
               </ul>
             </div>
-            <div class="w-full md:w-1/4 mb-4 md:mb-0">
+            <div className="w-full md:w-1/4 mb-4 md:mb-0">
               <ul>
                 <li>
                   <a href="#">FAQ</a>
@@ -117,7 +117,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="w-full md:w-1/4 mb-4 md:mb-0">
+            <div className="w-full md:w-1/4 mb-4 md:mb-0">
               <ul>
                 <li>
                   <a href="#">WhatsApp</a>
@@ -130,7 +130,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div class="p text-gray-400 text-center text-sm">
+      <div className="p text-gray-400 text-center text-sm">
         Copyright @ {currentYear} MS-CLUB
       </div>
     </div>
