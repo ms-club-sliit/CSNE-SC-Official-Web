@@ -16,7 +16,7 @@ const ContactUs = () => {
             <p className="text-gray text-lg lg:text-xl">
               Explore all the events organized by our students.{" "}
             </p>
-            <div className="flex flex-row mt-10 lg:mt-4 sm:mt-6">
+            <div className="flex flex-row mt-10">
               <Image
                 src="/images/facebook.png"
                 alt="facebook"
