@@ -8,7 +8,7 @@ const Board = () => {
 
   const [ismore, setIsMore] = useState(true);
   const [dropdown, setDropwown] = useState(false);
-  const [year, setYear] = useState('Y2023');
+  const [year, setYear] = useState('2023');
 
   // Limit the number of items to display
   const Top3Position = BoardData[year].TopPosition.slice(0, 3);
@@ -26,7 +26,7 @@ const Board = () => {
 
     <div className="mx-10 flex flex-col items-center pt-10">
       <h1 className="font-bold text-3xl text-center text-[6vw]">OUR TEAM</h1>
-      <hr className=" mt-[5vw] w-full" />
+      <hr className=" mt-[5vw] w-full"/>
 
 
       <div className="flex md:justify-end justify-center  w-full p-5 relative z-50 ">
@@ -39,10 +39,10 @@ const Board = () => {
           </button>
           {(dropdown) ? (
             <ul className="dropdown-menu absolute w-full    text-white pt-1">
-              <li className=""><button onClick={() => { cheangeyear('Y2023')}} className="rounded-t bg-[#1d1163]  w-full  py-2 px-4 block whitespace-no-wrap" >2023</button></li>
-              <li className=""><button onClick={() => { cheangeyear('Y2022')}}  className=" bg-[#1d1163] w-full     py-2 px-4 block whitespace-no-wrap" >2022</button></li>
-              <li className=""><button onClick={() => { cheangeyear('Y2021')}} className="bg-[#1d1163] w-full  py-2 px-4   block whitespace-no-wrap" >2021</button></li>
-              <li className=""><button onClick={() => { cheangeyear('Y2020')}} className="rounded-b w-full  bg-[#1d1163]    py-2 px-4 block whitespace-no-wrap" >2020</button></li>
+              <li className=""><button onClick={() => { cheangeyear('2023')}} className="rounded-t bg-[#1d1163]  w-full  py-2 px-4 block whitespace-no-wrap" >2023</button></li>
+              <li className=""><button onClick={() => { cheangeyear('2022')}}  className=" bg-[#1d1163] w-full     py-2 px-4 block whitespace-no-wrap" >2022</button></li>
+              <li className=""><button onClick={() => { cheangeyear('2021')}} className="bg-[#1d1163] w-full  py-2 px-4   block whitespace-no-wrap" >2021</button></li>
+              <li className=""><button onClick={() => { cheangeyear('2020')}} className="rounded-b w-full  bg-[#1d1163]    py-2 px-4 block whitespace-no-wrap" >2020</button></li>
             </ul>
           ) : ''}
         </div>
