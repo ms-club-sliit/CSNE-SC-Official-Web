@@ -7,7 +7,7 @@ const NavigationLink = ({ href, label }) => {
     const isCurrentPage = usePathname() === href;
 
     return (
-        <li className={`pl-2 pr-2 ${isCurrentPage ? 'border-b-2 border-black' : 'pl-2 pr-2'}`}>
+        <li className={`md:pl-1 md:pr-1 lg:pl-2 lg:pr-2 ${isCurrentPage ? 'border-b-2 border-black' : 'md:pl-1 md:pr-1 lg:pl-2 lg:pr-2'}`}>
             <Link href={href}>{label}</Link>
         </li>
     );
