@@ -1,13 +1,13 @@
-"use client"
 import Image from "next/image";
 import YearDropDown from "./YearDropDown";
 
 const EventHero = () => {
     return (
         <section
+            className="container"
             style={{
                 height: "100vh",
-                backgroundImage: `url(static/event-bg.svg)`,
+                backgroundImage: `url(/static/event-bg.svg)`,
                 backgroundSize: "120px",
                 backgroundRepeat: 'no-repeat', backgroundSize: '150%',
                 backgroundPosition: 'top 100% right 50%'
