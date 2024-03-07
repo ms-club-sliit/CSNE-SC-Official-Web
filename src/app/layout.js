@@ -6,7 +6,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Navbar />
+        <div className={"pt-32"}>
         {children}
+        </div>
         <hr className="mt-5 mx-10" />
         <Footer />
       </body>
