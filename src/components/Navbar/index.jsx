@@ -9,17 +9,18 @@ export default function Navbar() {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const currentYear = new Date().getFullYear();
+
+
   return (
     <nav className="bg-white p-4 text-black font-semibold">
       <div
-        className={`container mx-auto flex justify-between items-center ${
-          isMobileMenuOpen ? "flex-col items-center" : "pl-20"
-        }`}
+        className={`container mx-auto flex justify-between items-center ${isMobileMenuOpen ? "flex-col items-center" : "pl-20"
+          }`}
       >
         <div
-          className={`text-center ${isMobileMenuOpen ? "w-full" : "w-auto"} ${
-            isMobileMenuOpen ? "mx-auto" : ""
-          }`}
+          className={`text-center ${isMobileMenuOpen ? "w-full" : "w-auto"} ${isMobileMenuOpen ? "mx-auto" : ""
+            }`}
         ></div>
         <div className="hidden md:block text-lg">
           <ul className="flex space-x-6 pr-20">
@@ -30,7 +31,7 @@ export default function Navbar() {
               <Link href="/about">About</Link>
             </li>
             <li className="pl-5">
-              <Link href="/events">Events</Link>
+              <Link href={`/events/${currentYear}`}>Events</Link>
             </li>
             <li className="pl-5">
               <Link href="/board">Board</Link>
@@ -53,9 +54,8 @@ export default function Navbar() {
         </div>
       </div>
       <ul
-        className={`md:hidden ${
-          isMobileMenuOpen ? "block" : "hidden"
-        } border-t border-black`}
+        className={`md:hidden ${isMobileMenuOpen ? "block" : "hidden"
+          } border-t border-black`}
       >
         <div className="flex flex-col items-center">
           <li>
@@ -65,7 +65,7 @@ export default function Navbar() {
             <a href="/about">About</a>
           </li>
           <li>
-            <a href="/events">Events</a>
+            <a href={`/events/${currentYear}`} >Events</a>
           </li>
           <li>
             <a href="/board">Board</a>
