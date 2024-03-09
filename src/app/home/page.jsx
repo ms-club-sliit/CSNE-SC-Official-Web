@@ -1,4 +1,4 @@
-import BlogVideoSection from "@/components/home/blogVideoSection/BlogVideoSection";
+import BlogVideoSection from "@/components/blogVideoSection/BlogVideoSection";
 import React from "react";
 import HeroSection from "@/components/HeroSection";
 import WhoAreWe from "@/components/WhoAreWeSection";
