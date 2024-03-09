@@ -1,5 +1,5 @@
 
-import { Events21, Events23, Events22, Events24 } from "@/data/data"
+import { Events21, Events23, Events22, Events24 } from "@/data/events/index.js"
 import Event from "./Event";
 import Image from "next/image";
 
@@ -14,7 +14,6 @@ const eventsByYear = {
 const Events = ({ year }) => {
 
     const events = eventsByYear[year];
-
 
     const currentYear = new Date().getFullYear();
 

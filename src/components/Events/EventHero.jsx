@@ -9,14 +9,10 @@ const EventHero = () => {
             <section
                 className="w-screen h-screen bg-no-repeat bg-top-[100%] bg-right-[50%] bg-[150%] hidden md:block"
                 style={{
-                    // width: "100vw",
-                    // height: "100vh",
                     backgroundImage: `url(/static/event-bg.svg)`,
                     backgroundRepeat: 'no-repeat', backgroundSize: '150%',
                     backgroundPosition: 'top 100% right 50%'
                 }}>
-                {/* <section className="w-screen h-screen bg-no-repeat bg-top-[100%] bg-right-[50%] bg-[150%] bg-[url(/static/event-bg.svg)]">< */}
-
 
                 <div className="container mr-auto ml-auto">
                     <div className="text-right">
@@ -53,7 +49,6 @@ const EventHero = () => {
                     backgroundSize: 'cover',
                     backgroundPosition: 'top 0% right 48%'
                 }}>
-                {/* <section className="w-screen h-screen bg-no-repeat bg-top-[100%] bg-right-[50%] bg-[150%] bg-[url(/static/event-bg.svg)]">< */}
 
                 <div className="p-5">
 
