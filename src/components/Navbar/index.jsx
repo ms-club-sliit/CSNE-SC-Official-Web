@@ -44,7 +44,7 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="md:hidden flex items-center z-50">
+        <div className="md:hidden flex items-center">
           <button
             className="animate-bounce text-black"
             onClick={toggleMobileMenu}
@@ -55,9 +55,9 @@ export default function Navbar() {
       </div>
       <ul
         className={`md:hidden ${isMobileMenuOpen ? "block" : "hidden"
-          } border-t border-black z-1000`}
+          } border-t border-black`}
       >
-        <div className="flex flex-col items-center z-50">
+        <div className="flex flex-col items-center">
           <li>
             <a href="/">Home</a>
           </li>
