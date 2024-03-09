@@ -1,46 +1,84 @@
 import Image from "next/image";
 import YearDropDown from "./YearDropDown";
 
+
 const EventHero = () => {
     return (
-        <section
-            className="container"
-            style={{
-                height: "100vh",
-                backgroundImage: `url(/static/event-bg.svg)`,
-                backgroundSize: "120px",
-                backgroundRepeat: 'no-repeat', backgroundSize: '150%',
-                backgroundPosition: 'top 100% right 50%'
-            }}>
 
-            <div className="text-right">
-                <YearDropDown />
-            </div>
-
-
-            <div className="flex h-full grow">
-                <div className="w-full m-5">
-                    <h1 className="text-6xl font-semibold mb-5 text-center">Explore Events</h1>
-                    <p className="text-4xl text-center">Explore all the events organized by our students </p>
-                </div>
+        <div>
+            <section
+                className="w-screen h-screen bg-no-repeat bg-top-[100%] bg-right-[50%] bg-[150%] hidden md:block"
+                style={{
+                    // width: "100vw",
+                    // height: "100vh",
+                    backgroundImage: `url(/static/event-bg.svg)`,
+                    backgroundRepeat: 'no-repeat', backgroundSize: '150%',
+                    backgroundPosition: 'top 100% right 50%'
+                }}>
+                {/* <section className="w-screen h-screen bg-no-repeat bg-top-[100%] bg-right-[50%] bg-[150%] bg-[url(/static/event-bg.svg)]">< */}
 
 
-                <div className="flex-2 w-full h-full content-center" >
-
-                    <div className="relative right-[-230px] top-5">
-                        <Image className="rounded-lg shadow-lg" alt={""} src={`/images/upcoming.jpg`} width={400} height={500} style={{
-                            objectFit: "fit"
-                        }} />
+                <div className="container mr-auto ml-auto">
+                    <div className="text-right">
+                        <YearDropDown />
                     </div>
 
-                    <div className="aspect-[16/10] relative left-0 right-0">
-                        <Image className="rounded-lg shadow-lg" alt={""} src={`/images/group.jpg`} width={500} height={600} style={{
-                            objectFit: "fit"
-                        }} />
+                    <div className="sm:flex">
+                        <div className="m-5">
+                            <h1 className="text-left text-6xl font-semibold mb-5 text-slate-800 antialiased">Explore Events</h1>
+                            <p className="text-left text-4xl mb-2 text-slate-900 antialiased">Explore all the events organized by</p>
+                            <p className="text-left text-4xl text-slate-800 antialiased">our students</p>
+                        </div>
+
+                        <div className="absolute top-20 right-40 xl:right-[400px] z-0">
+                            <div className="relative top-8 left-40 xl:left-[400px]">
+                                <Image className="rounded-lg shadow-lg xl:w-[520px]" alt={""} src={`/images/upcoming.jpg`} layout="intrinsic" width={400} height={220} />
+                            </div>
+
+                            <div className="relative xl:right-41">
+                                <Image className="rounded-lg shadow-lg xl:w-[800px]" alt={""} src={`/images/group.jpg`} layout="intrinsic" width={500} height={300} />
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+
+            </section>
+
+            <section
+                className="w-screen h-[90vh] bg-no-repeat bg-top-[100%] bg-right-[50%] bg-[150%] xs:block sm:block md:hidden"
+
+                style={{
+                    backgroundImage: `url(/static/event-bg.svg)`,
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'top 0% right 48%'
+                }}>
+                {/* <section className="w-screen h-screen bg-no-repeat bg-top-[100%] bg-right-[50%] bg-[150%] bg-[url(/static/event-bg.svg)]">< */}
+
+                <div className="p-5">
+
+                    <h1 className="text-left text-5xl font-semibold mb-5 text-slate-800 antialiased">Explore Events</h1>
+                    <p className="text-left text-3xl mb-2 text-slate-700 antialiased">Explore all the events organized by our students</p>
+
+                    <div className="text-left">
+                        <YearDropDown />
+                    </div>
+
+                    <div className="oveflow-x-hidden absolute right-[10px] bottom-[-10]">
+                        <div className="absolute">
+                            <div className=" relative left-10">
+                                <Image className="rounded-lg shadow-lg" alt={""} src={`/images/upcoming.jpg`} layout="intrinsic" width={200} height={100} />
+                            </div>
+                        </div>
+
+                        <div className="relative top-32 right-20">
+                            <Image className="rounded-lg shadow-l" alt={""} src={`/images/group.jpg`} layout="intrinsic" width={270} height={200} />
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
     )
 }
 

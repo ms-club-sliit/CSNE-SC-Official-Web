@@ -5,7 +5,7 @@ const Page = ({ params }) => {
 
   return (
     <>
-      <div className="flex justify-center bg-[#FEFEFE] text-zinc-900 ">
+      <div className=" bg-[#FEFEFE] text-zinc-900 ">
         <div>
           <EventHero />
           <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
