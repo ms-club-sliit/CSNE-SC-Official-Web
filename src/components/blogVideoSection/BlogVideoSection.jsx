@@ -5,10 +5,10 @@ import BlogVideoCard from "./BlogVideoCard";
 
 const BlogVideoSection = () => {
   return (
-    <div>
+    <>
       <AllBlogSection />
       <VideoSection />
-    </div>
+    </>
   );
 };
 
