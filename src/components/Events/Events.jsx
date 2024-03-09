@@ -21,7 +21,7 @@ const Events = ({ year }) => {
     return (
         <section className="container ml-auto mr-auto p-4 sm:p-4 md:p-4 lg:p-0 xl:p-0" >
 
-            <h2 className="text-3xl font-semibold text-center">Check out the amazing experiences we shared <span className="text-[#1D1163]">{year}</span> at <span> <Image className="inline align-middle" width={100} height={100} src={'/static/csnesc-logo.png'} /></span></h2>
+            <h2 className="text-3xl font-semibold text-center">Check out the amazing experiences we shared <span className="text-[#1D1163]">{year}</span> at <span> <Image className="inline align-middle" alt="csne logo" width={100} height={100} src={'/static/csnesc-logo.png'} /></span></h2>
 
             {
                 events && events.length !== 0 ? events?.map((event, key) => <Event element={key} key={key} event={event} />) :

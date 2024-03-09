@@ -28,11 +28,11 @@ const EventHero = () => {
 
                         <div className="absolute md:bottom-14 lg:bottom-0  lg:top-22 xl:right-[400px] right-40 ">
                             <div className="relative top-8 left-40 xl:left-[400px]">
-                                <Image className="rounded-lg shadow-lg md:w-[280px] lg:w-[380px] xl:w-[520px]" alt={""} src={`/images/upcoming.jpg`} layout="intrinsic" width={400} height={220} />
+                                <Image className="rounded-lg shadow-lg md:w-[280px] lg:w-[380px] xl:w-[520px]" alt={"upcoming event"} src={`/images/upcoming.jpg`} layout="intrinsic" width={400} height={220} />
                             </div>
 
                             <div className="relative xl:right-41">
-                                <Image className="rounded-lg shadow-lg md:w-[400px] lg:w-[500px] xl:w-[800px]" alt={""} src={`/images/group.jpg`} layout="intrinsic" width={500} height={300} />
+                                <Image className="rounded-lg shadow-lg md:w-[400px] lg:w-[500px] xl:w-[800px]" alt={"group photo"} src={`/images/group.jpg`} layout="intrinsic" width={500} height={300} />
                             </div>
                         </div>
                     </div>
@@ -62,12 +62,12 @@ const EventHero = () => {
                     <div className="oveflow-x-hidden absolute right-[10px] bottom-[-10]">
                         <div className="absolute">
                             <div className=" relative left-10">
-                                <Image className="rounded-lg shadow-lg" alt={""} src={`/images/upcoming.jpg`} layout="intrinsic" width={200} height={100} />
+                                <Image className="rounded-lg shadow-lg" alt={"upcoming event"} src={`/images/upcoming.jpg`} layout="intrinsic" width={200} height={100} />
                             </div>
                         </div>
 
                         <div className="relative top-32 right-20">
-                            <Image className="rounded-lg shadow-l" alt={""} src={`/images/group.jpg`} layout="intrinsic" width={270} height={200} />
+                            <Image className="rounded-lg shadow-l" alt={"group photo"} src={`/images/group.jpg`} layout="intrinsic" width={270} height={200} />
                         </div>
                     </div>
 
