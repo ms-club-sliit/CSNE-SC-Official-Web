@@ -19,19 +19,19 @@ const EventHero = () => {
                     </div>
 
                     <div className="sm:flex">
-                        <div className="m-5">
+                        <div className="m-5 xl:ml-20">
                             <h1 className="text-left text-6xl font-semibold mb-5 text-slate-800 antialiased">Explore Events</h1>
                             <p className="ztext-left text-4xl mb-2 text-slate-900 antialiased">Explore all the events organized by</p>
                             <p className="text-left text-4xl text-slate-800 antialiased">our students</p>
                         </div>
 
-                        <div className="absolute md:bottom-14 lg:bottom-0 lg:top-22 xl:top-[180px] xl:right-[400px] right-40 ">
+                        <div className="absolute md:bottom-14 lg:bottom-0 lg:top-22 xl:top-28 xl:right-[400px] right-40 ">
                             <div className="relative top-8 left-40 xl:left-[400px]">
-                                <Image className="rounded-lg shadow-lg md:w-[280px] lg:w-[380px] xl:w-[460px]" alt={"upcoming event"} src={`/images/upcoming.jpg`} layout="intrinsic" width={400} height={220} />
+                                <Image className="rounded-lg shadow-lg md:w-[280px] lg:w-[380px] xl:w-[25vw]" alt={"upcoming event"} src={`/images/upcoming.jpg`} layout="intrinsic" width={400} height={220} />
                             </div>
 
                             <div className="relative xl:right-41">
-                                <Image className="rounded-lg shadow-lg md:w-[400px] lg:w-[500px] xl:w-[700px]" alt={"group photo"} src={`/images/group.jpg`} layout="intrinsic" width={500} height={300} />
+                                <Image className="rounded-lg shadow-lg md:w-[400px] lg:w-[500px] xl:w-[36vw]" alt={"group photo"} src={`/images/group.jpg`} layout="intrinsic" width={500} height={300} />
                             </div>
                         </div>
                     </div>

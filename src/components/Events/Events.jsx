@@ -26,8 +26,8 @@ const Events = ({ year }) => {
 
             {
                 events && events.length !== 0 ? events?.map((event, key) => <Event element={key} key={key} event={event} />) :
-                    (year == currentYear) ? <p className="text-2xl text-center pb-5 pt-10"> Stay Tuned More Events Will Be Available In The Futrue</p>
-                        : <p className="text-2xl text-center pb-5 pt-10">{year} No Events Are Available</p>
+                    (year == currentYear) ? <p className="text-2xl text-center pb-12 pt-10 text-[#1D1163]"> Stay Tuned More Events Will Be Available In The Futrue</p>
+                        : <p className="text-2xl text-center pb-12 pt-10 text-[#1D1163]">{year} No Events Are Available</p>
             }
 
         </section>
