@@ -28,7 +28,7 @@ const ImageCarousel = ({slides}) => {
 
             style={{height: "300px"}}
         >
-            {slides.map((slide) => (
+            {slides.length > 0 && slides.map((slide) => (
                 <SwiperSlide key={slide.id}>
                     <div className={"grid grid-cols-3 gap-2"}>
                         <div
