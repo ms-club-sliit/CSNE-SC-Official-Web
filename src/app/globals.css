@@ -184,3 +184,20 @@ body {
     animation: south-east 4s infinite;
   }
 }
+
+/* navigation animation */
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-down {
+  animation: slideDown 0.5s ease;
+}
+
+/* navigation animation */
