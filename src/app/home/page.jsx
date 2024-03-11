@@ -1,16 +1,23 @@
-"use client";
 import React from "react";
+import HeroSection from "@/components/HeroSection";
+import WhoAreWe from "@/components/WhoAreWeSection";
+import SubscribeSection from "@/components/SubscribeSection";
+import PastEventsSection from "@/components/PastEventsSection";
+
+// import data
+import pastEvents from "@/data/pastEvents";
 
 const Home = () => {
-  return (
-    <>
-      <div className="flex items-center justify-center">
-        <div className="container h-[100vh] bg-white flex items-center justify-center">
-          <p className="text-4xl font-bold">Home Page</p>
+    return (
+        <div className="flex items-center justify-center">
+            <div className="text-black flex flex-col w-full">
+                <HeroSection/>
+                <WhoAreWe/>
+                {pastEvents.length > 0 && <PastEventsSection pastEvents={pastEvents}/>}
+                <SubscribeSection/>
+            </div>
         </div>
-      </div>
-    </>
-  );
+    );
 };
 
 export default Home;

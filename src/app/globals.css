@@ -19,9 +19,185 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    to bottom,
+    transparent,
+    rgb(var(--background-end-rgb))
+  );
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes north {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(0px, -120px);
+  }
+
+  50% {
+    transform: translate(0px, -120px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes east {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(120px, 0px);
+  }
+
+  50% {
+    transform: translate(120px, 0px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes south {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(-20px, 120px);
+  }
+
+  50% {
+    transform: translate(-20px, 120px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes north-west {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(-110px, -60px);
+  }
+
+  50% {
+    transform: translate(-110px, -60px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes south-west {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(-120px, 50px);
+  }
+
+  50% {
+    transform: translate(-120px, 50px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes north-east {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(90px, -90px);
+  }
+
+  50% {
+    transform: translate(90px, -90px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes south-east {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(90px, 80px);
+  }
+
+  50% {
+    transform: translate(90px, 80px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@layer utilities {
+  .animate-north {
+    animation: north 4s infinite;
+  }
+
+  .animate-east {
+    animation: east 4s infinite;
+  }
+
+  .animate-south {
+    animation: south 4s infinite;
+  }
+
+  .animate-north-west {
+    animation: north-west 4s infinite;
+  }
+
+  .animate-south-west {
+    animation: south-west 4s infinite;
+  }
+
+  .animate-north-east {
+    animation: north-east 4s infinite;
+  }
+
+  .animate-south-east {
+    animation: south-east 4s infinite;
+  }
+}
+
+/* navigation animation */
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-down {
+  animation: slideDown 0.5s ease;
+}
+
+/* navigation animation */
