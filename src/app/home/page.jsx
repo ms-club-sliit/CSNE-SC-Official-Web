@@ -10,8 +10,8 @@ const Home = () => {
       <div className="text-black flex flex-col w-full">
         <HeroSection />
         <WhoAreWe />
-        <SubscribeSection />
         <BlogVideoSection />
+        <SubscribeSection />
       </div>
     </div>
   );
