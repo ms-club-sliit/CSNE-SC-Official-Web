@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "/images/past-events/agm-23.jpg",
+    "title": "AGM-2023",
+    "description": "CSNE student committee",
+    "url": "https://google.com"
+  },
+  {
+    "id": 2,
+    "image": "/images/past-events/netcom.png",
+    "title": "Netcom",
+    "description": "Grand Finale",
+    "url": ""
+  },
+  {
+    "id": 3,
+    "image": "/images/past-events/dansela.jpg",
+    "title": "CSNE Dansala",
+    "description": "CSNE student community",
+    "url": ""
+  }
+]

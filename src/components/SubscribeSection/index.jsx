@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const SubscribeSection = () => {
   return (
-    <div className="relative flex justify-center w-full mb-10 lg:my-10 px-5">
+    <div className="relative flex justify-center w-full mb-10 lg:my-14 px-5">
       <Image
         className="absolute h-[154px] object-cover right-[100px] top-[20%]"
         src="/static/dot_group.png"
