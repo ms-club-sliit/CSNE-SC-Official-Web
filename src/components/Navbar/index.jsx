@@ -1,19 +1,42 @@
 "use client";
-import { useState } from "react";
+
+import { useEffect, useState } from "react";
 import Link from "next/link";
+import Navigation from "@/components/Navbar/Navigation";
+import MobileNavigation from "@/components/Navbar/MobileNavigation";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      setScrolled(isScrolled);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="bg-white p-4 text-black font-semibold">
+    <nav
+      className={`p-4 lg:pl-32 lg:pr-32 text-black font-semibold fixed w-full transition-all ${
+        isMobileMenuOpen || scrolled ? "bg-white shadow-lg" : "bg-white"
+      }`}
+      style={{ zIndex: 100 }}
+    >
       <div
         className={`container mx-auto flex justify-between items-center ${
-          isMobileMenuOpen ? "flex-col items-center" : "pl-20"
+          isMobileMenuOpen ? "flex-col items-center" : "pl-0"
         }`}
       >
         <div
@@ -21,63 +44,82 @@ export default function Navbar() {
             isMobileMenuOpen ? "mx-auto" : ""
           }`}
         ></div>
-        <div className="hidden md:block text-lg">
-          <ul className="flex space-x-6 pr-20">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li className="pl-5">
-              <Link href="/about">About</Link>
-            </li>
-            <li className="pl-5">
-              <Link href="/events">Events</Link>
-            </li>
-            <li className="pl-5">
-              <Link href="/board">Board</Link>
-            </li>
-            <li className="pl-5">
-              <Link href="/stories">Stories</Link>
-            </li>
-            <li className="pl-5">
-              <Link href="/contactUs">Contact Us</Link>
-            </li>
-          </ul>
+        <div className="hidden md:block text-lg w-full">
+          <div className="flex items-center justify-between">
+            {/* Logo on the left */}
+            <div className="flex items-center">
+              {/* SLIIT CSNE Logo */}
+              <Link href="/">
+                <Image
+                  width={140}
+                  height={100}
+                  src="/images/logo.svg"
+                  alt="Logo"
+                />
+              </Link>
+            </div>
+
+            {/* Navigation items on the right */}
+            <Navigation />
+          </div>
         </div>
-        <div className="md:hidden flex items-center">
-          <button
-            className="animate-bounce text-black"
-            onClick={toggleMobileMenu}
-          >
-            &#9776;
+        <div className="md:hidden flex justify-between pl-3 pr-3 w-full">
+          {/* SLIIT CSNE Logo */}
+          <Link href="/">
+            <Image
+              width={100}
+              height={50}
+              src="/images/logo.svg"
+              alt="Logo"
+              className="h-12"
+            />
+          </Link>
+
+          {/* Hamburger menu button */}
+          <button className="text-black text-2xl" onClick={toggleMobileMenu}>
+            {isMobileMenuOpen ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
+            ) : (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            )}
           </button>
         </div>
       </div>
-      <ul
+
+      {/* Mobile Navigation */}
+      <div
         className={`md:hidden ${
-          isMobileMenuOpen ? "block" : "hidden"
-        } border-t border-black`}
+          isMobileMenuOpen ? "block animate-slide-down" : "hidden"
+        } `}
       >
-        <div className="flex flex-col items-center">
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/events">Events</a>
-          </li>
-          <li>
-            <a href="/board">Board</a>
-          </li>
-          <li>
-            <a href="/stories">Stories</a>
-          </li>
-          <li>
-            <a href="/contactUs">Contact Us</a>
-          </li>
-        </div>
-      </ul>
+        <MobileNavigation />
+      </div>
     </nav>
   );
 }
