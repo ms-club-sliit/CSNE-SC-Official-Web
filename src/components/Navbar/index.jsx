@@ -40,9 +40,8 @@ export default function Navbar() {
         }`}
       >
         <div
-          className={`text-center ${isMobileMenuOpen ? "w-full" : "w-auto"} ${
-            isMobileMenuOpen ? "mx-auto" : ""
-          }`}
+          className={`text-center ${isMobileMenuOpen ? "w-full" : "w-auto"} ${isMobileMenuOpen ? "mx-auto" : ""
+            }`}
         ></div>
         <div className="hidden md:block text-lg w-full">
           <div className="flex items-center justify-between">
