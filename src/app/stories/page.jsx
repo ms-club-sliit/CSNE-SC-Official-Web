@@ -62,12 +62,12 @@ const Stories = () => {
                       the field, I embraced my uniqueness and thrived. Upon
                       completing my internship at Pearson, I joined IFS, where I
                       continued to learn, grow, and contribute to the
-                      organization's success. My journey is a testament to the
-                      power of passion, perseverance, and the courage to pursue
-                      one's dreams. If there's one thing I've learned, it's that
-                      success is not just about reaching the destination; it's
-                      about embracing the journey and all the lessons it
-                      brings.&rdquo;
+                      organization&apos;s success. My journey is a testament to
+                      the power of passion, perseverance, and the courage to
+                      pursue one&apos;s dreams. If there&apos;s one thing
+                      I&apos;ve learned, it&apos;s that success is not just
+                      about reaching the destination; it&apos;s about embracing
+                      the journey and all the lessons it brings.&rdquo;
                       <br />
                     </p>
                     <div className="text-right mx-20 text-black  italic">
@@ -126,23 +126,23 @@ const Stories = () => {
                     <div className="md:justify-center md:items-center">
                       <p className="text-base text-justify leading-relaxed text-black  p-4 sm:text-lg sm:ml-[9vh] sm:w-5/6 sm:text-justify   lg:text-xl">
                         &#34;Choosing to specialize in Computer Systems and
-                        Network Engineering (CSNE) wasn't just a career path for
-                        me; it was a calling. Despite the challenges and
-                        complexities of the field, I embraced every opportunity
-                        to learn and excel. Throughout my academic journey at
-                        SLIIT University, I actively participated in research
-                        projects, internships, and extracurricular activities,
-                        honing my skills and expanding my knowledge. Upon
-                        graduation with flying colors, I secured a coveted
+                        Network Engineering (CSNE) wasn&apos;t just a career
+                        path for me; it was a calling. Despite the challenges
+                        and complexities of the field, I embraced every
+                        opportunity to learn and excel. Throughout my academic
+                        journey at SLIIT University, I actively participated in
+                        research projects, internships, and extracurricular
+                        activities, honing my skills and expanding my knowledge.
+                        Upon graduation with flying colors, I secured a coveted
                         position at a leading tech firm, where I immediately
                         made an impact with my expertise and innovative
                         solutions. My journey from student to professional is a
                         testament to the power of dedication, resilience, and
-                        the unwavering pursuit of excellence. It's not just
-                        about achieving success; it's about embracing the
+                        the unwavering pursuit of excellence. It&apos;s not just
+                        about achieving success; it&apos;s about embracing the
                         challenges, seizing opportunities, and continuously
-                        pushing the boundaries of what's possible in the dynamic
-                        world of Computer Systems and Network
+                        pushing the boundaries of what&apos;s possible in the
+                        dynamic world of Computer Systems and Network
                         Engineering.&rdquo;
                       </p>
                       <div className="text-right text-black mx-20 italic">
