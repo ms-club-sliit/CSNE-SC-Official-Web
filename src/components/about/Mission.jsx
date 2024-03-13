@@ -17,6 +17,7 @@ function Mission() {
         </p>
       </div>
       <Image
+        alt="missionImage"
         src={"/images/about/vision.png"}
         className=""
         width={545}

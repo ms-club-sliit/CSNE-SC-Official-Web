@@ -17,6 +17,7 @@ function Stratergy() {
         </p>
       </div>
       <Image
+        alt="strategyImage"
         src={"/images/about/stratergy.png"}
         className=""
         width={545}

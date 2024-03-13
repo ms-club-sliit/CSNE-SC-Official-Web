@@ -48,7 +48,10 @@ const Stories = () => {
               {StoryData?.length > 0 &&
                 StoryData.map((story) => {
                   return (
-                    <div className="flex flex-col md:w-full  lg:w-[125vh]  xl:w-[145vh] 2xl:w-3/4 ">
+                    <div
+                      key={story.id}
+                      className="flex flex-col md:w-full  lg:w-[125vh]  xl:w-[145vh] 2xl:w-3/4 "
+                    >
                       <div className="flex flex-col justify-center items-center sm:flex  space-y-4 sm:space-x-3 sm:mt-8 lg:flex-row ">
                         <Image
                           src={story.image}

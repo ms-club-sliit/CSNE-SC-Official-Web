@@ -13,6 +13,7 @@ function Vision() {
         </p>
       </div>
       <Image
+        alt="visionImage"
         src={"/images/about/mission.png"}
         className=""
         width={545}

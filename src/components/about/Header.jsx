@@ -6,6 +6,7 @@ function Header() {
         Computer Systems and Network Engineering <br /> Student Committee
       </div>
       <Image
+        alt="headerImage"
         className="w-10/12 mx-auto rounded-xl mt-[-80px]"
         src={"/images/about/board.jpeg"}
         width={4159}
