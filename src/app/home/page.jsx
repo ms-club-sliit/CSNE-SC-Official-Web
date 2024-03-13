@@ -1,3 +1,4 @@
+import BlogVideoSection from "@/components/blogVideoSection/BlogVideoSection";
 import React from "react";
 import HeroSection from "@/components/HeroSection";
 import WhoAreWe from "@/components/WhoAreWeSection";
@@ -13,6 +14,7 @@ const Home = () => {
             <div className="text-black flex flex-col w-full">
                 <HeroSection/>
                 <WhoAreWe/>
+                <BlogVideoSection />
                 {pastEvents.length > 0 && <PastEventsSection pastEvents={pastEvents}/>}
                 <SubscribeSection/>
             </div>
