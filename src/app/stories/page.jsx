@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import StoryData from "@/data/stories";
 
 const Stories = () => {
   const sampleImage = "/images/back.png.jpeg";
@@ -45,77 +46,32 @@ const Stories = () => {
             {/* Second section */}
             <div className="flex flex-col md:w-full  lg:w-full xl:w-full 2xl:w-full justify-center items-center">
               {/* item 1 */}
-              <div className="flex flex-col md:w-full  lg:w-[125vh]  xl:w-[145vh] 2xl:w-3/4 ">
-                <div className="flex flex-col justify-center items-center sm:flex  space-y-4 sm:space-x-3 sm:mt-8 lg:flex-row ">
-                  <Image
-                    src={sampleImage2}
-                    width={500}
-                    height={300}
-                    alt="Image 2"
-                    className="w-4/5 border-2 rounded-2xl   border-gray-300 shadow-lg sm:mx-8  sm:w-3/5 lg:w-2/5 "
-                  />
+              {StoryData?.length > 0 &&
+                StoryData.map((story) => {
+                  return (
+                    <div className="flex flex-col md:w-full  lg:w-[125vh]  xl:w-[145vh] 2xl:w-3/4 ">
+                      <div className="flex flex-col justify-center items-center sm:flex  space-y-4 sm:space-x-3 sm:mt-8 lg:flex-row ">
+                        <Image
+                          src={story.image}
+                          width={500}
+                          height={300}
+                          alt="Image 2"
+                          className="w-4/5 border-2 rounded-2xl border-gray-300 shadow-lg sm:mx-8  sm:w-3/5 lg:w-2/5 "
+                        />
 
-                  <div className="text-base sm:text-xl">
-                    <p className="text-base text-justify leading-relaxed text-black  lg:text-lg  p-4 sm:text-xl sm:ml-[9vh] sm:w-5/6">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Sed nec augue non libero varius sagittis. Nulla tincidunt
-                      vestibulum libero, in eleifend risus laoreet ut. Nulla
-                      facilisi. Donec ac nisl ut arcu dignissim dictum. Praesent
-                      lacinia diam ac augue fringilla, vel mattis quam vehicula.
-                      In non est tellus. Integer sit amet bibendum sem. Nulla
-                      euismod justo a ligula hendrerit, in interdum justo
-                      laoreet.
-                    </p>
-                  </div>
-                </div>
-                {/* item 2 */}
-                <div className="flex flex-col-reverse justify-center  items-center sm:space-y-4 mt-10 sm:flex-col-reverse lg:flex-row lg:mt-16">
-                  <div className=" text-base sm:text-xl">
-                    <p className="text-base text-justify leading-relaxed text-black  p-4 sm:text-xl sm:ml-[9vh] sm:w-5/6">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Sed nec augue non libero varius sagittis. Nulla tincidunt
-                      vestibulum libero, in eleifend risus laoreet ut. Nulla
-                      facilisi. Donec ac nisl ut arcu dignissim dictum. Praesent
-                      lacinia diam ac augue fringilla, vel mattis quam vehicula.
-                      In non est tellus. Integer sit amet bibendum sem. Nulla
-                      euismod justo a ligula hendrerit, in interdum justo
-                      laoreet.
-                    </p>
-                  </div>
-
-                  <Image
-                    src={sampleImage2}
-                    width={500}
-                    height={500}
-                    alt="Image 3"
-                    className="w-4/5 border-2 rounded-2xl border-gray-300 shadow-lg  sm:mx-8  sm:w-3/5 lg:w-2/5"
-                  />
-                </div>
-                {/* item 3 */}
-                <div className="flex flex-col justify-center items-center sm:flex  sm:space-y-4 mt-10 lg:flex-row lg:mt-16">
-                  <Image
-                    src={sampleImage2}
-                    width={500}
-                    height={500}
-                    alt="Image 4"
-                    className="w-4/5 border-2 rounded-2xl border-gray-300 shadow-lg  sm:mx-8  sm:w-3/5 lg:w-2/5"
-                  />
-                  <div className=" text-xl ">
-                    <div className="md:justify-center md:items-center">
-                      <p className="text-base text-justify leading-relaxed text-black  p-4 sm:text-xl sm:ml-[9vh] sm:w-5/6 sm:text-justify   lg:text-xl">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed nec augue non libero varius sagittis. Nulla
-                        tincidunt vestibulum libero, in eleifend risus laoreet
-                        ut. Nulla facilisi. Donec ac nisl ut arcu dignissim
-                        dictum. Praesent lacinia diam ac augue fringilla, vel
-                        mattis quam vehicula. In non est tellus. Integer sit
-                        amet bibendum sem. Nulla euismod justo a ligula
-                        hendrerit, in interdum justo laoreet.
-                      </p>
+                        <div className="text-lg flex flex-col px-10 py-5">
+                          <p className="text-lg text-justify leading-relaxed text-black sm:w-5/6">
+                            {story.description}
+                          </p>
+                          <br />
+                          <p className="font-semibold">{story.name}</p>
+                          <p className="font-semibold">{story.designation}</p>
+                          <p className="font-semibold">{story.workplace}</p>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
+                  );
+                })}
             </div>
           </div>
         </div>

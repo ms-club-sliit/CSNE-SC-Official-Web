@@ -36,7 +36,7 @@ const SubscribeSection = () => {
                 <input
                   disabled={true}
                   className="bg-white lg:ml-[22px] px-5 w-full lg:w-[8/12] py-2 text-base text-gray-500 border-none focus:outline-none"
-                  placeholder="Subscribe to our channel here"
+                  placeholder="Subscribe to our YouTube channel"
                 />
                 <button className="hidden lg:block px-6 cursor-pointer font-arial bg-red-700 font-bold rounded-[25px] h-[51px] leading-[normal] lg:mr-[25px] text-base text-center text-white tracking-[1.04px] w-[148px] hover:bg-red-600 transition-all">
                   Subscribe

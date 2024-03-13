@@ -1,14 +1,14 @@
 [
-    {
-        "name": "CSNE Poson Dansala",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue non libero varius sagittis. Nulla tincidunt vestibulum libero, in eleifend risus laoreet ut. Nulla facilisi. Donec ac nisl ut arcu dignissim dictum. Praesent lacinia diam ac augue fringilla, vel mattis quam vehicula. In non est tellus. Integer sit amet bibendum sem. Nulla euismod justo a ligula hendrerit, in interdum justo laoreet.",
-        "image": "poson",
-        "alt": "poson dansal"
-    },
-    {
-        "name": "NetCom Contest",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue non libero varius sagittis. Nulla tincidunt vestibulum libero, in eleifend risus laoreet ut. Nulla facilisi. Donec ac nisl ut arcu dignissim dictum. Praesent lacinia diam ac augue fringilla, vel mattis quam vehicula. In non est tellus. Integer sit amet bibendum sem. Nulla euismod justo a ligula hendrerit, in interdum justo laoreet.",
-        "image": "netcom",
-        "alt": "netcom event"
-    }
+  {
+    "name": "CSNE Poson Dansala",
+    "desc": "The CSNE Student Committee orchestrates an annual dansala on Poson Poya Day, a collaborative effort involving lecturers, CSNE undergraduates, recent CSNE graduates, and CSNE instructors. The event's success is bolstered by the generous sponsorship of diverse individuals. However, the advent of pandemics, exemplified by COVID-19, thwarted its continuity in recent years. Despite these challenges, there is an optimistic outlook for the resumption and sustained progression of this cherished tradition.",
+    "image": "poson",
+    "alt": "poson dansal"
+  },
+  {
+    "name": "NetCom Contest",
+    "desc": "This exclusive networking competition caters to both invited university teams and internal teams within our academic community. Setting itself apart through the integration of authentic networking devices, the competition serves as a dynamic arena for participants to showcase their practical skills in networking. Beyond the intellectual and technical challenges posed by the event, the allure of valuable prizes awaits the victorious teams, further elevating the stakes and fostering a culture of excellence within the realm of real-world networking scenarios. This competitive environment not only enhances participants' technical acumen but also fosters a spirit of innovation and collaboration among the diverse array of teams involved.",
+    "image": "netcom",
+    "alt": "netcom event"
+  }
 ]
