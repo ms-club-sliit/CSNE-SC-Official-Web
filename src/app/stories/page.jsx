@@ -56,7 +56,7 @@ const Stories = () => {
 
                   <div className="text-base sm:text-xl">
                     <p className="text-base text-justify leading-relaxed text-black  lg:text-lg  p-4 sm:text-xl sm:ml-[9vh] sm:w-5/6">
-                      "Choosing the Computer Systems and Network Engineering
+                      &#34;Choosing the Computer Systems and Network Engineering
                       (CSNE) specialization was not just a decision; it was a
                       declaration of my passion. Despite the gender disparity in
                       the field, I embraced my uniqueness and thrived. Upon
@@ -67,7 +67,7 @@ const Stories = () => {
                       one's dreams. If there's one thing I've learned, it's that
                       success is not just about reaching the destination; it's
                       about embracing the journey and all the lessons it
-                      brings."
+                      brings.&rdquo;
                       <br />
                     </p>
                     <div className="text-right mx-20 text-black  italic">
@@ -79,7 +79,7 @@ const Stories = () => {
                 <div className="flex flex-col-reverse justify-center  items-center sm:space-y-4 mt-10 sm:flex-col-reverse lg:flex-row lg:mt-16">
                   <div className=" text-base sm:text-xl">
                     <p className="text-base text-justify leading-relaxed text-black  p-4 sm:text-lg sm:ml-[9vh] sm:w-5/6">
-                      "Embarking on the path of Computer Systems and Network
+                      &#34;Embarking on the path of Computer Systems and Network
                       Engineering (CSNE) was more than just a choice for me; it
                       was a passion ignited by curiosity and a drive for
                       innovation. Despite the demanding nature of the field and
@@ -98,7 +98,7 @@ const Stories = () => {
                       technology. My journey underscores the significance of
                       resilience, determination, and the relentless pursuit of
                       excellence in achieving remarkable success in Computer
-                      Systems and Network Engineering."
+                      Systems and Network Engineering.&rdquo;
                     </p>
                     <div className="text-right mx-20 text-black italic">
                       - Lakisuru Semasinghe -
@@ -125,12 +125,12 @@ const Stories = () => {
                   <div className=" text-xl ">
                     <div className="md:justify-center md:items-center">
                       <p className="text-base text-justify leading-relaxed text-black  p-4 sm:text-lg sm:ml-[9vh] sm:w-5/6 sm:text-justify   lg:text-xl">
-                        "Choosing to specialize in Computer Systems and Network
-                        Engineering (CSNE) wasn't just a career path for me; it
-                        was a calling. Despite the challenges and complexities
-                        of the field, I embraced every opportunity to learn and
-                        excel. Throughout my academic journey at SLIIT
-                        University, I actively participated in research
+                        &#34;Choosing to specialize in Computer Systems and
+                        Network Engineering (CSNE) wasn't just a career path for
+                        me; it was a calling. Despite the challenges and
+                        complexities of the field, I embraced every opportunity
+                        to learn and excel. Throughout my academic journey at
+                        SLIIT University, I actively participated in research
                         projects, internships, and extracurricular activities,
                         honing my skills and expanding my knowledge. Upon
                         graduation with flying colors, I secured a coveted
@@ -142,7 +142,8 @@ const Stories = () => {
                         about achieving success; it's about embracing the
                         challenges, seizing opportunities, and continuously
                         pushing the boundaries of what's possible in the dynamic
-                        world of Computer Systems and Network Engineering."
+                        world of Computer Systems and Network
+                        Engineering.&rdquo;
                       </p>
                       <div className="text-right text-black mx-20 italic">
                         - Thiwanka Cholitha -
