@@ -14,7 +14,7 @@ const WhoAreWe = () => {
             height={500}
             alt="csnescLogo"
             src="/static/csnesc-logo.png"
-            className="w-6/12 lg:w-8/12 h-auto"
+            className="w-6/12 lg:w-8/12 h-auto lg:ml-10"
           />
         </div>
         <div className="p-5 w-full text-center lg:text-left items-center lg:text-[#565656] mt-[50px] md:mt-[20px] lg:text-xl">

@@ -14,11 +14,13 @@ const NavigationLink = ({ href, label }) => {
 };
 
 const Navigation = () => {
+    //get current year
+    const currentYear = new Date().getFullYear();
     return (
         <ul className="flex space-x-6 text-center">
             <NavigationLink href="/" label="Home" />
             <NavigationLink href="/about" label="About" />
-            <NavigationLink href="/events" label="Events" />
+            <NavigationLink href={`/events/${currentYear}`} label="Events" />
             <NavigationLink href="/board" label="Board" />
             <NavigationLink href="/stories" label="Stories" />
             <NavigationLink href="/contactUs" label="Contact Us" />
