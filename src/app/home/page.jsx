@@ -14,7 +14,7 @@ const Home = () => {
             <div className="text-black flex flex-col w-full">
                 <HeroSection/>
                 <WhoAreWe/>
-                <BlogVideoSection />
+                {/* <BlogVideoSection /> */}
                 {pastEvents.length > 0 && <PastEventsSection pastEvents={pastEvents}/>}
                 <SubscribeSection/>
             </div>
