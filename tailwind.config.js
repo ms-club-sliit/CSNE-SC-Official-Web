@@ -29,7 +29,8 @@ module.exports = {
       },
       fontFamily: {
         arial: "Arial",
-        avertademopecutteddemo: "Averta Demo PE Cutted Demo",
+        // avertademopecutteddemo: "Averta Demo PE Cutted Demo",
+        poppins: ["Poppins", "sans-serif"],
       },
       height: {
         "57vh": "57vh",
@@ -50,6 +51,9 @@ module.exports = {
         "600px": "600px",
       },
     },
+  },
+  variants: {
+    fill: ["hover", "focus"], // this line does the trick
   },
   plugins: [],
 };

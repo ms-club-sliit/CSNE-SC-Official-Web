@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
+root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
@@ -18,15 +19,42 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  background: white;
+  /* background: linear-gradient(
     to bottom,
     transparent,
-    rgb(var(--background-end-rgb))
-  );
+    rgb(var(--background-end-rgb)) */
+  /* ); */
 }
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+#instagram:hover path {
+  fill: url(#hoverGradient);
+}
+
+@keyframes gradientAnimation {
+  0% {
+    stop-color: #feda75;
+  }
+  25% {
+    stop-color: #fa7e1e;
+  }
+  50% {
+    stop-color: #d62976;
+  }
+  75% {
+    stop-color: #962fbf;
+  }
+  100% {
+    stop-color: #4f5bd5;
+  }
+}
+
+#hoverGradient stop {
+  animation: gradientAnimation 5s linear infinite;
 }
 
 @keyframes north {

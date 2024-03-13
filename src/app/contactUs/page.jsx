@@ -20,8 +20,8 @@ const ContactUs = () => {
               <Image
                 src="/images/facebook.png"
                 alt="facebook"
-                width={40}
-                height={40}
+                width={10000}
+                height={10000}
                 className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4 "
               />
               <p className="text-black text-lg lg:text-xl mt-1">
@@ -50,18 +50,6 @@ const ContactUs = () => {
               />
               <p className="text-black text-lg lg:text-xl mt-1">
                 linkedin.com/csnesliit
-              </p>
-            </div>
-            <div className="flex flex-row mt-4 sm:mt-6">
-              <Image
-                src="/images/github.png"
-                alt="github"
-                width={40}
-                height={40}
-                className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4"
-              />
-              <p className="text-black text-lg lg:text-xl mt-1">
-                github.com/csnesliit
               </p>
             </div>
             <div className="flex flex-row mt-4 sm:mt-6">

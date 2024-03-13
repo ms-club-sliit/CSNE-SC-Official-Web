@@ -30,7 +30,7 @@ const EventHero = () => {
                                 <Image className="rounded-lg shadow-lg md:w-[280px] lg:w-[380px] xl:w-[25vw]" alt={"upcoming event"} src={`/images/upcoming.jpg`} layout="intrinsic" width={400} height={220} />
                             </div>
 
-                            <div className="relative xl:right-41">
+                            <div className="relative xl:right-[80px]">
                                 <Image className="rounded-lg shadow-lg md:w-[400px] lg:w-[500px] xl:w-[36vw]" alt={"group photo"} src={`/images/group.jpg`} layout="intrinsic" width={500} height={300} />
                             </div>
                         </div>

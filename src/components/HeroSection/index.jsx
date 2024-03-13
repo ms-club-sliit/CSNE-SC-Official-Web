@@ -23,16 +23,16 @@ const HeroSection = () => {
         <div className="bg-hero-section-shape rounded-full lg:ml-20 rounded-bl-2xl rounded-br-2xl h-10 w-16" />
         <div className="relative">
           <Image
-            width={1000}
-            height={300}
+            width={30000}
+            height={1000}
             src="/static/CSNE-hero-section.png"
             alt="CSNE Hero Section"
             className="mx-0 w-full h-auto rounded-tl-0 rounded-tr-0 rounded-br-0 rounded-bl-hero-section-image"
           />
           <div className="absolute right-0 mb-4 mr-8">
             <Image
-              width={1000}
-              height={1000}
+              width={30000}
+              height={30000}
               className="w-20"
               src="/static/hero-scetion-rectangle.png"
               alt="CSNE Hero Section rectangle"

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "/static/stories/thamali.JPG",
+    "name": "Thamali Munasinghe",
+    "description": "Choosing the Computer Systems and Network Engineering (CSNE) specialization was not just a decision; it was a declaration of my passion. Despite the gender disparity in the field, I embraced my uniqueness and thrived. Upon completing my internship at Pearson, I joined IFS, where I continued to learn, grow, and contribute to the organization's success. My journey is a testament to the power of passion, perseverance, and the courage to pursue one's dreams. If there's one thing I've learned, it's that success is not just about reaching the destination; it's about embracing the journey and all the lessons it brings.",
+    "designation": "Site Reliability Engineer - Cloud Operations",
+    "workplace": "IFS"
+  },
+  {
+    "id": 2,
+    "image": "/static/stories/Lakisuru.jpg",
+    "name": "Lakisuru Semasinghe",
+    "description": "Embarking on the path of Computer Systems and Network Engineering (CSNE) was more than just a choice for me; it was a passion ignited by curiosity and a drive for innovation. Despite the demanding nature of the field and the hurdles along the way, I remained steadfast in my commitment to excel. Through rigorous study sessions, hands-on projects, and countless late nights of coding, I transformed challenges into stepping stones for growth. Graduating with top honors from SLIIT University was just the beginning of my journey. Armed with a solid foundation and a hunger for success, I landed a dream job at a renowned tech company, where I swiftly rose through the ranks due to my exceptional performance and dedication. Today, as a leader in the field, I continue to push boundaries, mentor aspiring engineers, and contribute to groundbreaking projects that shape the future of technology. My journey underscores the significance of resilience, determination, and the relentless pursuit of excellence in achieving remarkable success in Computer Systems and Network Engineering.",
+    "designation": "DevOps Engineer",
+    "workplace": "iTelaSoft"
+  },
+  {
+    "id": 3,
+    "image": "/static/stories/cholitha.jpg",
+    "name": "Thiwanka Cholitha",
+    "description": "Choosing to specialize in Computer Systems and Network Engineering (CSNE) wasn't just a career path for me; it was a calling. Despite the challenges and complexities of the field, I embraced every opportunity to learn and excel. Throughout my academic journey at SLIIT University, I actively participated in research projects, internships, and extracurricular activities, honing my skills and expanding my knowledge. Upon graduation with flying colors, I secured a coveted position at a leading tech firm, where I immediately made an impact with my expertise and innovative solutions. My journey from student to professional is a testament to the power of dedication, resilience, and the unwavering pursuit of excellence. It's not just about achieving success; it's about embracing the challenges, seizing opportunities, and continuously pushing the boundaries of what's possible in the dynamic world of Computer Systems and Network Engineering.",
+    "designation": "TechOps Engineer",
+    "workplace": "CodeGen International"
+  }
+]
