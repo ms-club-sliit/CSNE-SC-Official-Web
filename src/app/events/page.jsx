@@ -1,14 +1,13 @@
 import EventHero from "@/components/Events/EventHero";
 import Events from "@/components/Events/Events";
 
-const Page = ({ params }) => {
-
+const Page = () => {
   return (
     <>
       <div className=" bg-[#FEFEFE] text-zinc-900 ">
         <div>
           <EventHero />
-          <Events year={params.year} />
+          <Events year={2024} />
         </div>
       </div>
     </>
