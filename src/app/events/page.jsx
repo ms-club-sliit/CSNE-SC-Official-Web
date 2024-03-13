@@ -7,7 +7,7 @@ const Page = () => {
       <div className=" bg-[#FEFEFE] text-zinc-900 ">
         <div>
           <EventHero />
-          <Events year={2024} />
+          <Events year={2023} />
         </div>
       </div>
     </>
