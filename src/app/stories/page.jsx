@@ -4,7 +4,6 @@ import StoryData from "@/data/stories";
 
 const Stories = () => {
   const sampleImage = "/images/back.png.jpeg";
-  const sampleImage2 = "/images/success-stories-1.png";
 
   return (
     <div className=" flex w-full items-center justify-center">
