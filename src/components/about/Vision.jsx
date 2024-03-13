@@ -7,12 +7,13 @@ function Vision() {
           Our Vision
         </h2>
         <p className="text-center mt-5">
-          To be one of the most active student communities by providing value
-          and nurturing curious minds.
+          To cultivate a thriving community of Computer Systems and Network
+          Engineering students at SLIIT University, fostering innovation,
+          collaboration, and excellence in the field.
         </p>
       </div>
       <Image
-        src={"/images/about/vision.png"}
+        src={"/images/about/mission.png"}
         className=""
         width={545}
         height={410}
