@@ -19,9 +19,9 @@ const Board = () => {
   };
 
   return (
-    <div className="container mx-auto flex flex-col items-center pt-10">
-      <div className="text-4xl lg:text-6xl font-bold text-center">Our Team</div>
-      <hr className="w-full my-10" />
+    <div className="container mx-auto flex flex-col items-center">
+      <div className="text-4xl lg:text-6xl font-semibold text-center">Our Team</div>
+      <hr className="w-full my-8" />
 
       <div className="flex md:justify-end justify-center w-full relative z-50 ">
         <div className="dropdown inline-block relative">
@@ -89,14 +89,14 @@ const Board = () => {
 
       {/* Check if Top3Position has elements before using map */}
       {Top3Position.length > 0 && (
-        <div className="md:flex flex-wrap justify-center items-baseline w-full hidden md:w-[70vw] top_board">
+        <div className="md:flex flex-wrap justify-center items-baseline w-full hidden md:w-[70vw] ">
           {Top3Position.map((user) => {
             if (user.position === "PRESIDENT") {
               return (
                 <Teamcard
                   key={user.id}
-                  height={220}
-                  width={220}
+                  height={230}
+                  width={230}
                   name={user.name}
                   image={user.image}
                   position={user.position}
@@ -107,8 +107,8 @@ const Board = () => {
               return (
                 <Teamcard
                   key={user.id}
-                  height={120}
-                  width={120}
+                  height={200}
+                  width={200}
                   name={user.name}
                   image={user.image}
                   position={user.position}
@@ -122,13 +122,13 @@ const Board = () => {
 
       {/* Check if Top3Position has elements before using map */}
       {Top3Position.length > 0 && (
-        <div className="flex flex-wrap justify-center items-baseline w-full md:hidden md:w-[70vw] top_board">
+        <div className="flex flex-wrap justify-center items-baseline w-full md:hidden md:w-[70vw]">
           {Top3Position.map((user) => {
             return (
               <Teamcard
                 key={user.id}
-                height={170}
-                width={170}
+                height={200}
+                width={200}
                 name={user.name}
                 image={user.image}
                 position={user.position}
@@ -145,8 +145,8 @@ const Board = () => {
           TopPosition.map((user) => (
             <Teamcard
               key={user.id}
-              height={130}
-              width={130}
+              height={200}
+              width={200}
               name={user.name}
               image={user.image}
               position={user.position}
@@ -173,8 +173,8 @@ const Board = () => {
             member.map((user) => (
               <Teamcard
                 key={user.id}
-                height={130}
-                width={130}
+                height={200}
+                width={200}
                 name={user.name}
                 image={user.image}
                 position={user.position}
