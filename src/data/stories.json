@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "image": "/static/stories/thamali.JPG",
+    "image": "/static/stories/Thamali.jpeg",
     "name": "Thamali Munasinghe",
-    "description": "Choosing the Computer Systems and Network Engineering (CSNE) specialization was not just a decision; it was a declaration of my passion. Despite the gender disparity in the field, I embraced my uniqueness and thrived. Upon completing my internship at Pearson, I joined IFS, where I continued to learn, grow, and contribute to the organization's success. My journey is a testament to the power of passion, perseverance, and the courage to pursue one's dreams. If there's one thing I've learned, it's that success is not just about reaching the destination; it's about embracing the journey and all the lessons it brings.",
-    "designation": "Site Reliability Engineer - Cloud Operations",
+    "description": "Choosing the Computer Systems and Network Engineering (CSNE) specialization was not just a decision; it was a declaration of my passion. Successfully balancing academic excellence with active participation in extracurricular activities while proudly representing my university at the Sri Lanka section was a formidable challenge that I embraced wholeheartedly. This opportunity not only allowed me to excel academically but also enabled me to showcase my leadership skills and dedication to the university's values on a broader platform. Despite the gender disparity in the field, I embraced my uniqueness and thrived. Looking back, I realize that selecting CSNE was the most valuable decision I've ever made. It has not only shaped my career but has also empowered me to reach heights I never thought possible. Today, as I continue to thrive in my role at a leading IT company, I am grateful for every challenge, every opportunity, and every triumph that has molded me into the professional I am today. My journey is a testament to the power of passion, perseverance, and the courage to pursue one's dreams. If there's one thing I've learned, it's that success is not just about reaching the destination; it's about embracing the journey and all the lessons it brings.",
+    "designation": "Site Reliability Engineer",
     "workplace": "IFS"
   },
   {
