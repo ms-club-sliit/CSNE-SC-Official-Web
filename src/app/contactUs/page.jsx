@@ -1,7 +1,10 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
 import Image from "next/image";
 
 const ContactUs = () => {
+  const [existing, setExisting] = useState(false)
+
   return (
     <div className="bg-whitegray">
       <div
@@ -25,7 +28,9 @@ const ContactUs = () => {
                 className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4 "
               />
               <p className="text-black text-lg lg:text-xl mt-1">
-                facebook.com/csnesliit{" "}
+                <a href="https://www.facebook.com/csnesc?mibextid=LQQJ4d">
+                  facebook.com/csnesliit{" "}
+                </a>
               </p>
             </div>
             <div className="flex flex-row mt-4 sm:mt-6">
@@ -37,7 +42,9 @@ const ContactUs = () => {
                 className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4"
               />
               <p className="text-black text-lg lg:text-xl mt-1">
-                instagram.com/csnesliit{" "}
+                <a href="https://www.instagram.com/csne.sc?igsh=NmE4c29hMGFvMXpj">
+                  instagram.com/csnesliit{" "}
+                </a>
               </p>
             </div>
             <div className="flex flex-row mt-4 sm:mt-6">
@@ -49,7 +56,9 @@ const ContactUs = () => {
                 className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4"
               />
               <p className="text-black text-lg lg:text-xl mt-1">
-                linkedin.com/csnesliit
+                <a href="https://www.linkedin.com/company/sliit-csne-student-community/">
+                  linkedin.com/csnesliit
+                </a>
               </p>
             </div>
             <div className="flex flex-row mt-4 sm:mt-6">
@@ -61,7 +70,23 @@ const ContactUs = () => {
                 className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4"
               />
               <p className="text-black text-lg lg:text-xl mt-1">
-                youtube.com/csnesliit
+                <a href="https://youtube.com/@sliitcsnestudentcommunity?si=0vavn_jtFAUXELH3">
+                  youtube.com/csnesliit
+                </a>
+              </p>
+            </div>
+            <div className="flex flex-row mt-4 sm:mt-6">
+              <Image
+                src="/images/sliit.png"
+                alt="sliit"
+                width={40}
+                height={40}
+                className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4"
+              />
+              <p className="text-black text-lg lg:text-xl mt-1">
+                <a href="https://www.sliit.lk/computing/programmes/computer-systems-network-engineering-degree/">
+                  sliit.com/csnesliit
+                </a>
               </p>
             </div>
           </div>
@@ -71,6 +96,35 @@ const ContactUs = () => {
             </p>
             <p className="text-gray text-lg lg:text-xl mt-4">Name </p>
             <input className=" border-2 px-5 border-lightgray rounded-3xl w-80vw h-12 mt-3 mr-0 lg:mr-5"></input>
+            <div className="flex flex-row mt-4 space-x-4">
+              <label className="text-gray text-lg lg:text-xl flex items-center">
+                New Comer
+                <input type="radio" name="studentType" value="newcomer" onChange={() => setExisting(false)} className="ml-2 w-5 h-5" />
+              </label>
+              <label className="text-gray text-lg lg:text-xl flex items-center">
+                Existing Student
+                <input type="radio" name="studentType" value="existing" onChange={() => setExisting(true)} className="ml-2 w-5 h-5" />
+              </label>
+            </div>
+            {
+              existing && (
+                <div>
+                <p className="text-gray text-lg lg:text-xl mt-4">Year and Semester </p>
+                <select className="border-2 px-5 border-lightgray rounded-3xl w-80vw h-12 mt-3 mr-0 lg:mr-5">
+                  <option value="y1s1">Year 1, Semester 1</option>
+                  <option value="y1s2">Year 1, Semester 2</option>
+                  <option value="y2s1">Year 2, Semester 1</option>
+                  <option value="y2s2">Year 2, Semester 2</option>
+                  <option value="y3s1">Year 3, Semester 1</option>
+                  <option value="y3s2">Year 3, Semester 2</option>
+                  <option value="y4s1">Year 4, Semester 1</option>
+                  <option value="y4s2">Year 4, Semester 2</option>
+                </select>
+                </div>
+              )
+            }
+            <p className="text-gray text-lg lg:text-xl mt-4">Phone Number </p>
+            <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" className=" border-2 px-5 border-lightgray rounded-3xl w-80vw h-12 mt-3 mr-0 lg:mr-5"></input>
             <p className="text-gray text-lg lg:text-xl mt-4">Email Address </p>
             <input className=" border-2 px-5 border-lightgray rounded-3xl w-80vw h-12 mt-3 mr-0 lg:mr-5"></input>
             <p className="text-gray text-lg lg:text-xl mt-4">Message </p>
