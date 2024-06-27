@@ -5,30 +5,30 @@ import Image from "next/image";
 const pioneersData = [
   {
     id: 1,
-    src: "/images/about/1.png",
+    src: "/images/about/1.jpeg",
     alt: "image of the pioneer 1",
-    name: "Chenuka Lalanga De Silva",
+    name: "Chenuka Lalanga",
     position: "Past President"
   },
   {
     id: 2,
-    src: "/images/about/2.png",
+    src: "/images/about/2.jpeg",
     alt: "image of the pioneer 2",
-    name: "Ashara Shashintha Konara ",
+    name: "Ashara Konara",
     position: "Past Vice President"
   },
   {
     id: 3,
-    src: "/images/about/3.png",
+    src: "/images/about/3.jpeg",
     alt: "image of the pioneer 3",
     name: "Thamali Munasinghe",
     position: "Past Secretary"
   },
   {
     id: 4,
-    src: "/images/about/4.png",
+    src: "/images/about/4.jpeg",
     alt: "image of the pioneer 4",
-    name: "Najini Ishalika Pattiyakumbura",
+    name: "Najini Pattiyakumbura",
     position: "Past Treasurer"
   }
 ];
