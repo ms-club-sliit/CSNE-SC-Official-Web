@@ -42,7 +42,7 @@ export default function Footer() {
                 viewBox="0 0 48 48"
               >
                 <path
-                  fill="#039be5"
+                   fill="#3f51b5"
                   d="M24 5A19 19 0 1 0 24 43A19 19 0 1 0 24 5Z"
                 ></path>
                 <path
@@ -114,7 +114,7 @@ export default function Footer() {
                 viewBox="0 0 48 48"
               >
                 <path
-                  fill="#0288D1"
+                  fill="#0077B5"
                   d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"
                 ></path>
                 <path
