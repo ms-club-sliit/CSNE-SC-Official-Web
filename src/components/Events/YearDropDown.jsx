@@ -14,7 +14,7 @@ const YearDropDown = () => {
     setIsOpen(false);
   };
 
-  const years = ['2024', '2023', '2022', '2021'];
+  const years = ['2024', '2023', '2022'];
 
   return (
     <div className="relative inline-block text-left z-50 mt-2 mb-2">

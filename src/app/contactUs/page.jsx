@@ -110,7 +110,7 @@ const ContactUs = () => {
               existing && (
                 <div>
                 <p className="text-gray text-lg lg:text-xl mt-4">Year and Semester </p>
-                <select className="border-2 px-5 border-lightgray rounded-3xl w-80vw h-12 mt-3 mr-0 lg:mr-5">
+                <select className="border-2 px-5 border-lightgray rounded-3xl w-full h-12 mt-3 mr-0 lg:mr-5 lg:w-[720px]">
                   <option value="y1s1">Year 1, Semester 1</option>
                   <option value="y1s2">Year 1, Semester 2</option>
                   <option value="y2s1">Year 2, Semester 1</option>
