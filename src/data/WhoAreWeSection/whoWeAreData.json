@@ -1,0 +1,66 @@
+[
+    {
+      "src": "/static/committee/2023/Pasan_Prasident.jpg",
+      "alt": "memberPicture1",
+      "className": "object-cover w-full h-full",
+      "width": 500,
+      "height": 500,
+      "styles": "w-[100px] h-[100px] rounded-full absolute z-50 overflow-hidden"
+    },
+    {
+      "src": "/static/committee/2023/Udayanga_Vice President.jpg",
+      "alt": "memberPicture2",
+      "className": "object-cover w-full h-full",
+      "width": 500,
+      "height": 500,
+      "styles": "w-[90px] h-[90px] rounded-full absolute animate-north-west overflow-hidden z-40"
+    },
+    {
+      "src": "/static/committee/2023/Sandali_Secretary.jpg",
+      "alt": "memberPicture3",
+      "className": "object-cover w-full h-full",
+      "width": 500,
+      "height": 500,
+      "styles": "w-[90px] h-[90px] rounded-full absolute animate-south overflow-hidden z-40"
+    },
+    {
+      "src": "/static/committee/2023/Raveesha_AssistantSecretary.jpg",
+      "alt": "memberPicture4",
+      "className": "object-cover w-full h-full",
+      "width": 500,
+      "height": 500,
+      "styles": "w-[60px] h-[60px] rounded-full absolute animate-north overflow-hidden"
+    },
+    {
+      "src": "/static/committee/2023/Hirudika_Treasurer.jpg",
+      "alt": "memberPicture5",
+      "className": "object-cover w-full h-full",
+      "width": 500,
+      "height": 500,
+      "styles": "w-[60px] h-[60px] rounded-full absolute animate-south-west overflow-hidden"
+    },
+    {
+      "src": "/static/committee/2023/Tharush _ Assistant Treasurer .jpg",
+      "alt": "memberPicture6",
+      "className": "object-cover w-full h-full",
+      "width": 500,
+      "height": 500,
+      "styles": "w-[60px] h-[60px] rounded-full absolute animate-north-east overflow-hidden"
+    },
+    {
+      "src": "/static/committee/2023/Vikash_Media Coordinator.jpeg",
+      "alt": "memberPicture7",
+      "className": "object-cover w-full h-full",
+      "width": 500,
+      "height": 500,
+      "styles": "w-[50px] h-[50px] rounded-full absolute animate-east overflow-hidden"
+    },
+    {
+      "src": "/static/committee/2023/Thinuka_Editor.JPG",
+      "alt": "memberPicture8",
+      "className": "object-cover w-full h-full",
+      "width": 500,
+      "height": 500,
+      "styles": "w-[50px] h-[50px] rounded-full absolute animate-south-east overflow-hidden"
+    }
+]
