@@ -1,16 +1,8 @@
-"use client";
-import React, { useEffect} from "react";
+import React from "react";
 import Image from "next/image";
-import ImageComponent from "./ImageComponent";
-import whoWeAreData from "@/data/WhoAreWeSection/whoWeAreData";
+import Committee from "./Committee";
 
 const WhoAreWe = () => {
-  
-  const memberImages = whoWeAreData;
-useEffect(() => {
-  console.log(memberImages)
-})
-
   return (
     <div className="py-10">
       <div className="text-4xl font-bold text-center lg:text-5xl">
@@ -38,17 +30,7 @@ useEffect(() => {
           </p>
         </div>
         <div className="w-full relative flex justify-center items-center min-h-[400px]">
-        {memberImages.map((image, index) => (
-            <div key={index} className={image.styles}>
-              <ImageComponent
-                width={image.width}
-                height={image.height}
-                alt={image.alt}
-                src={image.src}
-                className={image.className}
-              />
-            </div>
-          ))}
+          <Committee/>
         </div>
       </div>
     </div>

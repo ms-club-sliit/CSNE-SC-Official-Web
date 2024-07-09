@@ -1,0 +1,122 @@
+[
+  {
+    "div": {
+      "width": "w-[100px]",
+      "height": "h-[100px]",
+      "zIndex": "z-50",
+      "animation": ""
+    },
+    "image": {
+      "width": "500",
+      "height": "500",
+      "alt": "memberPicture1",
+      "className": "object-cover w-full h-full",
+      "src": "/static/committee/2023/Pasan_Prasident.jpg"
+    }
+  },
+  {
+    "div": {
+      "width": "w-[90px]",
+      "height": "h-[90px]",
+      "zIndex": "z-40",
+      "animation": "animate-north-west"
+    },
+    "image": {
+      "width": "500",
+      "height": "500",
+      "alt": "memberPicture2",
+      "className": "object-cover w-full h-full",
+      "src": "/static/committee/2023/Udayanga_Vice President.jpg"
+    }
+  },
+  {
+    "div": {
+      "width": "w-[90px]",
+      "height": "h-[90px]",
+      "zIndex": "z-40",
+      "animation": "animate-south"
+    },
+    "image": {
+      "width": "500",
+      "height": "500",
+      "alt": "memberPicture3",
+      "className": "object-cover w-full h-full",
+      "src": "/static/committee/2023/Sandali_Secretary.jpg"
+    }
+  },
+  {
+    "div": {
+      "width": "w-[60px]",
+      "height": "h-[60px]",
+      "zIndex": "z-0",
+      "animation": "animate-north"
+    },
+    "image": {
+      "width": "500",
+      "height": "500",
+      "alt": "memberPicture4",
+      "className": "object-cover w-full h-full",
+      "src": "/static/committee/2023/Raveesha_AssistantSecretary.jpg"
+    }
+  },
+  {
+    "div": {
+      "width": "w-[60px]",
+      "height": "h-[60px]",
+      "zIndex": "z-0",
+      "animation": "animate-south-west"
+    },
+    "image": {
+      "width": "500",
+      "height": "500",
+      "alt": "memberPicture5",
+      "className": "object-cover w-full h-full",
+      "src": "/static/committee/2023/Hirudika_Treasurer.jpg"
+    }
+  },
+  {
+    "div": {
+      "width": "w-[60px]",
+      "height": "h-[60px]",
+      "zIndex": "z-0",
+      "animation": "animate-north-east"
+    },
+    "image": {
+      "width": "500",
+      "height": "500",
+      "alt": "memberPicture6",
+      "className": "object-cover w-full h-full",
+      "src": "/static/committee/2023/Tharush _ Assistant Treasurer .jpg"
+    }
+  },
+  {
+    "div": {
+      "width": "w-[50px]",
+      "height": "h-[50px]",
+      "zIndex": "z-10",
+      "animation": "animate-east"
+    },
+    "image": {
+      "width": "500",
+      "height": "500",
+      "alt": "memberPicture7",
+      "className": "object-cover w-full h-full",
+      "src": "/static/committee/2023/Vikash_Media Coordinator.jpeg"
+    }
+  },
+  {
+    "div": {
+      "width": "w-[50px]",
+      "height": "h-[50px]",
+      "zIndex": "z-10",
+      "animation": "animate-south-east"
+    },
+    "image": {
+      "width": "500",
+      "height": "500",
+      "alt": "memberPicture8",
+      "className": "object-cover w-full h-full",
+      "src": "/static/committee/2023/Thinuka_Editor.JPG"
+    }
+  }
+]
