@@ -1,11 +1,6 @@
 [
   {
-    "div": {
-      "width": "w-[100px]",
-      "height": "h-[100px]",
-      "zIndex": "z-50",
-      "animation": ""
-    },
+    "div": "w-[100px] h-[100px] rounded-full absolute z-50 overflow-hidden",
     "image": {
       "width": "500",
       "height": "500",
@@ -15,12 +10,7 @@
     }
   },
   {
-    "div": {
-      "width": "w-[90px]",
-      "height": "h-[90px]",
-      "zIndex": "z-40",
-      "animation": "animate-north-west"
-    },
+    "div": "w-[90px] h-[90px] rounded-full absolute animate-north-west overflow-hidden z-40",
     "image": {
       "width": "500",
       "height": "500",
@@ -30,12 +20,7 @@
     }
   },
   {
-    "div": {
-      "width": "w-[90px]",
-      "height": "h-[90px]",
-      "zIndex": "z-40",
-      "animation": "animate-south"
-    },
+    "div": "w-[90px] h-[90px] rounded-full absolute animate-south overflow-hidden z-40",
     "image": {
       "width": "500",
       "height": "500",
@@ -45,12 +30,7 @@
     }
   },
   {
-    "div": {
-      "width": "w-[60px]",
-      "height": "h-[60px]",
-      "zIndex": "z-0",
-      "animation": "animate-north"
-    },
+    "div": "w-[60px] h-[60px] rounded-full absolute animate-north overflow-hidden",
     "image": {
       "width": "500",
       "height": "500",
@@ -60,12 +40,7 @@
     }
   },
   {
-    "div": {
-      "width": "w-[60px]",
-      "height": "h-[60px]",
-      "zIndex": "z-0",
-      "animation": "animate-south-west"
-    },
+    "div": "w-[60px] h-[60px] rounded-full absolute animate-south-west overflow-hidden",
     "image": {
       "width": "500",
       "height": "500",
@@ -75,12 +50,7 @@
     }
   },
   {
-    "div": {
-      "width": "w-[60px]",
-      "height": "h-[60px]",
-      "zIndex": "z-0",
-      "animation": "animate-north-east"
-    },
+    "div": "w-[60px] h-[60px] rounded-full absolute animate-north-east overflow-hidden",
     "image": {
       "width": "500",
       "height": "500",
@@ -90,12 +60,7 @@
     }
   },
   {
-    "div": {
-      "width": "w-[50px]",
-      "height": "h-[50px]",
-      "zIndex": "z-10",
-      "animation": "animate-east"
-    },
+    "div": "w-[50px] h-[50px] rounded-full absolute animate-east overflow-hidden",
     "image": {
       "width": "500",
       "height": "500",
@@ -105,12 +70,7 @@
     }
   },
   {
-    "div": {
-      "width": "w-[50px]",
-      "height": "h-[50px]",
-      "zIndex": "z-10",
-      "animation": "animate-south-east"
-    },
+    "div": "w-[50px] h-[50px] rounded-full absolute animate-south-east overflow-hidden",
     "image": {
       "width": "500",
       "height": "500",

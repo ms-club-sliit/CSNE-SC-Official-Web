@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Committee from "./Committee";
+import Data from "@/data/WhoAreWeSection/whoAreWeData.json";
 
 const WhoAreWe = () => {
   return (
@@ -30,7 +30,20 @@ const WhoAreWe = () => {
           </p>
         </div>
         <div className="w-full relative flex justify-center items-center min-h-[400px]">
-          <Committee/>
+          {Data.map((item, index) => (
+            <div
+              key={index}
+              className={item.div}
+            >
+              <Image
+                src={item.image.src}
+                width={item.image.width}
+                height={item.image.height}
+                alt={item.image.alt}
+                className={item.image.className}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </div>
