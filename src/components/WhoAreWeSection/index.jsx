@@ -3,6 +3,10 @@ import Image from "next/image";
 import Data from "@/data/WhoAreWeSection/whoAreWeData.json";
 
 const WhoAreWe = () => {
+
+  const imageData = Data;
+  // console.log(imageData);
+
   return (
     <div className="py-10">
       <div className="text-4xl font-bold text-center lg:text-5xl">
@@ -30,7 +34,7 @@ const WhoAreWe = () => {
           </p>
         </div>
         <div className="w-full relative flex justify-center items-center min-h-[400px]">
-          {Data.map((item, index) => (
+          {imageData.map((item, index) => (
             <div
               key={index}
               className={item.div}
