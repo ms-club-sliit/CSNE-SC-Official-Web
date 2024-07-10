@@ -40,9 +40,7 @@ body {
   scrollbar-width: none;  
 }
 
-.hide-scrollbar::-webkit-scrollbar {
-  display: none;  /* Use for Safari and Chrome */
-}
+
 
 @keyframes gradientAnimation {
   0% {
