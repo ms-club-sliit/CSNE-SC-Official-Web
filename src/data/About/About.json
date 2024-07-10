@@ -1,0 +1,32 @@
+{
+    "Mission": {
+        "title": "Our Mission",
+        "description": "Our mission is to empower Computer Systems and Network Engineering students at SLIIT University by organizing educational events led by industry experts, facilitating study support sessions, promoting collaboration and networking opportunities, encouraging innovation and research, and providing career guidance and professional development, all aimed at fostering a thriving community where students can excel academically and prepare for successful careers in the field.",
+        "image": {
+            "alt": "missionImage",
+            "src": "/images/about/vision.png",
+            "width": 545,
+            "height": 410
+        }
+    },
+    "Vision": {
+        "title": "Our Vision",
+        "description": "To cultivate a thriving community of Computer Systems and Network Engineering students at SLIIT University, fostering innovation, collaboration, and excellence in the field.",
+        "image": {
+            "alt": "visionImage",
+            "src": "/images/about/mission.png",
+            "width": 545,
+            "height": 410
+        }
+    },
+    "Strategy": {
+        "title": "Our Strategy",
+        "description": "Our strategy centers on setting clear, SMART goals aligned with our vision and mission, understanding student needs, collaborating with industry partners, leveraging technology for outreach, empowering student leaders, prioritizing continuous improvement, promoting diversity and inclusion, and monitoring progress to ensure effective empowerment, collaboration, and academic and career development within the community.",
+        "image": {
+            "alt": "strategyImage",
+            "src": "/images/about/stratergy.png",
+            "width": 545,
+            "height": 410
+        }
+    }
+}
