@@ -8,7 +8,7 @@ function Pioneers() {
       <h2 className="text-center text-xl xl:text-5xl font-bold">
         Pioneers of CSNE Student <br /> Community
       </h2>
-      <div className="lg:mt-10 w-11/12 overflow-x-scroll scroll-smooth touch-pan-x focus:scroll-auto overflow-hidden flex flex-col sm:flex-row mx-auto mx-auto hide-scrollbar ::-webkit-scrollbar">
+      <div className="lg:mt-10 w-11/12 overflow-x-scroll scroll-smooth touch-pan-x focus:scroll-auto overflow-hidden flex flex-col sm:flex-row mx-auto mx-auto hide-scrollbar">
         {pioneersData.map((pioneer) => (
           <div key={pioneer.id} className="flex flex-col items-center mx-4">
             <Image
