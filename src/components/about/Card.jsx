@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-export const Card = ({title, desc, image}) => {
+const Card = ({title, desc, image}) => {
   return (
     <div className="flex flex-col w-11/12 mx-auto lg:flex-row-reverse ">
       <div className="mx-auto mt-8 lg:w-1/2 lg:text-2xl">
@@ -21,3 +21,5 @@ export const Card = ({title, desc, image}) => {
     </div>
   )
 }
+
+export default Card;
