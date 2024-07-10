@@ -33,16 +33,13 @@ const pioneersData = [
   }
 ];
 
-// text-white 
-// OG text-center mt-2 p-4 bg-gray-100  rounded-lg
-// Scroll hidden for better UI
 function Pioneers() {
   return (
     <div className="my-10 xl:my-32 mx-auto">
       <h2 className="text-center text-xl xl:text-5xl font-bold">
         Pioneers of CSNE Student <br /> Community
       </h2>
-      <div className="lg:mt-10 w-11/12 overflow-x-scroll scroll-smooth touch-pan-x focus:scroll-auto overflow-hidden flex flex-col sm:flex-row mx-auto mx-auto hide-scrollbar hide-scrollbar::-webkit-scrollbar">
+      <div className="lg:mt-10 w-11/12 overflow-x-scroll scroll-smooth touch-pan-x focus:scroll-auto overflow-hidden flex flex-col sm:flex-row mx-auto mx-auto hide-scrollbar ::-webkit-scrollbar">
         {pioneersData.map((pioneer) => (
           <div key={pioneer.id} className="flex flex-col items-center mx-4">
             <Image
@@ -53,23 +50,13 @@ function Pioneers() {
               width={896}
             />
             
-             <div className="bg-[#eff1ff] text-center mt-2 p-4 text-[#1D1163] rounded-lg">
+             <div className="text-center mt-2 p-4 text-black rounded-lg">
               <p className="text-xl font-bold">{pioneer.name}</p>
               <p className="text-sm">{pioneer.position}</p>
             </div>
           </div>
         ))}
       </div>
-      <style jsx>{`
-        .hide-scrollbar {
-          -ms-overflow-style: none;  
-          scrollbar-width: none;  
-        }
-
-        .hide-scrollbar::-webkit-scrollbar {
-          display: none;  /* Use for Safari and Chrome */
-        }
-      `}</style>
     </div>
   );
 }
