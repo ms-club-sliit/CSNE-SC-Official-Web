@@ -1,8 +1,7 @@
 import Header from "@/components/about/Header";
 import Pioneers from "@/components/about/Pioneers";
-import Card from "@/components/about/Card";
 import aboutData from "@/data/About/About.json";
-import Purpose from "@/components/about/Purpose";
+import Section from "@/components/about/Section";
 
 const About = () => {
   return (
@@ -11,10 +10,9 @@ const About = () => {
       <div className="relative flex flex-col w-full ">
         <Header />
         <Pioneers />
-        <Purpose />
-        <Card title={aboutData.Mission.title} desc={aboutData.Mission.desc} image={aboutData.Mission.image}/>
-        <Card title={aboutData.Vision.title} desc={aboutData.Vision.desc} image={aboutData.Vision.image}/>
-        <Card title={aboutData.Strategy.title} desc={aboutData.Strategy.desc} image={aboutData.Strategy.image}/>
+        <Section {...aboutData.Mission} />
+        <Section {...aboutData.Vision} />
+        <Section {...aboutData.Strategy} />
       </div>
     </div>
   );
