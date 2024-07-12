@@ -1,9 +1,8 @@
 import Header from "@/components/about/Header";
 import Pioneers from "@/components/about/Pioneers";
-import Mission from "@/components/about/Mission";
-import Vision from "@/components/about/Vision";
-import Stratergy from "@/components/about/Stratergy";
-import Purpose from "@/components/about/Purpose";
+import aboutData from "@/data/About/About.json";
+import Section from "@/components/about/Section";
+
 const About = () => {
   return (
     <div className="relative w-full min-h-screen overflow-hidden text-black bg-white p-7">
@@ -11,7 +10,9 @@ const About = () => {
       <div className="relative flex flex-col w-full ">
         <Header />
         <Pioneers />
-        <Purpose />
+        <Section {...aboutData.Mission} />
+        <Section {...aboutData.Vision} />
+        <Section {...aboutData.Strategy} />
       </div>
     </div>
   );
