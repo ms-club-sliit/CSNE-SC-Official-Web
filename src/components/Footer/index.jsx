@@ -11,8 +11,8 @@ export default function Footer() {
   }, []);
 
   return (
-    <div className="bg-white h-1/3 pb-5">
-      <div className="flex relative pt-5 flex-col md:flex-row md:space-x-5 lg:pl-8 lg:py-8 text-gray-400 bg-[]">
+    <div className="h-1/3 pb-5 ">
+      <div className="flex relative pt-5 flex-col md:flex-row md:space-x-5 lg:pl-8 lg:py-8 text-gray-400 bg-white">
         <div className="lg:container lg:mx-auto lg:justify-left w-full text-left mb-4 md:mb-0">
           <Image
             width={500}
@@ -130,7 +130,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="p text-gray-400 text-center text-sm">
+      <div className="p bg-white text-gray-400 text-center text-sm relative z-10">
         Copyright @ {currentYear} MS-CLUB
       </div>
     </div>
