@@ -1,74 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import ImageComponent from "./ImageComponent";
+import Data from "@/data/WhoAreWeSection/whoAreWeData.json";
 
 const WhoAreWe = () => {
-  const memberImages = [
-    {
-      src: "/static/committee/2023/Pasan_Prasident.jpg",
-      alt: "memberPicture1",
-      className: "object-cover w-full h-full",
-      width: 500,
-      height: 500,
-      styles: "w-[100px] h-[100px] rounded-full absolute z-50 overflow-hidden"
-    },
-    {
-      src: "/static/committee/2023/Udayanga_Vice President.jpg",
-      alt: "memberPicture2",
-      className: "object-cover w-full h-full",
-      width: 500,
-      height: 500,
-      styles: "w-[90px] h-[90px] rounded-full absolute animate-north-west overflow-hidden z-40"
-    },
-    {
-      src: "/static/committee/2023/Sandali_Secretary.jpg",
-      alt: "memberPicture3",
-      className: "object-cover w-full h-full",
-      width: 500,
-      height: 500,
-      styles: "w-[90px] h-[90px] rounded-full absolute animate-south overflow-hidden z-40"
-    },
-    {
-      src: "/static/committee/2023/Raveesha_AssistantSecretary.jpg",
-      alt: "memberPicture4",
-      className: "object-cover w-full h-full",
-      width: 500,
-      height: 500,
-      styles: "w-[60px] h-[60px] rounded-full absolute animate-north overflow-hidden"
-    },
-    {
-      src: "/static/committee/2023/Hirudika_Treasurer.jpg",
-      alt: "memberPicture5",
-      className: "object-cover w-full h-full",
-      width: 500,
-      height: 500,
-      styles: "w-[60px] h-[60px] rounded-full absolute animate-south-west overflow-hidden"
-    },
-    {
-      src: "/static/committee/2023/Tharush _ Assistant Treasurer .jpg",
-      alt: "memberPicture6",
-      className: "object-cover w-full h-full",
-      width: 500,
-      height: 500,
-      styles: "w-[60px] h-[60px] rounded-full absolute animate-north-east overflow-hidden"
-    },
-    {
-      src: "/static/committee/2023/Vikash_Media Coordinator.jpeg",
-      alt: "memberPicture7",
-      className: "object-cover w-full h-full",
-      width: 500,
-      height: 500,
-      styles: "w-[50px] h-[50px] rounded-full absolute animate-east overflow-hidden"
-    },
-    {
-      src: "/static/committee/2023/Thinuka_Editor.JPG",
-      alt: "memberPicture8",
-      className: "object-cover w-full h-full",
-      width: 500,
-      height: 500,
-      styles: "w-[50px] h-[50px] rounded-full absolute animate-south-east overflow-hidden"
-    }
-  ];
+
+  const imageData = Data;
+  // console.log(imageData);
+
   return (
     <div className="py-10">
       <div className="text-4xl font-bold text-center lg:text-5xl">
@@ -96,14 +34,17 @@ const WhoAreWe = () => {
           </p>
         </div>
         <div className="w-full relative flex justify-center items-center min-h-[400px]">
-        {memberImages.map((image, index) => (
-            <div key={index} className={image.styles}>
-              <ImageComponent
-                width={image.width}
-                height={image.height}
-                alt={image.alt}
-                src={image.src}
-                className={image.className}
+          {imageData.map((item, index) => (
+            <div
+              key={index}
+              className={item.div}
+            >
+              <Image
+                src={item.image.src}
+                width={item.image.width}
+                height={item.image.height}
+                alt={item.image.alt}
+                className={item.image.className}
               />
             </div>
           ))}
