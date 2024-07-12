@@ -35,6 +35,13 @@ body {
   fill: url(#hoverGradient);
 }
 
+.hide-scrollbar {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+
+
 @keyframes gradientAnimation {
   0% {
     stop-color: #feda75;
