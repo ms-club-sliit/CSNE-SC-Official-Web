@@ -15,7 +15,7 @@
       {
         "id": "0002",
         "name": "Isuru Udayanga",
-        "position": "PRESIDENT",
+        "position": "President",
         "image": "/static/committee/2024/Udayanga G.D.P.jpg",
         "link": {
           "facebook": "https://www.facebook.com/isuru.jz",
@@ -186,7 +186,7 @@
       {
         "id": "0002",
         "name": "Pasan Karunasekara",
-        "position": "PRESIDENT",
+        "position": "President",
         "image": "/static/committee/2023/Pasan_Prasident.jpg",
         "link": {
           "facebook": "facebook",
@@ -346,7 +346,7 @@
       {
         "id": "0001",
         "name": "Thamali Munasinghe",
-        "position": "SECRETARY",
+        "position": "Secretary",
         "image": "/static/committee/2022/Thamali.jpg",
         "link": {
           "facebook": "facebook",
@@ -357,7 +357,7 @@
       {
         "id": "0002",
         "name": "Chenuka Lalanga",
-        "position": "PRESIDENT",
+        "position": "President",
         "image": "/static/committee/2022/Chenuka Lalanga.JPG",
         "link": {
           "facebook": "facebook",
@@ -368,7 +368,7 @@
       {
         "id": "0003",
         "name": "Ashara Konara",
-        "position": "VICE PRESIDENT",
+        "position": "Vice President",
         "image": "/static/committee/2022/Ashara Konara.JPG",
         "link": {
           "facebook": "facebook",
@@ -379,7 +379,7 @@
       {
         "id": "0004",
         "name": "empty data",
-        "position": "ASSISTANT SECRETARY",
+        "position": "Assistant Secretary",
         "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
         "link": {
           "facebook": "facebook",
@@ -390,7 +390,7 @@
       {
         "id": "0005",
         "name": "Najini Pattiyakumbura",
-        "position": "TREASURER",
+        "position": "Treasurer",
         "image": "/static/committee/2022/Najini Pattiyakumbura.jpg",
         "link": {
           "facebook": "facebook",
@@ -401,7 +401,7 @@
       {
         "id": "0006",
         "name": "Sandali Rathnayaka",
-        "position": "ASSISTANT TREASURER",
+        "position": "Assistant Treasurer",
         "image": "/static/committee/2022/Sandali Rathnayaka.jpeg",
         "link": {
           "facebook": "facebook",
@@ -412,7 +412,7 @@
       {
         "id": "0007",
         "name": "Janinda Induwara",
-        "position": "MEDIA COORDINATOR",
+        "position": "Media Coordinator",
         "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
         "link": {
           "facebook": "facebook",
@@ -423,7 +423,7 @@
       {
         "id": "0008",
         "name": "empty data",
-        "position": "EDITOR",
+        "position": "Editor",
         "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
         "link": {
           "facebook": "facebook",
@@ -436,7 +436,7 @@
       {
         "id": "0009",
         "name": "Ravishka Lakshan",
-        "position": "COMMITTEE MEMBER",
+        "position": "Committee Member",
         "image": "/static/committee/2022/Ravishka Lakshan.JPG",
         "link": {
           "facebook": "facebook",
@@ -447,7 +447,7 @@
       {
         "id": "0010",
         "name": "Prashan Imesh",
-        "position": "COMMITTEE MEMBER",
+        "position": "Committee Member",
         "image": "/static/committee/2022/Prashan.JPG",
         "link": {
           "facebook": "facebook",
@@ -458,7 +458,7 @@
       {
         "id": "0011",
         "name": "Danuka Maddepola",
-        "position": "COMMITTEE MEMBER",
+        "position": "Committee Member",
         "image": "/static/committee/2022/Danuka.jpg",
         "link": {
           "facebook": "facebook",
@@ -469,7 +469,7 @@
       {
         "id": "0012",
         "name": "Isuru Udayanga",
-        "position": "COMMITTEE MEMBER",
+        "position": "Committee Member",
         "image": "/static/committee/2022/Isuru Udayanga.jpeg",
         "link": {
           "facebook": "facebook",
@@ -480,7 +480,7 @@
       {
         "id": "0013",
         "name": "Shamal Weerarathne",
-        "position": "COMMITTEE MEMBER",
+        "position": "Committee Member",
         "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
         "link": {
           "facebook": "facebook",
@@ -491,7 +491,7 @@
       {
         "id": "0014",
         "name": "Pasan Karunasekara",
-        "position": "COMMITTEE MEMBER",
+        "position": "Committee Member",
         "image": "/static/committee/2022/Pasan Karunasekara.jpeg",
         "link": {
           "facebook": "facebook",
@@ -502,7 +502,7 @@
       {
         "id": "0015",
         "name": "Ravindu Thuduhena",
-        "position": "COMMITTEE MEMBER",
+        "position": "Committee Member",
         "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
         "link": {
           "facebook": "facebook",
@@ -513,218 +513,8 @@
       {
         "id": "0016",
         "name": "Hirudika Premarathne",
-        "position": "COMMITTEE MEMBER",
+        "position": "Committee Member",
         "image": "/static/committee/2022/Hirudika Premarathne.jpeg",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      }
-    ]
-  },
-  "2021": {
-    "TopPosition": [
-      {
-        "id": "0001",
-        "name": "empty data",
-        "position": "SECRETARY",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0002",
-        "name": "empty data",
-        "position": "PRESIDENT",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0003",
-        "name": "empty data",
-        "position": "VICE PRESIDENT",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0004",
-        "name": "empty data",
-        "position": "ASSISTANT SECRETARY",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0005",
-        "name": "empty data",
-        "position": "TREASURER",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0006",
-        "name": "empty data",
-        "position": "ASSISTANT TREASURER",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0007",
-        "name": "empty data",
-        "position": "MEDIA COORDINATOR",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0008",
-        "name": "empty data",
-        "position": "EDITOR",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      }
-    ],
-    "member": [
-      {
-        "id": "0009",
-        "name": "empty data",
-        "position": "COMMITTEE MEMBER",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      }
-    ]
-  },
-  "2020": {
-    "TopPosition": [
-      {
-        "id": "0001",
-        "name": "empty data",
-        "position": "SECRETARY",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0002",
-        "name": "empty data",
-        "position": "PRESIDENT",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0003",
-        "name": "empty data",
-        "position": "VICE PRESIDENT",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0004",
-        "name": "empty data",
-        "position": "ASSISTANT SECRETARY",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0005",
-        "name": "empty data",
-        "position": "TREASURER",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0006",
-        "name": "empty data",
-        "position": "ASSISTANT TREASURER",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0007",
-        "name": "empty data",
-        "position": "MEDIA COORDINATOR",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0008",
-        "name": "empty data",
-        "position": "EDITOR",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      }
-    ],
-    "member": [
-      {
-        "id": "0009",
-        "name": "empty data",
-        "position": "COMMITTEE MEMBER",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
         "link": {
           "facebook": "facebook",
           "instragram": "instragram",

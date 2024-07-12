@@ -33,7 +33,7 @@ const Board = () => {
 
   return (
     <div className="container mx-auto flex flex-col items-center">
-      <div className="text-4xl lg:text-6xl font-semibold text-center">
+      <div className="text-3xl lg:text-5xl font-semibold text-center">
         Our Team
       </div>
       <hr className="w-full my-8" />
@@ -78,8 +78,8 @@ const Board = () => {
             {Top3Position.map((user) => (
               <Teamcard
                 key={user.id}
-                height={user.position === "PRESIDENT" ? 230 : 200}
-                width={user.position === "PRESIDENT" ? 230 : 200}
+                height={user.position === "President" ? 230 : 200}
+                width={user.position === "President" ? 230 : 200}
                 name={user.name}
                 image={user.image}
                 position={user.position}
