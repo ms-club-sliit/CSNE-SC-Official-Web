@@ -14,7 +14,7 @@ const Events = ({ year }) => {
     <section className="container ml-auto mr-auto p-4 sm:p-4 md:p-4 lg:p-0 xl:p-0">
       <hr class="container h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
 
-      <h2 className="text-3xl font-semibold text-center">
+      <h2 className="text-xl lg:text-3xl font-semibold text-center">
         Check out the amazing experiences we shared{" "}
         <span className="text-[#1D1163]">{eventData[year] ? year : latestYear}</span> at{" "}
         <span>
