@@ -22,7 +22,7 @@ const WhoAreWe = () => {
             className="w-6/12 h-auto lg:w-8/12 lg:ml-10"
           />
         </div>
-        <div className="p-5 w-full text-center lg:text-left items-center lg:text-[#565656] mt-[50px] md:mt-[20px] lg:text-xl">
+        <div className="p-5 w-full text-center lg:text-justify items-center lg:text-[#565656] mt-[50px] md:mt-[20px] lg:text-lg">
           <p>
             CSNE Club of SLIIT is a community group to support students in their
             quest of being a significant IT Professional.

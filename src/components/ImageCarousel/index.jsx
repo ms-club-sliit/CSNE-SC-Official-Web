@@ -65,10 +65,10 @@ const ImageCarousel = ({ slides }) => {
                 }
                 style={{ backgroundImage: "url('/images/past-events-bg.svg')" }}
               >
-                <h1 className={"text-md lg:text-lg xl:text-4xl"}>
+                <h1 className={"text-md lg:text-lg xl:text-2xl"}>
                   {slide.title}
                 </h1>
-                <p className={"text-xs lg:text-md xl:text-lg"}>
+                <p className={"text-xs lg:text-lg"}>
                   {slide.description}
                 </p>
               </div>

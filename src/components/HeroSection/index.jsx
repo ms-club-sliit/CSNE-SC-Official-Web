@@ -9,7 +9,7 @@ const HeroSection = () => {
           <h1 className="text-4xl lg:max-w-sm lg:text-6xl font-bold leading-tight">
             CSNE Student <br /> Community
           </h1>
-          <p className="mt-6 lg:mt-10 text-gray-700 lg:text-xl max-w-m mx-auto lg:mx-0">
+          <p className="mt-6 lg:mt-10 text-gray-700 lg:text-lg max-w-m mx-auto lg:mx-0">
             Welcome to the hub of collaboration, learning, and networking for
             computer science and network engineering students. Together, we
             shape the future of technology.
