@@ -10,7 +10,7 @@
     }
   },
   {
-    "div": "w-[90px] h-[90px] rounded-full absolute animate-north-west overflow-hidden z-40",
+    "div": "w-[90px] h-[90px] rounded-full absolute animate-north overflow-hidden",
     "image": {
       "width": "500",
       "height": "500",
@@ -20,7 +20,7 @@
     }
   },
   {
-    "div": "w-[90px] h-[90px] rounded-full absolute animate-south overflow-hidden z-40",
+    "div": "w-[90px] h-[90px] rounded-full absolute animate-south overflow-hidden",
     "image": {
       "width": "500",
       "height": "500",
@@ -30,7 +30,7 @@
     }
   },
   {
-    "div": "w-[60px] h-[60px] rounded-full absolute animate-north overflow-hidden",
+    "div": "w-[80px] h-[80px] rounded-full absolute animate-north-west overflow-hidden",
     "image": {
       "width": "500",
       "height": "500",
@@ -40,7 +40,7 @@
     }
   },
   {
-    "div": "w-[60px] h-[60px] rounded-full absolute animate-south-west overflow-hidden",
+    "div": "w-[80px] h-[80px] rounded-full absolute animate-south-west overflow-hidden",
     "image": {
       "width": "500",
       "height": "500",
@@ -50,7 +50,7 @@
     }
   },
   {
-    "div": "w-[60px] h-[60px] rounded-full absolute animate-north-east overflow-hidden",
+    "div": "w-[70px] h-[70px] rounded-full absolute animate-north-east overflow-hidden",
     "image": {
       "width": "500",
       "height": "500",
@@ -60,23 +60,13 @@
     }
   },
   {
-    "div": "w-[50px] h-[50px] rounded-full absolute animate-east overflow-hidden",
+    "div": "w-[70px] h-[70px] rounded-full absolute animate-south-east overflow-hidden",
     "image": {
       "width": "500",
       "height": "500",
       "alt": "memberPicture7",
       "className": "object-cover w-full h-full",
       "src": "/static/committee/2023/Vikash_Media Coordinator.jpeg"
-    }
-  },
-  {
-    "div": "w-[50px] h-[50px] rounded-full absolute animate-south-east overflow-hidden",
-    "image": {
-      "width": "500",
-      "height": "500",
-      "alt": "memberPicture8",
-      "className": "object-cover w-full h-full",
-      "src": "/static/committee/2023/Thinuka_Editor.JPG"
     }
   }
 ]
