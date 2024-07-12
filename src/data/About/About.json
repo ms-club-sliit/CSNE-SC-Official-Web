@@ -1,0 +1,44 @@
+{
+    "Mission": {
+        "div1Style": "flex flex-col w-11/12 mx-auto Mission lg:flex-row-reverse items-center",
+        "div2Style": "mx-auto lg:w-1/2 lg:text-2xl",
+        "titleStyle": "text-xl font-bold text-center xl:text-5xl",
+        "title": "Our Mission",
+        "descStyle": "mt-5 text-lg text-center",
+        "description": "Our mission is to empower Computer Systems and Network Engineering students at SLIIT University by organizing educational events led by industry experts, facilitating study support sessions, promoting collaboration and networking opportunities, encouraging innovation and research, and providing career guidance and professional development, all aimed at fostering a thriving community where students can excel academically and prepare for successful careers in the field.",
+        "image": {
+            "alt": "missionImage",
+            "src": "/images/about/vision.png",
+            "width": 545,
+            "height": 410
+        }
+    },
+    "Vision": {
+        "div1Style": "flex flex-col w-11/12 mx-auto vision lg:flex-row items-center",
+        "div2Style": "mx-auto lg:w-1/2 lg:text-2xl",
+        "titleStyle": "text-xl font-bold text-center xl:text-5xl",
+        "title": "Our Vision",
+        "descStyle": "mt-5 text-lg text-center",
+        "description": "To cultivate a thriving community of Computer Systems and Network Engineering students at SLIIT University, fostering innovation, collaboration, and excellence in the field.",
+        "image": {
+            "alt": "visionImage",
+            "src": "/images/about/mission.png",
+            "width": 545,
+            "height": 410
+        }
+    },
+    "Strategy": {
+        "div1Style": "flex flex-col w-11/12 mx-auto mt-10 stratergy lg:flex-row-reverse items-center",
+        "div2Style": "mx-auto lg:w-1/2 lg:text-2xl",
+        "titleStyle": "text-xl font-bold text-center xl:text-5xl",
+        "title": "Our Strategy",
+        "descStyle": "mt-5 text-lg text-center",
+        "description": "Our strategy centers on setting clear, SMART goals aligned with our vision and mission, understanding student needs, collaborating with industry partners, leveraging technology for outreach, empowering student leaders, prioritizing continuous improvement, promoting diversity and inclusion, and monitoring progress to ensure effective empowerment, collaboration, and academic and career development within the community.",
+        "image": {
+            "alt": "strategyImage",
+            "src": "/images/about/stratergy.png",
+            "width": 545,
+            "height": 410
+        }
+    }
+}

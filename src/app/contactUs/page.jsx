@@ -1,7 +1,10 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
 import Image from "next/image";
 
 const ContactUs = () => {
+  const [existing, setExisting] = useState(false)
+
   return (
     <div className="bg-whitegray">
       <div
@@ -25,7 +28,9 @@ const ContactUs = () => {
                 className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4 "
               />
               <p className="text-black text-lg lg:text-xl mt-1">
-                facebook.com/csnesliit{" "}
+                <a href="https://www.facebook.com/csnesc?mibextid=LQQJ4d">
+                  facebook.com/csnesliit{" "}
+                </a>
               </p>
             </div>
             <div className="flex flex-row mt-4 sm:mt-6">
@@ -37,7 +42,9 @@ const ContactUs = () => {
                 className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4"
               />
               <p className="text-black text-lg lg:text-xl mt-1">
-                instagram.com/csnesliit{" "}
+                <a href="https://www.instagram.com/csne.sc?igsh=NmE4c29hMGFvMXpj">
+                  instagram.com/csnesliit{" "}
+                </a>
               </p>
             </div>
             <div className="flex flex-row mt-4 sm:mt-6">
@@ -49,7 +56,9 @@ const ContactUs = () => {
                 className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4"
               />
               <p className="text-black text-lg lg:text-xl mt-1">
-                linkedin.com/csnesliit
+                <a href="https://www.linkedin.com/company/sliit-csne-student-community/">
+                  linkedin.com/csnesliit
+                </a>
               </p>
             </div>
             <div className="flex flex-row mt-4 sm:mt-6">
@@ -61,26 +70,71 @@ const ContactUs = () => {
                 className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4"
               />
               <p className="text-black text-lg lg:text-xl mt-1">
-                youtube.com/csnesliit
+                <a href="https://youtube.com/@sliitcsnestudentcommunity?si=0vavn_jtFAUXELH3">
+                  youtube.com/csnesliit
+                </a>
+              </p>
+            </div>
+            <div className="flex flex-row mt-4 sm:mt-6">
+              <Image
+                src="/images/sliit.png"
+                alt="sliit"
+                width={40}
+                height={40}
+                className="w-10 h-10 sm:w-12 sm:h-12 mr-7 mb-4"
+              />
+              <p className="text-black text-lg lg:text-xl mt-1">
+                <a href="https://www.sliit.lk/computing/programmes/computer-systems-network-engineering-degree/">
+                  sliit.com/csnesliit
+                </a>
               </p>
             </div>
           </div>
-          <div className="flex flex-col p-10 col-span-2 w-full text-center lg:text-left lg:bg-white rounded-xl">
+          <form className="flex flex-col p-10 col-span-2 w-full text-center lg:text-left lg:bg-white rounded-xl">
             <p className="text-gray text-2xl lg:text-2xl w-full mb-8">
               Send Your Message{" "}
             </p>
             <p className="text-gray text-lg lg:text-xl mt-4">Name </p>
-            <input className=" border-2 px-5 border-lightgray rounded-3xl w-80vw h-12 mt-3 mr-0 lg:mr-5"></input>
+            <input type="text" name="name" className=" border-2 px-5 border-lightgray rounded-3xl w-80vw h-12 mt-3 mr-0 lg:mr-5" required/>
+            <div className="flex flex-row mt-4 space-x-4">
+              <label className="text-gray text-lg lg:text-xl flex items-center">
+                New Comer
+                <input type="radio" name="studentType" value="newcomer" onChange={() => setExisting(false)} className="ml-2 w-5 h-5" defaultChecked required/>
+              </label>
+              <label className="text-gray text-lg lg:text-xl flex items-center">
+                Existing Student
+                <input type="radio" name="studentType" value="existing" onChange={() => setExisting(true)} className="ml-2 w-5 h-5" required/>
+              </label>
+            </div>
+            {
+              existing && (
+                <div>
+                <p className="text-gray text-lg lg:text-xl mt-4">Year and Semester </p>
+                <select name="year" className="border-2 px-5 border-lightgray rounded-3xl w-full h-12 mt-3 mr-0 lg:mr-5 lg:w-[720px]" required>
+                  <option value="y1s1">Year 1, Semester 1</option>
+                  <option value="y1s2">Year 1, Semester 2</option>
+                  <option value="y2s1">Year 2, Semester 1</option>
+                  <option value="y2s2">Year 2, Semester 2</option>
+                  <option value="y3s1">Year 3, Semester 1</option>
+                  <option value="y3s2">Year 3, Semester 2</option>
+                  <option value="y4s1">Year 4, Semester 1</option>
+                  <option value="y4s2">Year 4, Semester 2</option>
+                </select>
+                </div>
+              )
+            }
+            <p className="text-gray text-lg lg:text-xl mt-4">Phone Number </p>
+            <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="0XX-XXX-XXXX" className=" border-2 px-5 border-lightgray rounded-3xl w-80vw h-12 mt-3 mr-0 lg:mr-5" required/>
             <p className="text-gray text-lg lg:text-xl mt-4">Email Address </p>
-            <input className=" border-2 px-5 border-lightgray rounded-3xl w-80vw h-12 mt-3 mr-0 lg:mr-5"></input>
+            <input type="email" name="email" pattern="^[a-zA-Z0-9!#$%&amp;'*+\/=?^_`\{\|\}~.\-]+@[a-zA-Z0-9\-]+(\.[a-zA-Z0-9\-]+)*$" placeholder="example@example.com" className=" border-2 px-5 border-lightgray rounded-3xl w-80vw h-12 mt-3 mr-0 lg:mr-5" required/>
             <p className="text-gray text-lg lg:text-xl mt-4">Message </p>
-            <textarea className="border-2 p-5 text-wrap border-lightgray rounded-3xl w-80vw h-60 mt-3 mr-0 lg:mr-5" />
+            <textarea name="message" className="border-2 p-5 text-wrap border-lightgray rounded-3xl w-80vw h-60 mt-3 mr-0 lg:mr-5" required/>
             <div className="relative flex w-full justify-center lg:justify-end">
-              <button className="bg-hero-section-button text-white text-lg lg:text-xl py-3 rounded-full mt-8 w-max px-10 ">
+              <button type="submit" className="bg-hero-section-button text-white text-lg lg:text-xl py-3 rounded-full mt-8 w-max px-10 ">
                 Send
               </button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>

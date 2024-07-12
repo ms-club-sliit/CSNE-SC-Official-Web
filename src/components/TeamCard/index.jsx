@@ -11,7 +11,9 @@ function index(props) {
         height={props.height}
         alt="image"
       />
-      <h1 className="font-semibold text-[4vw] md:text-2xl">{props.name}</h1>
+      <h1 className="font-semibold text-[4vw] md:text-2xl text-black">
+        {props.name}
+      </h1>
       <p className="mb-[10px] md:text-xl text-[3vw] text-gray-500">
         {props.position}
       </p>

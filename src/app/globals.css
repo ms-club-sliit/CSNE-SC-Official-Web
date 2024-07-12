@@ -35,6 +35,13 @@ body {
   fill: url(#hoverGradient);
 }
 
+.hide-scrollbar {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+
+
 @keyframes gradientAnimation {
   0% {
     stop-color: #feda75;
@@ -99,11 +106,11 @@ body {
   }
 
   25% {
-    transform: translate(-20px, 120px);
+    transform: translate(0, 120px);
   }
 
   50% {
-    transform: translate(-20px, 120px);
+    transform: translate(0, 120px);
   }
 
   100% {
@@ -135,11 +142,11 @@ body {
   }
 
   25% {
-    transform: translate(-120px, 50px);
+    transform: translate(-110px, 60px);
   }
 
   50% {
-    transform: translate(-120px, 50px);
+    transform: translate(-110px, 60px);
   }
 
   100% {
@@ -153,11 +160,11 @@ body {
   }
 
   25% {
-    transform: translate(90px, -90px);
+    transform: translate(110px, -60px);
   }
 
   50% {
-    transform: translate(90px, -90px);
+    transform: translate(110px, -60px);
   }
 
   100% {
@@ -171,11 +178,11 @@ body {
   }
 
   25% {
-    transform: translate(90px, 80px);
+    transform: translate(110px, 60px);
   }
 
   50% {
-    transform: translate(90px, 80px);
+    transform: translate(110px, 60px);
   }
 
   100% {

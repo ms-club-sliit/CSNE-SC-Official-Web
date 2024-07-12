@@ -14,9 +14,6 @@ const HeroSection = () => {
             computer science and network engineering students. Together, we
             shape the future of technology.
           </p>
-          <button className="bg-hero-section-button text-white text-xl px-6 py-3 rounded-full mt-8">
-            Join Now
-          </button>
         </div>
       </div>
       <div className="lg:w-7/12 lg:ml-8 lg:mr-0 mx-auto right-0">
