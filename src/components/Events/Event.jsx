@@ -12,7 +12,7 @@ const Event = ({ event, element }) => {
                 <h2 className="text-3xl subpixel-antialiased font-semibold text-slate-800  sm:block md:hidden text-left">{name}</h2>
 
                 <div className="relative w-full aspect-[4/3] lg:w-1/2">
-                    <Image className="rounded-lg shadow-lg" sizes="(max-width: 200px) 100vw, 100px" alt={alt} src={`/images/${image}.jpg`} fill style={{
+                    <Image className="rounded-lg shadow-lg" sizes="(max-width: 200px) 100vw, 100px" alt={alt} src={`/images/${image}`} fill style={{
                         objectFit: "cover"
                     }} />
                 </div>
