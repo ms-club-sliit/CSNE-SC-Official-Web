@@ -4,7 +4,7 @@
         "div2Style": "mx-auto lg:w-1/2 lg:text-2xl",
         "titleStyle": "text-xl font-bold text-center xl:text-5xl",
         "title": "Our Mission",
-        "descStyle": "mt-5 text-lg text-center",
+        "descStyle": "mt-5 lg:text-lg text-justify",
         "description": "Our mission is to empower Computer Systems and Network Engineering students at SLIIT University by organizing educational events led by industry experts, facilitating study support sessions, promoting collaboration and networking opportunities, encouraging innovation and research, and providing career guidance and professional development, all aimed at fostering a thriving community where students can excel academically and prepare for successful careers in the field.",
         "image": {
             "alt": "missionImage",
@@ -18,7 +18,7 @@
         "div2Style": "mx-auto lg:w-1/2 lg:text-2xl",
         "titleStyle": "text-xl font-bold text-center xl:text-5xl",
         "title": "Our Vision",
-        "descStyle": "mt-5 text-lg text-center",
+        "descStyle": "mt-5 lg:text-lg text-justify",
         "description": "To cultivate a thriving community of Computer Systems and Network Engineering students at SLIIT University, fostering innovation, collaboration, and excellence in the field.",
         "image": {
             "alt": "visionImage",
@@ -32,7 +32,7 @@
         "div2Style": "mx-auto lg:w-1/2 lg:text-2xl",
         "titleStyle": "text-xl font-bold text-center xl:text-5xl",
         "title": "Our Strategy",
-        "descStyle": "mt-5 text-lg text-center",
+        "descStyle": "mt-5 lg:text-lg text-justify",
         "description": "Our strategy centers on setting clear, SMART goals aligned with our vision and mission, understanding student needs, collaborating with industry partners, leveraging technology for outreach, empowering student leaders, prioritizing continuous improvement, promoting diversity and inclusion, and monitoring progress to ensure effective empowerment, collaboration, and academic and career development within the community.",
         "image": {
             "alt": "strategyImage",

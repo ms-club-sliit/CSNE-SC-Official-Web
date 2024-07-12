@@ -19,15 +19,15 @@ export default function Footer() {
             height={500}
             alt="csnescLogo"
             src="/static/csnesc-logo.png"
-            className="w-4/12 lg:w-48 h-auto mb-2 mx-auto lg:mx-0"
+            className="w-4/12 lg:w-40 h-auto mb-2 mx-auto lg:mx-0"
           />
-          <div className="para m-5 text-sm text-center lg:text-left">
-            <p className="lg:max-w-sm md:max-w-sm">
+          <div className="w-[250px] lg:w-[340px] text-sm  mx-auto lg:mx-0 lg:text-left">
+            <p className="my-8 lg:my-0 text-justify">
               A volunteer-driven student community aiming to bridge the skill
               gap between an Undergraduate and an Industry Professional
             </p>
           </div>
-          <div className="flex justify-center lg:justify-start mt-4 ml-5 ">
+          <div className="flex justify-center lg:justify-start mt-4">
             <a
               href="https://www.facebook.com/csnesc?mibextid=LQQJ4d"
               target="_blank"
@@ -147,7 +147,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="md:w-7/12 lg:absolute right-0 py-5 text-center lg:float-right lg:text-start lg:mr-8 lg:ml-5 lg:p-12 lg:bg-blue-50 text-gray-800 lg:rounded-s-[40px]">
-          <h3 className="text-lg font-semibold mb-4 ">Usefull links</h3>
+          <h3 className="text-lg font-semibold mb-4">Usefull links</h3>
           <div className="flex flex-col md:flex-row md:space-x-5">
             <div className="w-full md:w-1/4 mb-4 md:mb-0">
               <ul>
