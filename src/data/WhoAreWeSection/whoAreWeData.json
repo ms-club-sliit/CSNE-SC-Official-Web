@@ -1,0 +1,72 @@
+[
+  {
+    "div": "w-[100px] h-[100px] rounded-full absolute z-50 overflow-hidden",
+    "image": {
+      "width": "500",
+      "height": "500",
+      "alt": "memberPicture1",
+      "className": "object-cover w-full h-full",
+      "src": "/static/committee/2023/Pasan_Prasident.jpg"
+    }
+  },
+  {
+    "div": "w-[90px] h-[90px] rounded-full absolute animate-north overflow-hidden",
+    "image": {
+      "width": "500",
+      "height": "500",
+      "alt": "memberPicture2",
+      "className": "object-cover w-full h-full",
+      "src": "/static/committee/2023/Udayanga_Vice President.jpg"
+    }
+  },
+  {
+    "div": "w-[90px] h-[90px] rounded-full absolute animate-south overflow-hidden",
+    "image": {
+      "width": "500",
+      "height": "500",
+      "alt": "memberPicture3",
+      "className": "object-cover w-full h-full",
+      "src": "/static/committee/2023/Sandali_Secretary.jpg"
+    }
+  },
+  {
+    "div": "w-[80px] h-[80px] rounded-full absolute animate-north-west overflow-hidden",
+    "image": {
+      "width": "500",
+      "height": "500",
+      "alt": "memberPicture4",
+      "className": "object-cover w-full h-full",
+      "src": "/static/committee/2023/Raveesha_AssistantSecretary.jpg"
+    }
+  },
+  {
+    "div": "w-[80px] h-[80px] rounded-full absolute animate-south-west overflow-hidden",
+    "image": {
+      "width": "500",
+      "height": "500",
+      "alt": "memberPicture5",
+      "className": "object-cover w-full h-full",
+      "src": "/static/committee/2023/Hirudika_Treasurer.jpg"
+    }
+  },
+  {
+    "div": "w-[70px] h-[70px] rounded-full absolute animate-north-east overflow-hidden",
+    "image": {
+      "width": "500",
+      "height": "500",
+      "alt": "memberPicture6",
+      "className": "object-cover w-full h-full",
+      "src": "/static/committee/2023/Tharush _ Assistant Treasurer .jpg"
+    }
+  },
+  {
+    "div": "w-[70px] h-[70px] rounded-full absolute animate-south-east overflow-hidden",
+    "image": {
+      "width": "500",
+      "height": "500",
+      "alt": "memberPicture7",
+      "className": "object-cover w-full h-full",
+      "src": "/static/committee/2023/Vikash_Media Coordinator.jpeg"
+    }
+  }
+]
