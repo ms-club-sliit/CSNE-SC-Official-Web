@@ -1,0 +1,44 @@
+{
+    "2024":[
+      {
+        "name": "Discover Tech 2024",
+        "desc":"Discover Tech is a Field Visit that is organized by the CSNE student community which is an immersive educational experience designed to provide participants with firsthand insights into cutting-edge technology and innovation. This exclusive visit offers students and professionals the opportunity to tour leading tech companies, engage with industry experts, and explore advanced research facilities. Participants will gain valuable knowledge about the latest technological advancements, industry trends, and real-world applications of emerging technologies. The Discover Tech Field Visit aims to inspire and educate attendees, fostering a deeper understanding of the dynamic tech landscape and sparking curiosity and creativity in the field of technology.",
+        "image": "discover24.jpeg",
+        "alt":"discover tech 2024"
+      },
+      {
+        "name": "Annual General Meeting 2024",
+        "desc": "The Annual General Meeting serves as the platform for appointing members to the CSNE Student Committee. During this assembly, individuals are selected to assume key roles such as President, Vice President, Secretary, Treasurer, and Committee Members. The process involves active participation and support from the committee advisor and other lecturers who play instrumental roles in facilitating the selection and overall functioning of the student committee.",
+        "image":"agm24.jpg",
+        "alt":"agm 2024"
+      }
+    ],
+    "2023":[
+        {
+          "name": "CSNE Poson Dansala",
+          "desc": "The CSNE Student Committee orchestrates an annual dansala on Poson Poya Day, a collaborative effort involving lecturers, CSNE undergraduates, recent CSNE graduates, and CSNE instructors. The event's success is bolstered by the generous sponsorship of diverse individuals. However, the advent of pandemics, exemplified by COVID-19, thwarted its continuity in recent years. Despite these challenges, there is an optimistic outlook for the resumption and sustained progression of this cherished tradition.",
+          "image": "dansala.jpg",
+          "alt": "poson dansal 2023"
+        },
+        {
+          "name": "Annual General Meeting 2023",
+          "desc": "The Annual General Meeting serves as the platform for appointing members to the CSNE Student Committee. During this assembly, individuals are selected to assume key roles such as President, Vice President, Secretary, Treasurer, and Committee Members. The process involves active participation and support from the committee advisor and other lecturers who play instrumental roles in facilitating the selection and overall functioning of the student committee.",
+          "image":"agm23.jpg",
+          "alt":"agm 2023"
+        }
+    ],
+    "2022":[
+      {
+        "name": "CSNE Poson Dansala",
+        "desc": "The CSNE Student Committee orchestrates an annual dansala on Poson Poya Day, a collaborative effort involving lecturers, CSNE undergraduates, recent CSNE graduates, and CSNE instructors. The event's success is bolstered by the generous sponsorship of diverse individuals. However, the advent of pandemics, exemplified by COVID-19, thwarted its continuity in recent years. Despite these challenges, there is an optimistic outlook for the resumption and sustained progression of this cherished tradition.",
+        "image": "poson.jpg",
+        "alt": "poson dansal 2022"
+      },
+      {
+        "name": "NetCom Contest",
+        "desc": "This exclusive networking competition caters to both invited university teams and internal teams within our academic community. Setting itself apart through the integration of authentic networking devices, the competition serves as a dynamic arena for participants to showcase their practical skills in networking. Beyond the intellectual and technical challenges posed by the event, the allure of valuable prizes awaits the victorious teams, further elevating the stakes and fostering a culture of excellence within the realm of real-world networking scenarios. This competitive environment not only enhances participants' technical acumen but also fosters a spirit of innovation and collaboration among the diverse array of teams involved.",
+        "image": "netcom.jpg",
+        "alt": "netcom event"
+      }
+    ]  
+}
