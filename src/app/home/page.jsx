@@ -9,17 +9,17 @@ import PastEventsSection from "@/components/PastEventsSection";
 import pastEvents from "@/data/pastEvents";
 
 const Home = () => {
-    return (
-        <div className="flex items-center justify-center">
-            <div className="text-black flex flex-col w-full">
-                <HeroSection/>
-                <WhoAreWe/>
-                {/* <BlogVideoSection /> */}
-                {pastEvents.length > 0 && <PastEventsSection pastEvents={pastEvents}/>}
-                <SubscribeSection/>
-            </div>
-        </div>
-    );
+  return (
+    <div className="flex items-center justify-center">
+      <div className="text-black flex flex-col w-full">
+        <HeroSection />
+        <WhoAreWe />
+        {/* <BlogVideoSection /> */}
+        {pastEvents.length > 0 && <PastEventsSection pastEvents={pastEvents} />}
+        {/* <SubscribeSection/> */}
+      </div>
+    </div>
+  );
 };
 
 export default Home;
