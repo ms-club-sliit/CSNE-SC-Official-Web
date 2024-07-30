@@ -16,7 +16,7 @@ const Home = () => {
         <WhoAreWe />
         {/* <BlogVideoSection /> */}
         {pastEvents.length > 0 && <PastEventsSection pastEvents={pastEvents} />}
-        {/* <SubscribeSection/> */}
+        <SubscribeSection />
       </div>
     </div>
   );
