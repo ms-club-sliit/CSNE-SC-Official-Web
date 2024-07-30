@@ -7,6 +7,7 @@ import PastEventsSection from "@/components/PastEventsSection";
 
 // import data
 import pastEvents from "@/data/pastEvents";
+import YoutubeVideoSection from "@/components/YoutubeVideoSection";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <WhoAreWe />
         {/* <BlogVideoSection /> */}
         {pastEvents.length > 0 && <PastEventsSection pastEvents={pastEvents} />}
+        <YoutubeVideoSection />
         <SubscribeSection />
       </div>
     </div>
