@@ -4,9 +4,9 @@
     "image": {
       "width": "500",
       "height": "500",
-      "alt": "memberPicture1",
+      "alt": "President",
       "className": "object-cover w-full h-full",
-      "src": "/static/committee/2023/Pasan_Prasident.jpg"
+      "src": "/static/committee/2024/Udayanga G.D.P.I.jpg"
     }
   },
   {
@@ -14,9 +14,9 @@
     "image": {
       "width": "500",
       "height": "500",
-      "alt": "memberPicture2",
+      "alt": "VicePresident",
       "className": "object-cover w-full h-full",
-      "src": "/static/committee/2023/Udayanga_Vice President.jpg"
+      "src": "/static/committee/2024/Sandali Rathnayake.jpg"
     }
   },
   {
@@ -24,9 +24,9 @@
     "image": {
       "width": "500",
       "height": "500",
-      "alt": "memberPicture3",
+      "alt": "Secretary",
       "className": "object-cover w-full h-full",
-      "src": "/static/committee/2023/Sandali_Secretary.jpg"
+      "src": "/static/committee/2024/AshikMohamed.jpg"
     }
   },
   {
@@ -34,9 +34,9 @@
     "image": {
       "width": "500",
       "height": "500",
-      "alt": "memberPicture4",
+      "alt": "AssistantSecretary",
       "className": "object-cover w-full h-full",
-      "src": "/static/committee/2023/Raveesha_AssistantSecretary.jpg"
+      "src": "/static/committee/2024/Bhagya Sandeepani.jpg"
     }
   },
   {
@@ -44,9 +44,9 @@
     "image": {
       "width": "500",
       "height": "500",
-      "alt": "memberPicture5",
+      "alt": "Treasurer",
       "className": "object-cover w-full h-full",
-      "src": "/static/committee/2023/Hirudika_Treasurer.jpg"
+      "src": "/static/committee/2024/Tharush Senasinghe.jpg"
     }
   },
   {
@@ -54,9 +54,9 @@
     "image": {
       "width": "500",
       "height": "500",
-      "alt": "memberPicture6",
+      "alt": "AssistantTreasurer",
       "className": "object-cover w-full h-full",
-      "src": "/static/committee/2023/Tharush _ Assistant Treasurer .jpg"
+      "src": "/static/committee/2024/Sandul Karunarathna.jpg"
     }
   },
   {
@@ -64,9 +64,9 @@
     "image": {
       "width": "500",
       "height": "500",
-      "alt": "memberPicture7",
+      "alt": "Editor",
       "className": "object-cover w-full h-full",
-      "src": "/static/committee/2023/Vikash_Media Coordinator.jpeg"
+      "src": "/static/committee/2024/Thinuka Muthukumarana.jpeg"
     }
   }
 ]
