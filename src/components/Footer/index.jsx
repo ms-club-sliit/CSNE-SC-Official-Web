@@ -23,8 +23,8 @@ export default function Footer() {
           />
           <div className="w-[250px] lg:w-[340px] text-sm  mx-auto lg:mx-0 lg:text-left">
             <p className="my-8 lg:my-0 text-justify">
-              A volunteer-driven student community aiming to bridge the skill
-              gap between an Undergraduate and an Industry Professional
+              Welcome to the hub of collaboration, learning, and networking for
+              computer science and network engineering students.
             </p>
           </div>
           <div className="flex justify-center lg:justify-start mt-4">
@@ -42,7 +42,7 @@ export default function Footer() {
                 viewBox="0 0 48 48"
               >
                 <path
-                   fill="#3f51b5"
+                  fill="#3f51b5"
                   d="M24 5A19 19 0 1 0 24 43A19 19 0 1 0 24 5Z"
                 ></path>
                 <path
@@ -127,7 +127,6 @@ export default function Footer() {
             <a
               href="https://youtube.com/@sliitcsnestudentcommunity?si=0vavn_jtFAUXELH3"
               target="_blank"
-              
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -196,7 +195,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="p bg-white text-gray-400 text-center text-sm relative z-10">
-        Copyright @ {currentYear} MS-CLUB
+        Developed by MS Club of SLIIT
       </div>
     </div>
   );

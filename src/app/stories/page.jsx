@@ -28,7 +28,7 @@ const Stories = () => {
 
   return (
     <div className="flex w-full items-center justify-center">
-      <div className="bg-[url(/images/backgroundimg.png)] bg-no-repeat sm:bg-contain md:bg-cover lg:bg-cover 2xl:bg-right-bottom 10vh h-full w-full bg-white items-center justify-center md:justify-center md:items-center lg:w-full lg:justify-center lg:items-center xl:w-full 2xl:w-full lg:mb-16">
+      <div className="bg-[url(/images/backgroundimg.png)] bg-no-repeat sm:bg-contain md:bg-cover lg:bg-cover 2xl:bg-right-bottom 10vh h-full w-full bg-white items-center justify-center md:justify-center md:items-center lg:w-full lg:justify-center lg:items-center xl:w-full 2xl:w-full">
         <div className="flex flex-col items-center justify-center w-full sm:w-full lg:w-full xl:w-full 2xl:w-full">
           <div className="flex w-full flex-col items-center md:w-full lg:w-full xl:w-full 2xl:w-full lg:mb-10">
             {/* First section */}
@@ -64,7 +64,7 @@ const Stories = () => {
             </div>
 
             {/* Second section */}
-            <div className="flex flex-col md:w-full lg:w-full xl:w-full 2xl:w-full justify-center items-center mt-10">
+            <div className="flex flex-col md:w-full lg:w-full xl:w-full 2xl:w-full justify-center items-center mt-5">
               {StoryData?.length > 0 &&
                 StoryData.map((story) => {
                   const isExpanded = expandedStories.includes(story.id);
@@ -73,15 +73,15 @@ const Stories = () => {
                       key={story.id}
                       className="flex flex-col md:w-full lg:w-[125vh] xl:w-[145vh] 2xl:w-3/4 mb-10"
                     >
-                      <div className="flex flex-col justify-center items-center sm:flex space-y-4 sm:space-x-3 sm:mt-8 lg:flex-row">
+                      <div className="flex flex-col justify-center items-center lg:items-start sm:flex sm:space-x-3 sm:mt-8 lg:flex-row">
                         <Image
                           src={story.image}
                           width={500}
                           height={300}
                           alt="Story image"
-                          className="w-4/5 border-2 rounded-2xl border-gray-300 shadow-lg sm:mx-8 sm:w-3/5 lg:w-2/6"
+                          className="w-4/5 border-2 rounded-2xl mb-10 border-gray-300 shadow-lg sm:mx-8 sm:w-3/5 lg:w-2/6"
                         />
-                        <div className="flex flex-col px-10 py-5">
+                        <div className="flex flex-col px-10">
                           <p className="lg:text-lg text-justify leading-relaxed text-black sm:w-5/6">
                             {isExpanded
                               ? story.description
