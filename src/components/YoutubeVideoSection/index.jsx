@@ -1,6 +1,6 @@
 import React from "react";
 import ImageCarousel from "@/components/ImageCarousel";
-import youtubeVideos from "@/data/YoutubeVideos/youtubeVideos.json";
+import youtubeVideos from "@/data/YouTubeVideos/youtubeVideos.json";
 
 const YoutubeVideoSection = () => {
   return (
