@@ -6,7 +6,6 @@ import SubscribeSection from "@/components/SubscribeSection";
 import PastEventsSection from "@/components/PastEventsSection";
 
 // import data
-import pastEvents from "@/data/pastEvents";
 import YoutubeVideoSection from "@/components/YoutubeVideoSection";
 
 const Home = () => {
@@ -15,10 +14,8 @@ const Home = () => {
       <div className="text-black flex flex-col w-full">
         <HeroSection />
         <WhoAreWe />
-        {/* <BlogVideoSection /> */}
-        {pastEvents.length > 0 && <PastEventsSection pastEvents={pastEvents} />}
+        <PastEventsSection />
         <YoutubeVideoSection />
-        <SubscribeSection />
       </div>
     </div>
   );
