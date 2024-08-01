@@ -3,24 +3,24 @@
     "TopPosition": [
       {
         "id": "0001",
-        "name": "Mohomad Ashik",
+        "name": "Mohomed Ashik",
         "position": "Secretary",
         "image": "/static/committee/2024/AshikMohamed.jpg",
         "link": {
           "facebook": "https://www.facebook.com/mohamed.ashiq.984786",
           "instragram": "https://www.instagram.com/.a.s.h.i.k._?igsh=YzMzd3lzcXZod2xp",
-          "likened": "https://www.linkedin.com/in/mohamed-ashikdowhatotherscant"
+          "linkedId": "https://www.linkedin.com/in/mohamed-ashikdowhatotherscant"
         }
       },
       {
         "id": "0002",
         "name": "Isuru Udayanga",
         "position": "President",
-        "image": "/static/committee/2024/Udayanga G.D.P.jpg",
+        "image": "/static/committee/2024/Udayanga G.D.P.I.jpg",
         "link": {
           "facebook": "https://www.facebook.com/isuru.jz",
           "instragram": "https://www.instagram.com/udayanga_isu?igsh=NThzZXlqNnlxazRh",
-          "likened": "https://www.linkedin.com/in/udayanga-isuru"
+          "linkedId": "https://www.linkedin.com/in/udayanga-isuru"
         }
       },
       {
@@ -31,7 +31,7 @@
         "link": {
           "facebook": "https://www.facebook.com/profile.php?id=100090526716053",
           "instragram": "https://www.instagram.com/sanda_li?igsh=dnhnNnJ6c2F0ZGtv",
-          "likened": "https://www.linkedin.com/in/sandali-rathnayaka"
+          "linkedId": "https://www.linkedin.com/in/sandali-rathnayaka"
         }
       },
       {
@@ -40,9 +40,8 @@
         "position": "Assistant Secretary",
         "image": "/static/committee/2024/Bhagya Sandeepani.jpg",
         "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
+          "instragram": "https://www.instagram.com/.bhugzz.?igsh=c2FianJ4Ymlmc3Uy",
+          "linkedId": "https://www.linkedin.com/in/bhagyapremathilaka"
         }
       },
       {
@@ -51,9 +50,9 @@
         "position": "Treasurer",
         "image": "/static/committee/2024/Tharush Senasinghe.jpg",
         "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
+          "facebook": "https://www.facebook.com/tharush.upamal",
+          "instragram": "https://www.instagram.com/tharushz_8?igsh=MXBpbzhxbnhmdXp4cg==",
+          "linkedId": "https://www.linkedin.com/in/tharush-senasinghe-830738216"
         }
       },
       {
@@ -62,9 +61,9 @@
         "position": "Assistant Treasurer",
         "image": "/static/committee/2023/Sandul_CommitteeMember.jpg",
         "link": {
-          "facebook": "https://www.instagram.com/tharushz_8?igsh=MXBpbzhxbnhmdXp4cg==",
-          "instragram": "https://www.instagram.com/tharushz_8?igsh=MXBpbzhxbnhmdXp4cg==",
-          "likened": "https://www.linkedin.com/in/tharush-senasinghe-830738216"
+          "facebook": "https://www.facebook.com/profile.php?id=100080396066156",
+          "instragram": "https://www.instagram.com/sanda_.99?igsh=MXE2aHdxaWh3cTliaw==",
+          "linkedId": "https://www.linkedin.com/in/sandul-karunarathna-425560264"
         }
       },
       {
@@ -73,9 +72,8 @@
         "position": "Editor",
         "image": "/static/committee/2024/Thinuka Muthukumarana.jpeg",
         "link": {
-          "facebook": "facebook",
           "instragram": "https://www.instagram.com/.thinuka_d._m.?igsh=MXM0ZHAzOHZlZzZ0aQ==",
-          "likened": "https://www.linkedin.com/in/thinuka-muthukumarana-06a31924a"
+          "linkedId": "https://www.linkedin.com/in/thinuka-muthukumarana-06a31924a"
         }
       }
     ],
@@ -86,9 +84,9 @@
         "position": "Committee Member",
         "image": "/static/committee/2024/Rachitha Chandeepa_.jpg",
         "link": {
-          "facebook": "https://www.facebook.com/mohamed.ashiq.984786",
-          "instragram": "https://www.instagram.com/.a.s.h.i.k._?igsh=YzMzd3lzcXZod2xp",
-          "likened": "https://www.linkedin.com/in/mohamed-ashikdowhatotherscant"
+          "facebook": "https://www.facebook.com/rachithachandeepa.gamvasampandigamage",
+          "instragram": "https://www.instagram.com/rachitha_cgp?igsh=a3psZG05MmE2aHM=",
+          "linkedId": "https://www.linkedin.com/in/rachitha-chandeepa"
         }
       },
       {
@@ -97,9 +95,9 @@
         "position": "Committee Member",
         "image": "/static/committee/2024/rusiruWijekon.png",
         "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
+          "facebook": "https://www.facebook.com/rusiru.kavinda.54",
+          "instragram": "https://www.instagram.com/_wije.rk_?igsh=ZmQwMnJpcDlvaWZj",
+          "linkedId": "https://www.linkedin.com/in/rusiru-wijekoon-3522b8242"
         }
       },
       {
@@ -108,9 +106,8 @@
         "position": "Committee Member",
         "image": "/static/committee/2024/Diyana Kaluarachchi.jpg",
         "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
+          "instragram": "https://www.instagram.com/_diyaz_k?igsh=czkzcDZ1YWpzYzJr",
+          "linkedId": "https://www.linkedin.com/in/diyana-kaluarachchi-9b79182aa"
         }
       },
       {
@@ -119,9 +116,9 @@
         "position": "Committee Member",
         "image": "/static/committee/2024/Vilochana Bandara.jpg",
         "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
+          "facebook": "https://www.facebook.com/vilochana.bandara",
+          "instragram": "https://www.instagram.com/mr_viloo_?igsh=MWgxc2g1YnJxbzVyMw==",
+          "linkedId": "https://www.linkedin.com/in/oshanda-vilochana-bandara-b0707322a"
         }
       },
       {
@@ -130,9 +127,9 @@
         "position": "Committee Member",
         "image": "/static/committee/2024/Naveen Viduranga.png",
         "link": {
-          "facebook": "https://www.facebook.com/rachithachandeepa.gamvasampandigamage",
-          "instragram": "https://www.instagram.com/rachitha_cgp?igsh=a3psZG05MmE2aHM=",
-          "likened": "https://www.linkedin.com/in/rachitha-chandeepa"
+          "facebook": "https://www.facebook.com/Naveen.Viduranga2000",
+          "instragram": "https://www.instagram.com/naveen_viduranga?igsh=eHhseGRybzdzYnRi",
+          "linkedId": "https://www.linkedin.com/in/naveen-viduranga"
         }
       },
       {
@@ -141,9 +138,9 @@
         "position": "Committee Member",
         "image": "/static/committee/2024/Ojitha Samarakoon.jpg",
         "link": {
-          "facebook": "https://www.facebook.com/profile.php?id=100080396066156",
-          "instragram": "https://www.instagram.com/sanda_.99?igsh=MXE2aHdxaWh3cTliaw==",
-          "likened": "https://www.linkedin.com/in/sandul-karunarathna-425560264"
+          "facebook": "https://www.facebook.com/OjithaSamarakoon",
+          "instragram": "https://www.instagram.com/ojitha_samarakoon?igsh=OGQ5ZDc2ODk2ZA==",
+          "linkedId": "https://www.linkedin.com/in/ojitha-samarakoon-41871a249"
         }
       },
       {
@@ -152,9 +149,8 @@
         "position": "Committee Member",
         "image": "/static/committee/2024/Nishadi Weerarathne.jpg",
         "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
+          "instragram": "https://www.instagram.com/nishadie__?igsh=bWo2OXJmbHptcTVu&utm_source=qr",
+          "linkedId": "https://www.linkedin.com/in/nishadi-w-4090592a5"
         }
       },
       {
@@ -163,9 +159,9 @@
         "position": "Committee Member",
         "image": "/static/committee/2024/Dulith Jayasekara.jpg",
         "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
+          "facebook": "https://www.facebook.com/profile.php?id=61556987831003",
+          "instragram": "https://www.instagram.com/dulith_jayaz?igsh=MzRlODBiNWFlZA==",
+          "linkedId": "https://www.linkedin.com/in/dulithjayasekara"
         }
       }
     ]
@@ -180,19 +176,14 @@
         "link": {
           "facebook": "https://www.facebook.com/profile.php?id=100090526716053",
           "instragram": "https://www.instagram.com/sanda_li?igsh=dnhnNnJ6c2F0ZGtv",
-          "likened": "https://www.linkedin.com/in/sandali-rathnayaka"
+          "linkedId": "https://www.linkedin.com/in/sandali-rathnayaka"
         }
       },
       {
         "id": "0002",
         "name": "Pasan Karunasekara",
         "position": "President",
-        "image": "/static/committee/2023/Pasan_Prasident.jpg",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "/static/committee/2023/Pasan_Prasident.jpg"
       },
       {
         "id": "0003",
@@ -202,30 +193,20 @@
         "link": {
           "facebook": "https://www.facebook.com/isuru.jz",
           "instragram": "https://www.instagram.com/udayanga_isu?igsh=NThzZXlqNnlxazRh",
-          "likened": "https://www.linkedin.com/in/udayanga-isuru"
+          "linkedId": "https://www.linkedin.com/in/udayanga-isuru"
         }
       },
       {
         "id": "0004",
         "name": "Raveesha Perera",
         "position": "Assistant Secretary",
-        "image": "/static/committee/2023/Raveesha_AssistantSecretary.jpg",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "/static/committee/2023/Raveesha_AssistantSecretary.jpg"
       },
       {
         "id": "0005",
         "name": "Hirudika Premarathna",
         "position": "Treasurer",
-        "image": "/static/committee/2023/Hirudika_Treasurer.jpg",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "/static/committee/2023/Hirudika_Treasurer.jpg"
       },
       {
         "id": "0006",
@@ -233,21 +214,16 @@
         "position": "Assistant Treasurer",
         "image": "/static/committee/2023/Tharush _ Assistant Treasurer .jpg",
         "link": {
-          "facebook": "https://www.instagram.com/tharushz_8?igsh=MXBpbzhxbnhmdXp4cg==",
+          "facebook": "https://www.facebook.com/tharush.upamal",
           "instragram": "https://www.instagram.com/tharushz_8?igsh=MXBpbzhxbnhmdXp4cg==",
-          "likened": "https://www.linkedin.com/in/tharush-senasinghe-830738216"
+          "linkedId": "https://www.linkedin.com/in/tharush-senasinghe-830738216"
         }
       },
       {
         "id": "0007",
         "name": "Vikash Dharmarathna",
         "position": "Media Coordinator",
-        "image": "/static/committee/2023/Vikash_Media Coordinator.jpeg",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "/static/committee/2023/Vikash_Media Coordinator.jpeg"
       },
       {
         "id": "0008",
@@ -255,9 +231,8 @@
         "position": "Editor",
         "image": "/static/committee/2023/Thinuka_Editor.JPG",
         "link": {
-          "facebook": "facebook",
           "instragram": "https://www.instagram.com/.thinuka_d._m.?igsh=MXM0ZHAzOHZlZzZ0aQ==",
-          "likened": "https://www.linkedin.com/in/thinuka-muthukumarana-06a31924a"
+          "linkedId": "https://www.linkedin.com/in/thinuka-muthukumarana-06a31924a"
         }
       }
     ],
@@ -270,7 +245,7 @@
         "link": {
           "facebook": "https://www.facebook.com/mohamed.ashiq.984786",
           "instragram": "https://www.instagram.com/.a.s.h.i.k._?igsh=YzMzd3lzcXZod2xp",
-          "likened": "https://www.linkedin.com/in/mohamed-ashikdowhatotherscant"
+          "linkedId": "https://www.linkedin.com/in/mohamed-ashikdowhatotherscant"
         }
       },
       {
@@ -279,32 +254,21 @@
         "position": "Committee Member",
         "image": "/static/committee/2023/Bhagya_CommitteeMember.jpg",
         "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
+          "instragram": "https://www.instagram.com/.bhugzz.?igsh=c2FianJ4Ymlmc3Uy",
+          "linkedId": "https://www.linkedin.com/in/bhagyapremathilaka"
         }
       },
       {
         "id": "0011",
         "name": "Chamal Weerasinghe",
         "position": "Committee Member",
-        "image": "/static/committee/2023/Chamal_CommitteeMember.jpg",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "/static/committee/2023/Chamal_CommitteeMember.jpg"
       },
       {
         "id": "0012",
         "name": "Dileesha Kaveeshi",
         "position": "Committee Member",
-        "image": "/static/committee/2023/Dileesha_Committee Member.jpg",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "/static/committee/2023/Dileesha_Committee Member.jpg"
       },
       {
         "id": "0013",
@@ -314,7 +278,7 @@
         "link": {
           "facebook": "https://www.facebook.com/rachithachandeepa.gamvasampandigamage",
           "instragram": "https://www.instagram.com/rachitha_cgp?igsh=a3psZG05MmE2aHM=",
-          "likened": "https://www.linkedin.com/in/rachitha-chandeepa"
+          "linkedId": "https://www.linkedin.com/in/rachitha-chandeepa"
         }
       },
       {
@@ -325,19 +289,14 @@
         "link": {
           "facebook": "https://www.facebook.com/profile.php?id=100080396066156",
           "instragram": "https://www.instagram.com/sanda_.99?igsh=MXE2aHdxaWh3cTliaw==",
-          "likened": "https://www.linkedin.com/in/sandul-karunarathna-425560264"
+          "linkedId": "https://www.linkedin.com/in/sandul-karunarathna-425560264"
         }
       },
       {
         "id": "0015",
         "name": "Lohan Bandara",
         "position": "Committee Member",
-        "image": "/static/committee/2023/Lohan_CommitteeMember.jpg",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "/static/committee/2023/Lohan_CommitteeMember.jpg"
       }
     ]
   },
@@ -347,179 +306,87 @@
         "id": "0001",
         "name": "Thamali Munasinghe",
         "position": "Secretary",
-        "image": "/static/committee/2022/Thamali.jpg",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "/static/committee/2022/Thamali.jpg"
       },
       {
         "id": "0002",
         "name": "Chenuka Lalanga",
         "position": "President",
-        "image": "/static/committee/2022/Chenuka Lalanga.JPG",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "/static/committee/2022/Chenuka Lalanga.JPG"
       },
       {
         "id": "0003",
         "name": "Ashara Konara",
         "position": "Vice President",
-        "image": "/static/committee/2022/Ashara Konara.JPG",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "/static/committee/2022/Ashara Konara.JPG"
       },
       {
         "id": "0004",
-        "name": "empty data",
-        "position": "Assistant Secretary",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "name": "Najini Pattiyakumbura",
+        "position": "Treasurer",
+        "image": "/static/committee/2022/Najini Pattiyakumbura.jpg"
       },
       {
         "id": "0005",
-        "name": "Najini Pattiyakumbura",
-        "position": "Treasurer",
-        "image": "/static/committee/2022/Najini Pattiyakumbura.jpg",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "name": "Sandali Rathnayaka",
+        "position": "Assistant Treasurer",
+        "image": "/static/committee/2022/Sandali Rathnayaka.jpeg"
       },
       {
         "id": "0006",
-        "name": "Sandali Rathnayaka",
-        "position": "Assistant Treasurer",
-        "image": "/static/committee/2022/Sandali Rathnayaka.jpeg",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0007",
         "name": "Janinda Induwara",
         "position": "Media Coordinator",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0008",
-        "name": "empty data",
-        "position": "Editor",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png"
       }
     ],
     "member": [
       {
-        "id": "0009",
+        "id": "0007",
         "name": "Ravishka Lakshan",
         "position": "Committee Member",
-        "image": "/static/committee/2022/Ravishka Lakshan.JPG",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "/static/committee/2022/Ravishka Lakshan.JPG"
+      },
+      {
+        "id": "0008",
+        "name": "Prashan Imesh",
+        "position": "Committee Member",
+        "image": "/static/committee/2022/Prashan.JPG"
+      },
+      {
+        "id": "0009",
+        "name": "Danuka Maddepola",
+        "position": "Committee Member",
+        "image": "/static/committee/2022/Danuka.jpg"
       },
       {
         "id": "0010",
-        "name": "Prashan Imesh",
+        "name": "Isuru Udayanga",
         "position": "Committee Member",
-        "image": "/static/committee/2022/Prashan.JPG",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "/static/committee/2022/Isuru Udayanga.jpeg"
       },
       {
         "id": "0011",
-        "name": "Danuka Maddepola",
+        "name": "Shamal Weerarathne",
         "position": "Committee Member",
-        "image": "/static/committee/2022/Danuka.jpg",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png"
       },
       {
         "id": "0012",
-        "name": "Isuru Udayanga",
+        "name": "Pasan Karunasekara",
         "position": "Committee Member",
-        "image": "/static/committee/2022/Isuru Udayanga.jpeg",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "/static/committee/2022/Pasan Karunasekara.jpeg"
       },
       {
         "id": "0013",
-        "name": "Shamal Weerarathne",
+        "name": "Ravindu Thuduhena",
         "position": "Committee Member",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png"
       },
       {
         "id": "0014",
-        "name": "Pasan Karunasekara",
-        "position": "Committee Member",
-        "image": "/static/committee/2022/Pasan Karunasekara.jpeg",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0015",
-        "name": "Ravindu Thuduhena",
-        "position": "Committee Member",
-        "image": "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_640.png",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
-      },
-      {
-        "id": "0016",
         "name": "Hirudika Premarathne",
         "position": "Committee Member",
-        "image": "/static/committee/2022/Hirudika Premarathne.jpeg",
-        "link": {
-          "facebook": "facebook",
-          "instragram": "instragram",
-          "likened": "likened"
-        }
+        "image": "/static/committee/2022/Hirudika Premarathne.jpeg"
       }
     ]
   }

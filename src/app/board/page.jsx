@@ -9,6 +9,12 @@ const Board = () => {
   const [year, setYear] = useState("2024");
 
   const Top3Position = BoardData[year].TopPosition.slice(0, 3);
+
+  const Top3PositionMobile = BoardData[year].TopPosition.slice(0, 3);
+  let temp = Top3PositionMobile[0];
+  Top3PositionMobile[0] = Top3PositionMobile[1];
+  Top3PositionMobile[1] = temp;
+
   const TopPosition = BoardData[year].TopPosition.slice(3);
   const member = BoardData[year].member;
 
@@ -89,7 +95,7 @@ const Board = () => {
           </div>
 
           <div className="flex flex-wrap justify-center items-baseline w-full md:hidden md:w-[70vw]">
-            {renderTeamcards(Top3Position, 200, 200)}
+            {renderTeamcards(Top3PositionMobile, 200, 200)}
           </div>
         </>
       )}

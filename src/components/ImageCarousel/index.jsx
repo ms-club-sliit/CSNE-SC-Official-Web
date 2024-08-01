@@ -68,9 +68,6 @@ const ImageCarousel = ({ slides }) => {
                 <h1 className={"text-md lg:text-lg xl:text-2xl"}>
                   {slide.title}
                 </h1>
-                <p className={"text-xs lg:text-lg"}>
-                  {slide.description}
-                </p>
               </div>
             </div>
           </SwiperSlide>

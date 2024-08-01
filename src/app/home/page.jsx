@@ -6,20 +6,19 @@ import SubscribeSection from "@/components/SubscribeSection";
 import PastEventsSection from "@/components/PastEventsSection";
 
 // import data
-import pastEvents from "@/data/pastEvents";
+import YoutubeVideoSection from "@/components/YoutubeVideoSection";
 
 const Home = () => {
-    return (
-        <div className="flex items-center justify-center">
-            <div className="text-black flex flex-col w-full">
-                <HeroSection/>
-                <WhoAreWe/>
-                {/* <BlogVideoSection /> */}
-                {pastEvents.length > 0 && <PastEventsSection pastEvents={pastEvents}/>}
-                <SubscribeSection/>
-            </div>
-        </div>
-    );
+  return (
+    <div className="flex items-center justify-center">
+      <div className="text-black flex flex-col w-full">
+        <HeroSection />
+        <WhoAreWe />
+        <PastEventsSection />
+        <YoutubeVideoSection />
+      </div>
+    </div>
+  );
 };
 
 export default Home;

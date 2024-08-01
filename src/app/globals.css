@@ -44,19 +44,19 @@ body {
 
 @keyframes gradientAnimation {
   0% {
-    stop-color: #feda75;
+    stop-color: #d62976;
   }
   25% {
-    stop-color: #fa7e1e;
+    stop-color: #d62976;
   }
   50% {
     stop-color: #d62976;
   }
   75% {
-    stop-color: #962fbf;
+    stop-color: #d62976;
   }
   100% {
-    stop-color: #4f5bd5;
+    stop-color: #d62976;
   }
 }
 
