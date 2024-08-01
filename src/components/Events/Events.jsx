@@ -7,7 +7,7 @@ const Events = ({ year }) => {
   const years = Object.keys(eventData);
   //This will get the latest year
   const latestYear = years[years.length - 1];
-  //If the year passed as props is not available in the json file then latest year will display 
+  //If the year passed as props is not available in the json file then latest year will display
   const events = eventData[year] ? eventData[year] : eventData[latestYear];
 
   return (
@@ -16,7 +16,10 @@ const Events = ({ year }) => {
 
       <h2 className="text-xl lg:text-3xl font-semibold text-center">
         Check out the amazing experiences we shared{" "}
-        <span className="text-[#1D1163]">{eventData[year] ? year : latestYear}</span> at{" "}
+        <span className="text-[#1D1163]">
+          {eventData[year] ? year : latestYear}
+        </span>{" "}
+        at{" "}
         <span>
           {" "}
           <Image
@@ -37,8 +40,7 @@ const Events = ({ year }) => {
         <p className="text-2xl text-center pb-12 pt-10 text-[#1D1163]">
           {year} No Events Are Available
         </p>
-      )
-      }
+      )}
     </section>
   );
 };
